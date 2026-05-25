@@ -1,14 +1,18 @@
-# neoLegacy v1.0.4b
+# neoLegacy v1.0.5b
 
 ### Bug Fixes
-- Fixed Podzol bottom face displaying incorrect texture (was using side texture instead of dirt)
+- Fixed blue flashing when clicking on a server.
+- Added crafting recipes for andesite, diorite and granite**.**
+- Fixed incorrect Rabbit Stew strings**.**
+- Fixed breaking the top half of tall blocks failing to destroy the entire block.
+- Fixed damage still occurring when the gameis paused.
+- Poison can no longer kill players, only damaging them to 1 HP.
 
 ### Changes
-- Cursor icon now changes when hovering over different UI elements
 - Added TU31 parity changes which include:
-  - Creepers can now be ignited with Flint and Steel
-  - Village gravel roads now have Cobblestone underneath
-  - Villagers now transform into Witches when struck by lightning
+  - Item Frames can now rotate in 8 directions.
+  - Comparators can now detect item frame rotations.
+  - Pistons no longer ignore block updates.
 
 <img width="784" height="410" alt="roadmap" src="https://github.com/user-attachments/assets/134856ae-b151-4003-aa97-7ecf19ccd278" />
 
