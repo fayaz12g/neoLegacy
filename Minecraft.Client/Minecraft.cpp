@@ -526,9 +526,10 @@ LevelStorageSource *Minecraft::getLevelSource()
 
 void Minecraft::setScreen(Screen *screen)
 {
-	if (this->screen != nullptr)
+	Screen *oldScreen = this->screen;
+	if (oldScreen != nullptr)
 	{
-		this->screen->removed();
+		oldScreen->removed();
 	}
 
 #ifdef _WINDOWS64
