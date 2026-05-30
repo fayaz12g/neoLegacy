@@ -149,47 +149,57 @@ static void CopyWideArgToAnsi(LPCWSTR source, char* dest, size_t destSize)
 	dest[destSize - 1] = 0;
 }
 
-// ---------- Persistent options (options.txt next to exe) ----------
-static void GetOptionsFilePath(char *out, size_t outSize)
+// ---------- Persistent options (options.dat next to exe) ----------
+static void GetOptionsFilePath(char *out, DWORD outSize)
 {
-	GetModuleFileNameA(nullptr, out, static_cast<DWORD>(outSize));
-	char *p = strrchr(out, '\\');
-	if (p) *(p + 1) = '\0';
-	strncat_s(out, outSize, "options.txt", _TRUNCATE);
+    GetModuleFileNameA(nullptr, out, outSize);
+    char *p = strrchr(out, '\\');
+    if (p) *(p + 1) = '\0';
+    strncat_s(out, outSize, "settings.dat", _TRUNCATE);
 }
 
 static void SaveFullscreenOption(bool fullscreen)
 {
-	char path[MAX_PATH];
-	GetOptionsFilePath(path, sizeof(path));
-	FILE *f = nullptr;
-	if (fopen_s(&f, path, "w") == 0 && f)
-	{
-		fprintf(f, "fullscreen=%d\n", fullscreen ? 1 : 0);
-		fclose(f);
-	}
+    GAME_SETTINGS settings = {};
+    
+    char path[MAX_PATH] = {};
+    GetOptionsFilePath(path, MAX_PATH);
+    FILE *f = nullptr;
+    if (fopen_s(&f, path, "rb") == 0 && f)
+    {
+        fread(&settings, sizeof(GAME_SETTINGS), 1, f);
+        fclose(f);
+    }
+
+    if (fullscreen)
+        settings.uiBitmaskValues |= (1UL << 25);
+    else
+        settings.uiBitmaskValues &= ~(1UL << 25);
+
+	if (fopen_s(&f, path, "wb") == 0 && f)
+    {
+        fwrite(&settings, sizeof(GAME_SETTINGS), 1, f);
+        fclose(f);
+    }
 }
 
 static bool LoadFullscreenOption()
 {
-	char path[MAX_PATH];
+    char path[MAX_PATH] = {};
 	GetOptionsFilePath(path, sizeof(path));
-	FILE *f = nullptr;
-	if (fopen_s(&f, path, "r") == 0 && f)
-	{
-		char line[256];
-		while (fgets(line, sizeof(line), f))
-		{
-			int val = 0;
-			if (sscanf_s(line, "fullscreen=%d", &val) == 1)
-			{
-				fclose(f);
-				return val != 0;
-			}
-		}
-		fclose(f);
-	}
-	return false;
+    
+    FILE *f = nullptr;
+    if (fopen_s(&f, path, "rb") != 0 || !f)
+        return false;
+    
+    GAME_SETTINGS current = {};
+    bool ok = (fread(&current, sizeof(GAME_SETTINGS), 1, f) == 1);
+    fclose(f);
+    
+    if (!ok)
+        return false;
+
+    return (current.uiBitmaskValues & (1UL << 25)) != 0;
 }
 // ------------------------------------------------------------------
 
@@ -219,6 +229,7 @@ static Win64LaunchOptions ParseLaunchOptions()
 	Win64LaunchOptions options = {};
 	options.screenMode = 0;
 
+	g_Win64MultiplayerQuitOnDisconnect = false;
 	g_Win64MultiplayerJoin = false;
 	g_Win64MultiplayerPort = WIN64_NET_DEFAULT_PORT;
 
@@ -238,6 +249,10 @@ static Win64LaunchOptions ParseLaunchOptions()
 		if (_wcsicmp(argv[i], L"-name") == 0 && (i + 1) < argc)
 		{
 			CopyWideArgToAnsi(argv[++i], g_Win64Username, sizeof(g_Win64Username));
+		}
+		else if (_wcsicmp(argv[i], L"-quitondisconnect") == 0)
+		{
+			g_Win64MultiplayerQuitOnDisconnect = true;
 		}
 		else if (_wcsicmp(argv[i], L"-ip") == 0 && (i + 1) < argc)
 		{
@@ -819,8 +834,7 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
 		return FALSE;
 	}
 
-	ShowWindow(g_hWnd, (nCmdShow != SW_HIDE) ? SW_SHOWMAXIMIZED : nCmdShow);
-	UpdateWindow(g_hWnd);
+
 
 	return TRUE;
 }
@@ -1451,8 +1465,9 @@ void CleanupDevice()
 static Minecraft* InitialiseMinecraftRuntime()
 {
 	app.loadMediaArchive();
-
-	RenderManager.Initialise(g_pd3dDevice, g_pSwapChain);
+	// @CDevJoud: No need to call this method as it gets called once in `InitDevice()`
+	// Calling it again and it results of 20MB of memory leak!
+	//RenderManager.Initialise(g_pd3dDevice, g_pSwapChain);
 
 	app.loadStringTable();
 	ui.init(g_pd3dDevice, g_pImmediateContext, g_pRenderTargetView, g_pDepthStencilView, g_rScreenWidth, g_rScreenHeight);
@@ -1690,11 +1705,12 @@ int APIENTRY _tWinMain(_In_ HINSTANCE hInstance,
 		CleanupDevice();
 		return 0;
 	}
-
 	// Restore fullscreen state from previous session. Route through the
 	// deferred exclusive fullscreen path so the main loop applies it on the
 	// first tick (safer than transitioning during init).
-	if ((LoadFullscreenOption() && !g_isFullscreen) || launchOptions.fullscreen)
+
+	bool FullScreenEnabled = LoadFullscreenOption();
+	if (FullScreenEnabled && !g_isFullscreen)
 	{
 		g_bPendingExclusiveFullscreen = true;
 		g_bPendingExclusiveFullscreenValue = true;
@@ -1785,6 +1801,20 @@ int APIENTRY _tWinMain(_In_ HINSTANCE hInstance,
 		hr = XuiTimersRun();
 	}
 #endif
+
+	// @CDevJoud The window should only be shown after the engine/game
+	// initialization has fully completed.
+	//
+	// Showing the window too early especially on low end devices,
+	// may cause windows to display a "Not Responding" state while
+	// initialization is still in progress.
+	//
+	// This creates an unprofessional first impression for the player.
+	// Instead, initialize all engine systems first, then display the
+	// window once everything is ready.
+	ShowWindow(g_hWnd, (nCmdShow != SW_HIDE) ? SW_SHOWMAXIMIZED : nCmdShow);
+	UpdateWindow(g_hWnd);
+
 	MSG msg = {0};
 	while( WM_QUIT != msg.message && !app.m_bShutdown)
 	{
