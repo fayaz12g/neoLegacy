@@ -1,0 +1,667 @@
+{
+    "content": [
+        {
+            "path": "blocks.json"
+        },
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "sounds.json"
+        },
+        {
+            "path": "StarterSeeds.txt"
+        },
+        {
+            "path": "biomes/mangrove_swamp.client_biome.json"
+        },
+        {
+            "path": "biomes/pale_garden.client_biome.json"
+        },
+        {
+            "path": "biomes/roofed_forest.client_biome.json"
+        },
+        {
+            "path": "biomes/roofed_forest_mutated.client_biome.json"
+        },
+        {
+            "path": "biomes/swampland.client_biome.json"
+        },
+        {
+            "path": "biomes/swampland_mutated.client_biome.json"
+        },
+        {
+            "path": "entity/agent.entity.json"
+        },
+        {
+            "path": "entity/allay.entity.json"
+        },
+        {
+            "path": "entity/armadillo.entity.json"
+        },
+        {
+            "path": "entity/axolotl.entity.json"
+        },
+        {
+            "path": "entity/bat.entity.json"
+        },
+        {
+            "path": "entity/bee.entity.json"
+        },
+        {
+            "path": "entity/blaze.entity.json"
+        },
+        {
+            "path": "entity/bogged.entity.json"
+        },
+        {
+            "path": "entity/breeze.entity.json"
+        },
+        {
+            "path": "entity/camel.entity.json"
+        },
+        {
+            "path": "entity/cat.entity.json"
+        },
+        {
+            "path": "entity/cave_spider.entity.json"
+        },
+        {
+            "path": "entity/chicken.entity.json"
+        },
+        {
+            "path": "entity/cod.entity.json"
+        },
+        {
+            "path": "entity/cow.entity.json"
+        },
+        {
+            "path": "entity/creaking.entity.json"
+        },
+        {
+            "path": "entity/creeper.entity.json"
+        },
+        {
+            "path": "entity/dolphin.entity.json"
+        },
+        {
+            "path": "entity/donkey_v3.entity.json"
+        },
+        {
+            "path": "entity/drowned.entity.json"
+        },
+        {
+            "path": "entity/egg.entity.json"
+        },
+        {
+            "path": "entity/elder_guardian.entity.json"
+        },
+        {
+            "path": "entity/enderman.entity.json"
+        },
+        {
+            "path": "entity/endermite.entity.json"
+        },
+        {
+            "path": "entity/ender_dragon.entity.json"
+        },
+        {
+            "path": "entity/evocation_illager.entity.json"
+        },
+        {
+            "path": "entity/fox.entity.json"
+        },
+        {
+            "path": "entity/frog.entity.json"
+        },
+        {
+            "path": "entity/ghast.entity.json"
+        },
+        {
+            "path": "entity/glow_squid.entity.json"
+        },
+        {
+            "path": "entity/goat.entity.json"
+        },
+        {
+            "path": "entity/guardian.entity.json"
+        },
+        {
+            "path": "entity/hoglin.entity.json"
+        },
+        {
+            "path": "entity/horse_v3.entity.json"
+        },
+        {
+            "path": "entity/husk.entity.json"
+        },
+        {
+            "path": "entity/iron_golem.entity.json"
+        },
+        {
+            "path": "entity/llama.entity.json"
+        },
+        {
+            "path": "entity/magma_cube.entity.json"
+        },
+        {
+            "path": "entity/mooshroom.entity.json"
+        },
+        {
+            "path": "entity/mule_v3.entity.json"
+        },
+        {
+            "path": "entity/ocelot.entity.json"
+        },
+        {
+            "path": "entity/panda.entity.json"
+        },
+        {
+            "path": "entity/parrot.entity.json"
+        },
+        {
+            "path": "entity/phantom.entity.json"
+        },
+        {
+            "path": "entity/pig.entity.json"
+        },
+        {
+            "path": "entity/piglin.entity.json"
+        },
+        {
+            "path": "entity/piglin_brute.entity.json"
+        },
+        {
+            "path": "entity/pillager.entity.json"
+        },
+        {
+            "path": "entity/polar_bear.entity.json"
+        },
+        {
+            "path": "entity/pufferfish.entity.json"
+        },
+        {
+            "path": "entity/rabbit.entity.json"
+        },
+        {
+            "path": "entity/ravager.entity.json"
+        },
+        {
+            "path": "entity/salmon.entity.json"
+        },
+        {
+            "path": "entity/sheep.entity.json"
+        },
+        {
+            "path": "entity/shulker.entity.json"
+        },
+        {
+            "path": "entity/silverfish.entity.json"
+        },
+        {
+            "path": "entity/skeleton.entity.json"
+        },
+        {
+            "path": "entity/skeleton_horse_v3.entity.json"
+        },
+        {
+            "path": "entity/slime.entity.json"
+        },
+        {
+            "path": "entity/sniffer.entity.json"
+        },
+        {
+            "path": "entity/snow_golem.entity.json"
+        },
+        {
+            "path": "entity/spider.entity.json"
+        },
+        {
+            "path": "entity/squid.entity.json"
+        },
+        {
+            "path": "entity/stray.entity.json"
+        },
+        {
+            "path": "entity/strider.entity.json"
+        },
+        {
+            "path": "entity/tadpole.entity.json"
+        },
+        {
+            "path": "entity/trader_llama.entity.json"
+        },
+        {
+            "path": "entity/tropicalfish.entity.json"
+        },
+        {
+            "path": "entity/turtle.entity.json"
+        },
+        {
+            "path": "entity/vex.entity.json"
+        },
+        {
+            "path": "entity/villager_v2.entity.json"
+        },
+        {
+            "path": "entity/vindicator.entity.json"
+        },
+        {
+            "path": "entity/wandering_trader.entity.json"
+        },
+        {
+            "path": "entity/warden.entity.json"
+        },
+        {
+            "path": "entity/witch.entity.json"
+        },
+        {
+            "path": "entity/wither.entity.json"
+        },
+        {
+            "path": "entity/wither_skeleton.entity.json"
+        },
+        {
+            "path": "entity/wolf.entity.json"
+        },
+        {
+            "path": "entity/zoglin.entity.json"
+        },
+        {
+            "path": "entity/zombie.entity.json"
+        },
+        {
+            "path": "entity/zombie_horse_v3.entity.json"
+        },
+        {
+            "path": "entity/zombie_pigman.entity.json"
+        },
+        {
+            "path": "entity/zombie_villager_v2.entity.json"
+        },
+        {
+            "path": "models/entity/chicken.cold.geo.json"
+        },
+        {
+            "path": "models/entity/cow.cold.geo.json"
+        },
+        {
+            "path": "models/entity/cow.v2.geo.json"
+        },
+        {
+            "path": "models/entity/cow.warm.geo.json"
+        },
+        {
+            "path": "models/entity/mooshroom.v2.geo.json"
+        },
+        {
+            "path": "models/entity/pig.v3.geo.json"
+        },
+        {
+            "path": "particles/biome_tinted_leaves_particle.json"
+        },
+        {
+            "path": "particles/firefly_particle.json"
+        },
+        {
+            "path": "render_controllers/chicken.v2.render_controllers.json"
+        },
+        {
+            "path": "render_controllers/cow.v2.render_controllres.json"
+        },
+        {
+            "path": "render_controllers/egg.render_controllers.json"
+        },
+        {
+            "path": "render_controllers/pig.v3.render_controllers.json"
+        },
+        {
+            "path": "render_controllers/saddle.render_controllers.json"
+        },
+        {
+            "path": "sounds/sound_definitions.json"
+        },
+        {
+            "path": "textures/flipbook_textures.json"
+        },
+        {
+            "path": "textures/item_texture.json"
+        },
+        {
+            "path": "textures/terrain_texture.json"
+        },
+        {
+            "path": "textures/blocks/bush.png"
+        },
+        {
+            "path": "textures/blocks/cactus_flower.png"
+        },
+        {
+            "path": "textures/blocks/firefly_bush.png"
+        },
+        {
+            "path": "textures/blocks/firefly_bush_firefly.png"
+        },
+        {
+            "path": "textures/blocks/leaf_litter.png"
+        },
+        {
+            "path": "textures/blocks/short_dry_grass.png"
+        },
+        {
+            "path": "textures/blocks/tall_dry_grass.png"
+        },
+        {
+            "path": "textures/blocks/wildflowers.png"
+        },
+        {
+            "path": "textures/blocks/wildflowers_stem.png"
+        },
+        {
+            "path": "textures/entity/saddle_v2.png"
+        },
+        {
+            "path": "textures/entity/chicken/chicken.png"
+        },
+        {
+            "path": "textures/entity/chicken/chicken_cold.png"
+        },
+        {
+            "path": "textures/entity/chicken/chicken_warm.png"
+        },
+        {
+            "path": "textures/entity/cow/brown_mooshroom_v2.png"
+        },
+        {
+            "path": "textures/entity/cow/cow_cold.png"
+        },
+        {
+            "path": "textures/entity/cow/cow_v2.png"
+        },
+        {
+            "path": "textures/entity/cow/cow_warm.png"
+        },
+        {
+            "path": "textures/entity/cow/mooshroom_v2.png"
+        },
+        {
+            "path": "textures/entity/pig/pig_cold.png"
+        },
+        {
+            "path": "textures/entity/pig/pig_v3.png"
+        },
+        {
+            "path": "textures/entity/pig/pig_warm.png"
+        },
+        {
+            "path": "textures/entity/sheep/sheep.tga"
+        },
+        {
+            "path": "textures/items/blue_egg.png"
+        },
+        {
+            "path": "textures/items/brown_egg.png"
+        },
+        {
+            "path": "textures/items/bush.png"
+        },
+        {
+            "path": "textures/items/firefly_bush.png"
+        },
+        {
+            "path": "textures/items/leaf_litter.png"
+        },
+        {
+            "path": "textures/items/wildflowers.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_agent.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_allay.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_armadillo.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_axolotl.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_bat.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_bee.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_blaze.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_bogged.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_breeze.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_camel.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_cat.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_cave_spider.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_chicken.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_cod.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_cow.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_creaking.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_creeper.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_dolphin.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_donkey.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_drowned.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_elder_guardian.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_enderman.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_endermite.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_ender_dragon.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_evoker.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_fox.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_frog.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_ghast.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_glow_squid.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_goat.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_guardian.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_hoglin.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_horse.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_husk.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_iron_golem.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_llama.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_magma_cube.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_mooshroom.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_mule.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_ocelot.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_panda.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_parrot.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_phantom.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_pig.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_piglin.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_piglin_brute.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_pillager.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_polar_bear.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_pufferfish.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_rabbit.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_ravager.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_salmon.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_sheep.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_shulker.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_silverfish.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_skeleton.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_skeleton_horse.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_slime.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_sniffer.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_snow_golem.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_spider.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_squid.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_stray.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_strider.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_tadpole.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_trader_llama.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_tropicalfish.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_turtle.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_vex.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_villager.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_vindicator.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_wandering_trader.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_warden.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_witch.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_wither.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_wither_skeleton.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_wolf.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_zoglin.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_zombie.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_zombie_horse.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_zombie_villager.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_zombified_piglin.png"
+        },
+        {
+            "path": "textures/particle/biome_tinted_leaves_atlas.png"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "content": [
+        {
+            "path": "blocks.json"
+        },
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "animations/armor_stand.animation.json"
+        },
+        {
+            "path": "animations/player.animation.json"
+        },
+        {
+            "path": "animation_controllers/humanoid.animation_controllers.json"
+        },
+        {
+            "path": "animation_controllers/player.animation_controllers.json"
+        },
+        {
+            "path": "entity/camel.entity.json"
+        },
+        {
+            "path": "entity/player.entity.json"
+        },
+        {
+            "path": "textures/terrain_texture.json"
+        }
+    ]
+}

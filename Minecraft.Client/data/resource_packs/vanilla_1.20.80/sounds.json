@@ -1,0 +1,62 @@
+{
+  "entity_sounds": {
+    "entities": {
+      "armadillo": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.armadillo.ambient",
+          "death": "mob.armadillo.death",
+          "eat": "mob.armadillo.eat",
+          "hurt": "mob.armadillo.hurt",
+          "hurt.reduced": "mob.armadillo.hurt_reduced",
+          "step": "mob.armadillo.step"
+        }
+      },
+      "wolf": {
+        "events": {
+          "hurt.reduced": "armor.damage_wolf"
+        }
+      }
+    }
+  },
+  "individual_event_sounds": {
+    "events": {
+      "mob.armadillo.scute_drop": {
+        "sound": "mob.armadillo.scute_drop",
+        "volume": 1.0,
+        "pitch": 1.0
+      },
+      "mob.armadillo.brush": {
+        "sound": "mob.armadillo.brush",
+        "volume": 1.0,
+        "pitch": 1.0
+      },
+      "armor.equip_wolf": {
+        "sound": "armor.equip_wolf",
+        "volume": 1.0,
+        "pitch": 1.0
+      },
+      "armor.unequip_wolf": {
+        "sound": "armor.unequip_wolf",
+        "volume": 1.0,
+        "pitch": 1.0
+      },
+      "armor.crack_wolf": {
+        "sound": "armor.crack_wolf",
+        "volume": 1.0,
+        "pitch": 1.0
+      },
+      "armor.break_wolf": {
+        "sound": "armor.break_wolf",
+        "volume": 1.0,
+        "pitch": 1.0
+      },
+      "armor.repair_wolf": {
+        "sound": "armor.repair_wolf",
+        "volume": 1.0,
+        "pitch": 1.0
+      }
+    }
+  }
+}

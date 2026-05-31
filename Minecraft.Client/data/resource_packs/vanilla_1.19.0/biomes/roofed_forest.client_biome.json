@@ -1,0 +1,16 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "minecraft:roofed_forest"
+    },
+    "components": {
+      "minecraft:biome_music": {
+        "music_definition": "roofed_forest"
+      },
+      "minecraft:grass_appearance": {
+        "grass_is_shaded": true
+      }
+    }
+  }
+}

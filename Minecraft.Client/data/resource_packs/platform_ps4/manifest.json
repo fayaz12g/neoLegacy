@@ -1,0 +1,18 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "resourcePack.platform_ps4.description",
+    "name": "resourcePack.platform_ps4.name",
+    "uuid": "329e01ad-236e-4c39-a4e0-6a1e97defd1c",
+    "version": [ 0, 0, 1 ],
+    "min_engine_version": [1, 14, 0]
+  },
+  "modules": [
+    {
+      "description": "resourcePack.platform_ps4.description",
+      "type": "resources",
+      "uuid": "ff8df70a-cb99-4100-9d17-1a98ddf7e528",
+      "version": [ 0, 0, 1 ]
+    }
+  ]
+}

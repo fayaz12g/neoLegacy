@@ -1,0 +1,143 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "light_block_0": {
+      "textures": "textures/items/light_block_0"
+    },
+    "light_block_1": {
+      "textures": "textures/items/light_block_1"
+    },
+    "light_block_2": {
+      "textures": "textures/items/light_block_2"
+    },
+    "light_block_3": {
+      "textures": "textures/items/light_block_3"
+    },
+    "light_block_4": {
+      "textures": "textures/items/light_block_4"
+    },
+    "light_block_5": {
+      "textures": "textures/items/light_block_5"
+    },
+    "light_block_6": {
+      "textures": "textures/items/light_block_6"
+    },
+    "light_block_7": {
+      "textures": "textures/items/light_block_7"
+    },
+    "light_block_8": {
+      "textures": "textures/items/light_block_8"
+    },
+    "light_block_9": {
+      "textures": "textures/items/light_block_9"
+    },
+    "light_block_10": {
+      "textures": "textures/items/light_block_10"
+    },
+    "light_block_11": {
+      "textures": "textures/items/light_block_11"
+    },
+    "light_block_12": {
+      "textures": "textures/items/light_block_12"
+    },
+    "light_block_13": {
+      "textures": "textures/items/light_block_13"
+    },
+    "light_block_14": {
+      "textures": "textures/items/light_block_14"
+    },
+    "light_block_15": {
+      "textures": "textures/items/light_block_15"
+    },
+    "flattened_sandstone_top": {
+      "textures": "textures/blocks/sandstone_top"
+    },
+    "flattened_sandstone_bottom": {
+      "textures": "textures/blocks/sandstone_bottom"
+    },
+    "flattened_sandstone": {
+      "textures": "textures/blocks/sandstone_normal"
+    },
+    "chiseled_sandstone": {
+      "textures": "textures/blocks/sandstone_carved"
+    },
+    "cut_sandstone": {
+      "textures": "textures/blocks/sandstone_smooth"
+    },
+    "smooth_sandstone": {
+      "textures": "textures/blocks/sandstone_top"
+    },
+    "flattened_redsandstone_top": {
+      "textures": "textures/blocks/red_sandstone_top"
+    },
+    "flattened_redsandstone_bottom": {
+      "textures": "textures/blocks/red_sandstone_bottom"
+    },
+    "flattened_redsandstone": {
+      "textures": "textures/blocks/red_sandstone_normal"
+    },
+    "chiseled_red_sandstone": {
+      "textures": "textures/blocks/red_sandstone_carved"
+    },
+    "cut_red_sandstone": {
+      "textures": "textures/blocks/red_sandstone_smooth"
+    },
+    "smooth_red_sandstone": {
+      "textures": "textures/blocks/red_sandstone_top"
+    },
+    "quartz_slab_bottom": {
+      "textures": "textures/blocks/quartz_block_top"
+    },
+    "dandelion": {
+      "textures": "textures/blocks/flower_dandelion"
+    },
+    "flattened_quartz_block_top": {
+      "textures": "textures/blocks/quartz_block_top"
+    },
+    "flattened_quartz_block_side": {
+      "textures": "textures/blocks/quartz_block_side"
+    },
+    "chiseled_quartz_block_top": {
+      "textures": "textures/blocks/quartz_block_chiseled_top"
+    },
+    "chiseled_quartz_block_side": {
+      "textures": "textures/blocks/quartz_block_chiseled"
+    },
+    "quartz_pillar_top": {
+      "textures": "textures/blocks/quartz_block_lines_top"
+    },
+    "quartz_pillar_side": {
+      "textures": "textures/blocks/quartz_block_lines"
+    },
+    "smooth_quartz": {
+      "textures": "textures/blocks/quartz_block_bottom"
+    },
+    "flattened_sand": {
+      "textures": "textures/blocks/sand"
+    },
+    "red_sand": {
+      "textures": "textures/blocks/red_sand"
+    },
+    "flattened_dirt": {
+      "textures": "textures/blocks/dirt"
+    },
+    "coarse_dirt": {
+      "textures": "textures/blocks/coarse_dirt"
+    },
+    "flattened_anvil_base": {
+      "textures": "textures/blocks/anvil_base"
+    },
+    "flattened_anvil_top": {
+      "textures": "textures/blocks/anvil_top_damaged_0"
+    },
+    "chipped_anvil_top": {
+      "textures": "textures/blocks/anvil_top_damaged_1"
+    },
+    "damaged_anvil_top": {
+      "textures": "textures/blocks/anvil_top_damaged_2"
+    }
+  }
+}

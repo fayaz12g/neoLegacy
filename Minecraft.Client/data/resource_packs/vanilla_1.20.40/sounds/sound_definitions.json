@@ -1,0 +1,122 @@
+{
+  "format_version": "1.14.0",
+  "sound_definitions": {
+    "horn.call.0": {
+      "max_distance": 256.0,
+      "category": "record",
+      "sounds": [ "sounds/item/horn/call0" ]
+    },
+    "horn.call.1": {
+      "max_distance": 256.0,
+      "category": "record",
+      "sounds": [ "sounds/item/horn/call1" ]
+    },
+    "horn.call.2": {
+      "max_distance": 256.0,
+      "category": "record",
+      "sounds": [ "sounds/item/horn/call2" ]
+    },
+    "horn.call.3": {
+      "max_distance": 256.0,
+      "category": "record",
+      "sounds": [ "sounds/item/horn/call3" ]
+    },
+    "horn.call.4": {
+      "max_distance": 256.0,
+      "category": "record",
+      "sounds": [ "sounds/item/horn/call4" ]
+    },
+    "horn.call.5": {
+      "max_distance": 256.0,
+      "category": "record",
+      "sounds": [ "sounds/item/horn/call5" ]
+    },
+    "horn.call.6": {
+      "max_distance": 256.0,
+      "category": "record",
+      "sounds": [ "sounds/item/horn/call6" ]
+    },
+    "horn.call.7": {
+      "max_distance": 256.0,
+      "category": "record",
+      "sounds": [ "sounds/item/horn/call7" ]
+    },
+    "entity.wither_skeleton.ambient": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/mob/wither_skeleton/idle1",
+        "sounds/mob/wither_skeleton/idle2",
+        "sounds/mob/wither_skeleton/idle3"
+      ]
+    },
+    "entity.wither_skeleton.hurt": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/mob/wither_skeleton/hurt1",
+        "sounds/mob/wither_skeleton/hurt2",
+        "sounds/mob/wither_skeleton/hurt3",
+        "sounds/mob/wither_skeleton/hurt4"
+      ]
+    },
+    "entity.wither_skeleton.death": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/mob/wither_skeleton/death1",
+        "sounds/mob/wither_skeleton/death2"
+      ]
+    },
+    "entity.wither_skeleton.step": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/mob/wither_skeleton/step1",
+        "sounds/mob/wither_skeleton/step2",
+        "sounds/mob/wither_skeleton/step3",
+        "sounds/mob/wither_skeleton/step4"
+      ]
+    },
+    "mob.cat.beg_for_food": {
+      "category": "neutral",
+      "sounds": [
+        "sounds/mob/cat/beg1",
+        "sounds/mob/cat/beg2",
+        "sounds/mob/cat/beg3"
+      ]
+    },
+    "bottle.fill": {
+      "category": "bottle",
+      "sounds": [
+        "sounds/bottle/fill1",
+        "sounds/bottle/fill2",
+        "sounds/bottle/fill3",
+        "sounds/bottle/fill4"
+      ]
+    },
+    "bottle.empty": {
+      "category": "bottle",
+      "sounds": [
+        "sounds/bottle/empty1",
+        "sounds/bottle/empty2"
+      ]
+    },
+    "note.witherskeleton": {
+      "category": "record",
+      "max_distance": 48.0,
+      "sounds": [
+        "sounds/mob/wither_skeleton/step1",
+        "sounds/mob/wither_skeleton/step2",
+        "sounds/mob/wither_skeleton/step3",
+        "sounds/mob/wither_skeleton/step4"
+      ]
+    },
+    "entity.generic.splash": {
+      "category": "ambient",
+      "sounds": [
+        {
+          "name": "sounds/liquid/splash",
+          "load_on_low_memory": true
+        },
+        "sounds/liquid/splash2"
+      ]
+    }
+  }
+}

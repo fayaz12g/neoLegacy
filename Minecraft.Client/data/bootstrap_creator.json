@@ -1,0 +1,31 @@
+{
+  "profile": {
+    "default_verbosity": "none",
+    "category_verbosity": {
+      "Actor System (Creator)": "default",
+      "Blocks (Creator)": "default",
+      "AI System Control (Creator)": "default",
+      "AI System Goal (Creator)": "default",
+      "AI System Navigation (Creator)": "default",
+      "AI System Target Goal (Creator)": "default",
+      "Command System (Creator)": "default",
+      "Network System (Creator)": "default",
+      "Script Engine (Creator)": "default",
+      "Block Actor Render System (Creator)": "default",
+      "Actor Render System (Creator)": "default",
+      "Model (Creator)": "default",
+      "RenderController (Creator)": "default",
+      "Animation (Creator)": "default",
+      "AI Village (Creator)": "default",
+      "Path Finder System (Creator)": "default",
+      "Sound System (Creator)": "default",
+      "UI System (Creator)": "default",
+      "Baseline (Creator)": "default",
+      "Particles (Creator)": "default",
+      "Level Renderer (Creator)": "default",
+      "DataDrivenRenderer": "default"
+    },
+    "min_group_stack_depth": 0,
+    "headers_enabled": false
+  }
+}

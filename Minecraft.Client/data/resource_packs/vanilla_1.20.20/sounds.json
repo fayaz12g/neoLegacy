@@ -1,0 +1,72 @@
+{
+  "individual_event_sounds": {
+    "events": {
+      "respawn_anchor.ambient": {"sound": "respawn_anchor.ambient", "volume": 1.0, "pitch": [ 0.8, 1.2 ]},
+      "note.bass": {"sound": "note.bass", "volume": 1.0, "pitch": 1.0}
+    }
+  },
+  "block_sounds": {
+    "anvil": {
+      "volume": 1.0,
+      "pitch": 1.0,
+      "events": {
+       "default": "",
+       "item.use.on": {
+         "sound": "use.stone",
+         "volume": 1.0,
+         "pitch": [0.8, 1.0]
+       },
+       "break": {
+         "sound": "dig.stone",
+         "volume": 1.0,
+         "pitch": [0.8, 1.0]
+       },
+       "hit": {
+         "sound": "hit.anvil",
+         "volume": 0.35,
+         "pitch": 0.5
+       },
+       "place": {
+         "sound": "random.anvil_land",
+         "volume": 0.5,
+         "pitch": [0.8, 1.0]
+       },
+       "power.on": {
+         "sound": "random.click",
+         "pitch": 0.6
+       },
+       "power.off": {
+         "sound": "random.click",
+         "pitch": 0.5
+        }
+      }
+    }
+  },
+  "interactive_sounds": {
+    "block_sounds": {
+      "anvil": {
+        "volume": 0.35,
+        "pitch": 1.0,
+        "events": {
+          "default": "",
+          "fall": {
+            "sounds":"step.stone",
+            "volume": 0.4
+          },
+          "step": {
+            "sound":"step.stone",
+            "volume":0.60
+          },
+          "jump": {
+            "sound":"step.stone",
+            "volume":0.12
+          },
+          "land": {
+            "sound":"step.stone",
+            "volume":0.22
+          }
+        }
+      }
+    }
+  }
+}

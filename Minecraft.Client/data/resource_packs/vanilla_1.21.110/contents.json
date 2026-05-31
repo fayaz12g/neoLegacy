@@ -1,0 +1,1000 @@
+{
+    "content": [
+        {
+            "path": "blocks.json"
+        },
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "sounds.json"
+        },
+        {
+            "path": "animations/copper_golem.animation.json"
+        },
+        {
+            "path": "animation_controllers/copper_golem.animation_controllers.json"
+        },
+        {
+            "path": "attachables/copper_boots.json"
+        },
+        {
+            "path": "attachables/copper_boots.player.json"
+        },
+        {
+            "path": "attachables/copper_chestplate.json"
+        },
+        {
+            "path": "attachables/copper_chestplate.player.json"
+        },
+        {
+            "path": "attachables/copper_helmet.json"
+        },
+        {
+            "path": "attachables/copper_helmet.player.json"
+        },
+        {
+            "path": "attachables/copper_leggings.json"
+        },
+        {
+            "path": "attachables/copper_leggings.player.json"
+        },
+        {
+            "path": "biomes/basalt_deltas.client_biome.json"
+        },
+        {
+            "path": "biomes/cold_ocean.client_biome.json"
+        },
+        {
+            "path": "biomes/crimson_forest.client_biome.json"
+        },
+        {
+            "path": "biomes/deep_cold_ocean.client_biome.json"
+        },
+        {
+            "path": "biomes/deep_frozen_ocean.client_biome.json"
+        },
+        {
+            "path": "biomes/deep_lukewarm_ocean.client_biome.json"
+        },
+        {
+            "path": "biomes/deep_ocean.client_biome.json"
+        },
+        {
+            "path": "biomes/deep_warm_ocean.client_biome.json"
+        },
+        {
+            "path": "biomes/frozen_ocean.client_biome.json"
+        },
+        {
+            "path": "biomes/frozen_river.client_biome.json"
+        },
+        {
+            "path": "biomes/legacy_frozen_ocean.client_biome.json"
+        },
+        {
+            "path": "biomes/lukewarm_ocean.client_biome.json"
+        },
+        {
+            "path": "biomes/ocean.client_biome.json"
+        },
+        {
+            "path": "biomes/river.client_biome.json"
+        },
+        {
+            "path": "biomes/soulsand_valley.client_biome.json"
+        },
+        {
+            "path": "biomes/warm_ocean.client_biome.json"
+        },
+        {
+            "path": "biomes/warped_forest.client_biome.json"
+        },
+        {
+            "path": "entity/copper_golem.entity.json"
+        },
+        {
+            "path": "entity/horse_v3.entity.json"
+        },
+        {
+            "path": "models/entity/copper_golem.geo.json"
+        },
+        {
+            "path": "models/entity/copper_golem_running.geo.json"
+        },
+        {
+            "path": "models/entity/copper_golem_sitting.geo.json"
+        },
+        {
+            "path": "models/entity/copper_golem_star.geo.json"
+        },
+        {
+            "path": "particles/green_flame.json"
+        },
+        {
+            "path": "render_controllers/copper_golem.render_controllers.json"
+        },
+        {
+            "path": "render_controllers/horse_v3.render_controllers.json"
+        },
+        {
+            "path": "sounds/sound_definitions.json"
+        },
+        {
+            "path": "textures/flipbook_textures.json"
+        },
+        {
+            "path": "textures/item_texture.json"
+        },
+        {
+            "path": "textures/terrain_texture.json"
+        },
+        {
+            "path": "textures/texture_list.json"
+        },
+        {
+            "path": "textures/blocks/acacia_shelf.png"
+        },
+        {
+            "path": "textures/blocks/bamboo_shelf.png"
+        },
+        {
+            "path": "textures/blocks/birch_shelf.png"
+        },
+        {
+            "path": "textures/blocks/cherry_shelf.png"
+        },
+        {
+            "path": "textures/blocks/copper_bars.png"
+        },
+        {
+            "path": "textures/blocks/copper_bars.texture_set.json"
+        },
+        {
+            "path": "textures/blocks/copper_bars_mers.tga"
+        },
+        {
+            "path": "textures/blocks/copper_chain1.png"
+        },
+        {
+            "path": "textures/blocks/copper_chain1.texture_set.json"
+        },
+        {
+            "path": "textures/blocks/copper_chain1_mers.tga"
+        },
+        {
+            "path": "textures/blocks/copper_chain2.png"
+        },
+        {
+            "path": "textures/blocks/copper_chain2.texture_set.json"
+        },
+        {
+            "path": "textures/blocks/copper_chain2_mers.tga"
+        },
+        {
+            "path": "textures/blocks/copper_chest_inventory_front.png"
+        },
+        {
+            "path": "textures/blocks/copper_chest_inventory_front.texture_set.json"
+        },
+        {
+            "path": "textures/blocks/copper_chest_inventory_front_mers.tga"
+        },
+        {
+            "path": "textures/blocks/copper_chest_inventory_side.png"
+        },
+        {
+            "path": "textures/blocks/copper_chest_inventory_side.texture_set.json"
+        },
+        {
+            "path": "textures/blocks/copper_chest_inventory_side_mers.tga"
+        },
+        {
+            "path": "textures/blocks/copper_chest_inventory_top.png"
+        },
+        {
+            "path": "textures/blocks/copper_chest_inventory_top.texture_set.json"
+        },
+        {
+            "path": "textures/blocks/copper_chest_inventory_top_mers.tga"
+        },
+        {
+            "path": "textures/blocks/copper_lantern.png"
+        },
+        {
+            "path": "textures/blocks/copper_lantern.texture_set.json"
+        },
+        {
+            "path": "textures/blocks/copper_lantern_mers.tga"
+        },
+        {
+            "path": "textures/blocks/copper_torch.png"
+        },
+        {
+            "path": "textures/blocks/copper_torch.texture_set.json"
+        },
+        {
+            "path": "textures/blocks/copper_torch_mers.tga"
+        },
+        {
+            "path": "textures/blocks/crimson_shelf.png"
+        },
+        {
+            "path": "textures/blocks/dark_oak_shelf.png"
+        },
+        {
+            "path": "textures/blocks/exposed_copper_bars.png"
+        },
+        {
+            "path": "textures/blocks/exposed_copper_bars.texture_set.json"
+        },
+        {
+            "path": "textures/blocks/exposed_copper_bars_mers.tga"
+        },
+        {
+            "path": "textures/blocks/exposed_copper_chain1.png"
+        },
+        {
+            "path": "textures/blocks/exposed_copper_chain1.texture_set.json"
+        },
+        {
+            "path": "textures/blocks/exposed_copper_chain1_mers.tga"
+        },
+        {
+            "path": "textures/blocks/exposed_copper_chain2.png"
+        },
+        {
+            "path": "textures/blocks/exposed_copper_chain2.texture_set.json"
+        },
+        {
+            "path": "textures/blocks/exposed_copper_chain2_mers.tga"
+        },
+        {
+            "path": "textures/blocks/exposed_copper_chest_inventory_front.png"
+        },
+        {
+            "path": "textures/blocks/exposed_copper_chest_inventory_front.texture_set.json"
+        },
+        {
+            "path": "textures/blocks/exposed_copper_chest_inventory_front_mers.tga"
+        },
+        {
+            "path": "textures/blocks/exposed_copper_chest_inventory_side.png"
+        },
+        {
+            "path": "textures/blocks/exposed_copper_chest_inventory_side.texture_set.json"
+        },
+        {
+            "path": "textures/blocks/exposed_copper_chest_inventory_side_mers.tga"
+        },
+        {
+            "path": "textures/blocks/exposed_copper_chest_inventory_top.png"
+        },
+        {
+            "path": "textures/blocks/exposed_copper_chest_inventory_top.texture_set.json"
+        },
+        {
+            "path": "textures/blocks/exposed_copper_chest_inventory_top_mers.tga"
+        },
+        {
+            "path": "textures/blocks/exposed_copper_lantern.png"
+        },
+        {
+            "path": "textures/blocks/exposed_copper_lantern.texture_set.json"
+        },
+        {
+            "path": "textures/blocks/exposed_copper_lantern_mers.tga"
+        },
+        {
+            "path": "textures/blocks/exposed_lightning_rod.png"
+        },
+        {
+            "path": "textures/blocks/exposed_lightning_rod.texture_set.json"
+        },
+        {
+            "path": "textures/blocks/exposed_lightning_rod_mers.tga"
+        },
+        {
+            "path": "textures/blocks/jungle_shelf.png"
+        },
+        {
+            "path": "textures/blocks/lightning_rod_powered.png"
+        },
+        {
+            "path": "textures/blocks/lightning_rod_powered.texture_set.json"
+        },
+        {
+            "path": "textures/blocks/lightning_rod_powered_mers.tga"
+        },
+        {
+            "path": "textures/blocks/mangrove_shelf.png"
+        },
+        {
+            "path": "textures/blocks/oak_shelf.png"
+        },
+        {
+            "path": "textures/blocks/oxidized_copper_bars.png"
+        },
+        {
+            "path": "textures/blocks/oxidized_copper_bars.texture_set.json"
+        },
+        {
+            "path": "textures/blocks/oxidized_copper_bars_mers.tga"
+        },
+        {
+            "path": "textures/blocks/oxidized_copper_chain1.png"
+        },
+        {
+            "path": "textures/blocks/oxidized_copper_chain1.texture_set.json"
+        },
+        {
+            "path": "textures/blocks/oxidized_copper_chain1_mers.tga"
+        },
+        {
+            "path": "textures/blocks/oxidized_copper_chain2.png"
+        },
+        {
+            "path": "textures/blocks/oxidized_copper_chain2.texture_set.json"
+        },
+        {
+            "path": "textures/blocks/oxidized_copper_chain2_mers.tga"
+        },
+        {
+            "path": "textures/blocks/oxidized_copper_chest_inventory_front.png"
+        },
+        {
+            "path": "textures/blocks/oxidized_copper_chest_inventory_front.texture_set.json"
+        },
+        {
+            "path": "textures/blocks/oxidized_copper_chest_inventory_front_mers.tga"
+        },
+        {
+            "path": "textures/blocks/oxidized_copper_chest_inventory_side.png"
+        },
+        {
+            "path": "textures/blocks/oxidized_copper_chest_inventory_side.texture_set.json"
+        },
+        {
+            "path": "textures/blocks/oxidized_copper_chest_inventory_side_mers.tga"
+        },
+        {
+            "path": "textures/blocks/oxidized_copper_chest_inventory_top.png"
+        },
+        {
+            "path": "textures/blocks/oxidized_copper_chest_inventory_top.texture_set.json"
+        },
+        {
+            "path": "textures/blocks/oxidized_copper_chest_inventory_top_mers.tga"
+        },
+        {
+            "path": "textures/blocks/oxidized_copper_lantern.png"
+        },
+        {
+            "path": "textures/blocks/oxidized_copper_lantern.texture_set.json"
+        },
+        {
+            "path": "textures/blocks/oxidized_copper_lantern_mers.tga"
+        },
+        {
+            "path": "textures/blocks/oxidized_lightning_rod.png"
+        },
+        {
+            "path": "textures/blocks/oxidized_lightning_rod.texture_set.json"
+        },
+        {
+            "path": "textures/blocks/oxidized_lightning_rod_mers.tga"
+        },
+        {
+            "path": "textures/blocks/pale_oak_shelf.png"
+        },
+        {
+            "path": "textures/blocks/spruce_shelf.png"
+        },
+        {
+            "path": "textures/blocks/warped_shelf.png"
+        },
+        {
+            "path": "textures/blocks/weathered_copper_bars.png"
+        },
+        {
+            "path": "textures/blocks/weathered_copper_bars.texture_set.json"
+        },
+        {
+            "path": "textures/blocks/weathered_copper_bars_mers.tga"
+        },
+        {
+            "path": "textures/blocks/weathered_copper_chain1.png"
+        },
+        {
+            "path": "textures/blocks/weathered_copper_chain1.texture_set.json"
+        },
+        {
+            "path": "textures/blocks/weathered_copper_chain1_mers.tga"
+        },
+        {
+            "path": "textures/blocks/weathered_copper_chain2.png"
+        },
+        {
+            "path": "textures/blocks/weathered_copper_chain2.texture_set.json"
+        },
+        {
+            "path": "textures/blocks/weathered_copper_chain2_mers.tga"
+        },
+        {
+            "path": "textures/blocks/weathered_copper_chest_inventory_front.png"
+        },
+        {
+            "path": "textures/blocks/weathered_copper_chest_inventory_front.texture_set.json"
+        },
+        {
+            "path": "textures/blocks/weathered_copper_chest_inventory_front_mers.tga"
+        },
+        {
+            "path": "textures/blocks/weathered_copper_chest_inventory_side.png"
+        },
+        {
+            "path": "textures/blocks/weathered_copper_chest_inventory_side.texture_set.json"
+        },
+        {
+            "path": "textures/blocks/weathered_copper_chest_inventory_side_mers.tga"
+        },
+        {
+            "path": "textures/blocks/weathered_copper_chest_inventory_top.png"
+        },
+        {
+            "path": "textures/blocks/weathered_copper_chest_inventory_top.texture_set.json"
+        },
+        {
+            "path": "textures/blocks/weathered_copper_chest_inventory_top_mers.tga"
+        },
+        {
+            "path": "textures/blocks/weathered_copper_lantern.png"
+        },
+        {
+            "path": "textures/blocks/weathered_copper_lantern.texture_set.json"
+        },
+        {
+            "path": "textures/blocks/weathered_copper_lantern_mers.tga"
+        },
+        {
+            "path": "textures/blocks/weathered_lightning_rod.png"
+        },
+        {
+            "path": "textures/blocks/weathered_lightning_rod.texture_set.json"
+        },
+        {
+            "path": "textures/blocks/weathered_lightning_rod_mers.tga"
+        },
+        {
+            "path": "textures/entity/chest/copper_default.png"
+        },
+        {
+            "path": "textures/entity/chest/copper_default.texture_set.json"
+        },
+        {
+            "path": "textures/entity/chest/copper_default_double.png"
+        },
+        {
+            "path": "textures/entity/chest/copper_default_double.texture_set.json"
+        },
+        {
+            "path": "textures/entity/chest/copper_default_double_mers.tga"
+        },
+        {
+            "path": "textures/entity/chest/copper_default_mers.tga"
+        },
+        {
+            "path": "textures/entity/chest/copper_exposed.png"
+        },
+        {
+            "path": "textures/entity/chest/copper_exposed.texture_set.json"
+        },
+        {
+            "path": "textures/entity/chest/copper_exposed_double.png"
+        },
+        {
+            "path": "textures/entity/chest/copper_exposed_double.texture_set.json"
+        },
+        {
+            "path": "textures/entity/chest/copper_exposed_double_mers.tga"
+        },
+        {
+            "path": "textures/entity/chest/copper_exposed_mers.tga"
+        },
+        {
+            "path": "textures/entity/chest/copper_oxidized.png"
+        },
+        {
+            "path": "textures/entity/chest/copper_oxidized.texture_set.json"
+        },
+        {
+            "path": "textures/entity/chest/copper_oxidized_double.png"
+        },
+        {
+            "path": "textures/entity/chest/copper_oxidized_double.texture_set.json"
+        },
+        {
+            "path": "textures/entity/chest/copper_oxidized_double_mers.tga"
+        },
+        {
+            "path": "textures/entity/chest/copper_oxidized_mers.tga"
+        },
+        {
+            "path": "textures/entity/chest/copper_weathered.png"
+        },
+        {
+            "path": "textures/entity/chest/copper_weathered.texture_set.json"
+        },
+        {
+            "path": "textures/entity/chest/copper_weathered_double.png"
+        },
+        {
+            "path": "textures/entity/chest/copper_weathered_double.texture_set.json"
+        },
+        {
+            "path": "textures/entity/chest/copper_weathered_double_mers.tga"
+        },
+        {
+            "path": "textures/entity/chest/copper_weathered_mers.tga"
+        },
+        {
+            "path": "textures/entity/copper_golem/copper_golem.png"
+        },
+        {
+            "path": "textures/entity/copper_golem/copper_golem.texture_set.json"
+        },
+        {
+            "path": "textures/entity/copper_golem/copper_golem_exposed.png"
+        },
+        {
+            "path": "textures/entity/copper_golem/copper_golem_exposed.texture_set.json"
+        },
+        {
+            "path": "textures/entity/copper_golem/copper_golem_exposed_mers.tga"
+        },
+        {
+            "path": "textures/entity/copper_golem/copper_golem_eyes.png"
+        },
+        {
+            "path": "textures/entity/copper_golem/copper_golem_eyes.texture_set.json"
+        },
+        {
+            "path": "textures/entity/copper_golem/copper_golem_eyes_exposed.png"
+        },
+        {
+            "path": "textures/entity/copper_golem/copper_golem_eyes_exposed.texture_set.json"
+        },
+        {
+            "path": "textures/entity/copper_golem/copper_golem_eyes_exposed_mers.tga"
+        },
+        {
+            "path": "textures/entity/copper_golem/copper_golem_eyes_mers.tga"
+        },
+        {
+            "path": "textures/entity/copper_golem/copper_golem_eyes_oxidized.png"
+        },
+        {
+            "path": "textures/entity/copper_golem/copper_golem_eyes_oxidized.texture_set.json"
+        },
+        {
+            "path": "textures/entity/copper_golem/copper_golem_eyes_oxidized_mers.tga"
+        },
+        {
+            "path": "textures/entity/copper_golem/copper_golem_eyes_weathered.png"
+        },
+        {
+            "path": "textures/entity/copper_golem/copper_golem_eyes_weathered.texture_set.json"
+        },
+        {
+            "path": "textures/entity/copper_golem/copper_golem_eyes_weathered_mers.tga"
+        },
+        {
+            "path": "textures/entity/copper_golem/copper_golem_flower.png"
+        },
+        {
+            "path": "textures/entity/copper_golem/copper_golem_flower.texture_set.json"
+        },
+        {
+            "path": "textures/entity/copper_golem/copper_golem_flower_mers.tga"
+        },
+        {
+            "path": "textures/entity/copper_golem/copper_golem_mers.tga"
+        },
+        {
+            "path": "textures/entity/copper_golem/copper_golem_oxidized.png"
+        },
+        {
+            "path": "textures/entity/copper_golem/copper_golem_oxidized.texture_set.json"
+        },
+        {
+            "path": "textures/entity/copper_golem/copper_golem_oxidized_mers.tga"
+        },
+        {
+            "path": "textures/entity/copper_golem/copper_golem_weathered.png"
+        },
+        {
+            "path": "textures/entity/copper_golem/copper_golem_weathered.texture_set.json"
+        },
+        {
+            "path": "textures/entity/copper_golem/copper_golem_weathered_mers.tga"
+        },
+        {
+            "path": "textures/entity/horse2/armor/horse_armor_copper.png"
+        },
+        {
+            "path": "textures/entity/horse2/armor/horse_armor_copper.texture_set.json"
+        },
+        {
+            "path": "textures/entity/horse2/armor/horse_armor_copper_mers.tga"
+        },
+        {
+            "path": "textures/items/copper_axe.png"
+        },
+        {
+            "path": "textures/items/copper_axe.texture_set.json"
+        },
+        {
+            "path": "textures/items/copper_axe_mers.tga"
+        },
+        {
+            "path": "textures/items/copper_boots.png"
+        },
+        {
+            "path": "textures/items/copper_boots.texture_set.json"
+        },
+        {
+            "path": "textures/items/copper_boots_mers.tga"
+        },
+        {
+            "path": "textures/items/copper_chain.png"
+        },
+        {
+            "path": "textures/items/copper_chain.texture_set.json"
+        },
+        {
+            "path": "textures/items/copper_chain_mers.tga"
+        },
+        {
+            "path": "textures/items/copper_chestplate.png"
+        },
+        {
+            "path": "textures/items/copper_chestplate.texture_set.json"
+        },
+        {
+            "path": "textures/items/copper_chestplate_mers.tga"
+        },
+        {
+            "path": "textures/items/copper_helmet.png"
+        },
+        {
+            "path": "textures/items/copper_helmet.texture_set.json"
+        },
+        {
+            "path": "textures/items/copper_helmet_mers.tga"
+        },
+        {
+            "path": "textures/items/copper_hoe.png"
+        },
+        {
+            "path": "textures/items/copper_hoe.texture_set.json"
+        },
+        {
+            "path": "textures/items/copper_hoe_mers.tga"
+        },
+        {
+            "path": "textures/items/copper_horse_armor.png"
+        },
+        {
+            "path": "textures/items/copper_horse_armor.texture_set.json"
+        },
+        {
+            "path": "textures/items/copper_horse_armor_mers.tga"
+        },
+        {
+            "path": "textures/items/copper_lantern.png"
+        },
+        {
+            "path": "textures/items/copper_lantern.texture_set.json"
+        },
+        {
+            "path": "textures/items/copper_lantern_mers.tga"
+        },
+        {
+            "path": "textures/items/copper_leggings.png"
+        },
+        {
+            "path": "textures/items/copper_leggings.texture_set.json"
+        },
+        {
+            "path": "textures/items/copper_leggings_mers.tga"
+        },
+        {
+            "path": "textures/items/copper_nugget.png"
+        },
+        {
+            "path": "textures/items/copper_nugget.texture_set.json"
+        },
+        {
+            "path": "textures/items/copper_nugget_mers.tga"
+        },
+        {
+            "path": "textures/items/copper_pickaxe.png"
+        },
+        {
+            "path": "textures/items/copper_pickaxe.texture_set.json"
+        },
+        {
+            "path": "textures/items/copper_pickaxe_mers.tga"
+        },
+        {
+            "path": "textures/items/copper_shovel.png"
+        },
+        {
+            "path": "textures/items/copper_shovel.texture_set.json"
+        },
+        {
+            "path": "textures/items/copper_shovel_mers.tga"
+        },
+        {
+            "path": "textures/items/copper_sword.png"
+        },
+        {
+            "path": "textures/items/copper_sword.texture_set.json"
+        },
+        {
+            "path": "textures/items/copper_sword_mers.tga"
+        },
+        {
+            "path": "textures/items/dye_powder_black_new.png"
+        },
+        {
+            "path": "textures/items/dye_powder_black_new.texture_set.json"
+        },
+        {
+            "path": "textures/items/dye_powder_black_new_mers.tga"
+        },
+        {
+            "path": "textures/items/dye_powder_blue_new.png"
+        },
+        {
+            "path": "textures/items/dye_powder_blue_new.texture_set.json"
+        },
+        {
+            "path": "textures/items/dye_powder_blue_new_mers.tga"
+        },
+        {
+            "path": "textures/items/dye_powder_brown_new.png"
+        },
+        {
+            "path": "textures/items/dye_powder_brown_new.texture_set.json"
+        },
+        {
+            "path": "textures/items/dye_powder_brown_new_mers.tga"
+        },
+        {
+            "path": "textures/items/dye_powder_cyan.png"
+        },
+        {
+            "path": "textures/items/dye_powder_cyan.texture_set.json"
+        },
+        {
+            "path": "textures/items/dye_powder_cyan_mers.tga"
+        },
+        {
+            "path": "textures/items/dye_powder_gray.png"
+        },
+        {
+            "path": "textures/items/dye_powder_gray.texture_set.json"
+        },
+        {
+            "path": "textures/items/dye_powder_gray_mers.tga"
+        },
+        {
+            "path": "textures/items/dye_powder_green.png"
+        },
+        {
+            "path": "textures/items/dye_powder_green.texture_set.json"
+        },
+        {
+            "path": "textures/items/dye_powder_green_mers.tga"
+        },
+        {
+            "path": "textures/items/dye_powder_light_blue.png"
+        },
+        {
+            "path": "textures/items/dye_powder_light_blue.texture_set.json"
+        },
+        {
+            "path": "textures/items/dye_powder_light_blue_mers.tga"
+        },
+        {
+            "path": "textures/items/dye_powder_lime.png"
+        },
+        {
+            "path": "textures/items/dye_powder_lime.texture_set.json"
+        },
+        {
+            "path": "textures/items/dye_powder_lime_mers.tga"
+        },
+        {
+            "path": "textures/items/dye_powder_magenta.png"
+        },
+        {
+            "path": "textures/items/dye_powder_magenta.texture_set.json"
+        },
+        {
+            "path": "textures/items/dye_powder_magenta_mers.tga"
+        },
+        {
+            "path": "textures/items/dye_powder_orange.png"
+        },
+        {
+            "path": "textures/items/dye_powder_orange.texture_set.json"
+        },
+        {
+            "path": "textures/items/dye_powder_orange_mers.tga"
+        },
+        {
+            "path": "textures/items/dye_powder_pink.png"
+        },
+        {
+            "path": "textures/items/dye_powder_pink.texture_set.json"
+        },
+        {
+            "path": "textures/items/dye_powder_pink_mers.tga"
+        },
+        {
+            "path": "textures/items/dye_powder_purple.png"
+        },
+        {
+            "path": "textures/items/dye_powder_purple.texture_set.json"
+        },
+        {
+            "path": "textures/items/dye_powder_purple_mers.tga"
+        },
+        {
+            "path": "textures/items/dye_powder_red.png"
+        },
+        {
+            "path": "textures/items/dye_powder_red.texture_set.json"
+        },
+        {
+            "path": "textures/items/dye_powder_red_mers.tga"
+        },
+        {
+            "path": "textures/items/dye_powder_silver.png"
+        },
+        {
+            "path": "textures/items/dye_powder_silver.texture_set.json"
+        },
+        {
+            "path": "textures/items/dye_powder_silver_mers.tga"
+        },
+        {
+            "path": "textures/items/dye_powder_white_new.png"
+        },
+        {
+            "path": "textures/items/dye_powder_white_new.texture_set.json"
+        },
+        {
+            "path": "textures/items/dye_powder_white_new_mers.tga"
+        },
+        {
+            "path": "textures/items/dye_powder_yellow.png"
+        },
+        {
+            "path": "textures/items/dye_powder_yellow.texture_set.json"
+        },
+        {
+            "path": "textures/items/dye_powder_yellow_mers.tga"
+        },
+        {
+            "path": "textures/items/exposed_copper_chain.png"
+        },
+        {
+            "path": "textures/items/exposed_copper_chain.texture_set.json"
+        },
+        {
+            "path": "textures/items/exposed_copper_chain_mers.tga"
+        },
+        {
+            "path": "textures/items/exposed_copper_lantern.png"
+        },
+        {
+            "path": "textures/items/exposed_copper_lantern.texture_set.json"
+        },
+        {
+            "path": "textures/items/exposed_copper_lantern_mers.tga"
+        },
+        {
+            "path": "textures/items/oxidized_copper_chain.png"
+        },
+        {
+            "path": "textures/items/oxidized_copper_chain.texture_set.json"
+        },
+        {
+            "path": "textures/items/oxidized_copper_chain_mers.tga"
+        },
+        {
+            "path": "textures/items/oxidized_copper_lantern.png"
+        },
+        {
+            "path": "textures/items/oxidized_copper_lantern.texture_set.json"
+        },
+        {
+            "path": "textures/items/oxidized_copper_lantern_mers.tga"
+        },
+        {
+            "path": "textures/items/weathered_copper_chain.png"
+        },
+        {
+            "path": "textures/items/weathered_copper_chain.texture_set.json"
+        },
+        {
+            "path": "textures/items/weathered_copper_chain_mers.tga"
+        },
+        {
+            "path": "textures/items/weathered_copper_lantern.png"
+        },
+        {
+            "path": "textures/items/weathered_copper_lantern.texture_set.json"
+        },
+        {
+            "path": "textures/items/weathered_copper_lantern_mers.tga"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_copper_golem.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_copper_golem.texture_set.json"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_copper_golem_mers.tga"
+        },
+        {
+            "path": "textures/models/armor/copper_1.png"
+        },
+        {
+            "path": "textures/models/armor/copper_1.texture_set.json"
+        },
+        {
+            "path": "textures/models/armor/copper_1_mers.tga"
+        },
+        {
+            "path": "textures/models/armor/copper_2.png"
+        },
+        {
+            "path": "textures/models/armor/copper_2.texture_set.json"
+        },
+        {
+            "path": "textures/models/armor/copper_2_mers.tga"
+        },
+        {
+            "path": "textures/particle/particles.png"
+        },
+        {
+            "path": "textures/particle/particles.texture_set.json"
+        },
+        {
+            "path": "textures/particle/particles_mers.tga"
+        },
+        {
+            "path": "textures/ui/panoramahdr_0.hdr"
+        },
+        {
+            "path": "textures/ui/panoramahdr_1.hdr"
+        },
+        {
+            "path": "textures/ui/panoramahdr_2.hdr"
+        },
+        {
+            "path": "textures/ui/panoramahdr_3.hdr"
+        },
+        {
+            "path": "textures/ui/panoramahdr_4.hdr"
+        },
+        {
+            "path": "textures/ui/panoramahdr_5.hdr"
+        }
+    ]
+}

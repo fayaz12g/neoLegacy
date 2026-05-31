@@ -1,0 +1,67 @@
+{
+    "content": [
+        {
+            "path": "blocks.json"
+        },
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "sounds.json"
+        },
+        {
+            "path": "entity/player.entity.json"
+        },
+        {
+            "path": "items/appleEnchanted.json"
+        },
+        {
+            "path": "items/golden_apple.json"
+        },
+        {
+            "path": "render_controllers/persona.render_controllers.json"
+        },
+        {
+            "path": "render_controllers/player.render_controllers.json"
+        },
+        {
+            "path": "textures/item_texture.json"
+        },
+        {
+            "path": "textures/terrain_texture.json"
+        },
+        {
+            "path": "textures/textures_list.json"
+        },
+        {
+            "path": "textures/items/bordure_indented_banner_pattern.png"
+        },
+        {
+            "path": "textures/items/creeper_banner_pattern.png"
+        },
+        {
+            "path": "textures/items/field_masoned_banner_pattern.png"
+        },
+        {
+            "path": "textures/items/flower_banner_pattern.png"
+        },
+        {
+            "path": "textures/items/flow_banner_pattern.png"
+        },
+        {
+            "path": "textures/items/globe_banner_pattern.png"
+        },
+        {
+            "path": "textures/items/guster_banner_pattern.png"
+        },
+        {
+            "path": "textures/items/mojang_banner_pattern.png"
+        },
+        {
+            "path": "textures/items/piglin_banner_pattern.png"
+        },
+        {
+            "path": "textures/items/skull_banner_pattern.png"
+        }
+    ]
+}

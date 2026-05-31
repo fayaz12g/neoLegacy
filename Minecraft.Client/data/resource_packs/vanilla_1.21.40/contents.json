@@ -1,0 +1,490 @@
+{
+    "content": [
+        {
+            "path": "blocks.json"
+        },
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "sounds.json"
+        },
+        {
+            "path": "biomes/bamboo_jungle.client_biome.json"
+        },
+        {
+            "path": "biomes/bamboo_jungle_hills.client_biome.json"
+        },
+        {
+            "path": "biomes/basalt_deltas.client_biome.json"
+        },
+        {
+            "path": "biomes/beach.client_biome.json"
+        },
+        {
+            "path": "biomes/birch_forest.client_biome.json"
+        },
+        {
+            "path": "biomes/birch_forest_hills.client_biome.json"
+        },
+        {
+            "path": "biomes/birch_forest_hills_mutated.client_biome.json"
+        },
+        {
+            "path": "biomes/birch_forest_mutated.client_biome.json"
+        },
+        {
+            "path": "biomes/cherry_grove.client_biome.json"
+        },
+        {
+            "path": "biomes/cold_beach.client_biome.json"
+        },
+        {
+            "path": "biomes/cold_ocean.client_biome.json"
+        },
+        {
+            "path": "biomes/cold_taiga.client_biome.json"
+        },
+        {
+            "path": "biomes/cold_taiga_hills.client_biome.json"
+        },
+        {
+            "path": "biomes/cold_taiga_mutated.client_biome.json"
+        },
+        {
+            "path": "biomes/crimson_forest.client_biome.json"
+        },
+        {
+            "path": "biomes/deep_cold_ocean.client_biome.json"
+        },
+        {
+            "path": "biomes/deep_dark.client_biome.json"
+        },
+        {
+            "path": "biomes/deep_frozen_ocean.client_biome.json"
+        },
+        {
+            "path": "biomes/deep_lukewarm_ocean.client_biome.json"
+        },
+        {
+            "path": "biomes/deep_ocean.client_biome.json"
+        },
+        {
+            "path": "biomes/deep_warm_ocean.client_biome.json"
+        },
+        {
+            "path": "biomes/desert.client_biome.json"
+        },
+        {
+            "path": "biomes/desert_hills.client_biome.json"
+        },
+        {
+            "path": "biomes/desert_mutated.client_biome.json"
+        },
+        {
+            "path": "biomes/dripstone_caves.client_biome.json"
+        },
+        {
+            "path": "biomes/extreme_hills.client_biome.json"
+        },
+        {
+            "path": "biomes/extreme_hills_edge.client_biome.json"
+        },
+        {
+            "path": "biomes/extreme_hills_mutated.client_biome.json"
+        },
+        {
+            "path": "biomes/extreme_hills_plus_trees.client_biome.json"
+        },
+        {
+            "path": "biomes/extreme_hills_plus_trees_mutated.client_biome.json"
+        },
+        {
+            "path": "biomes/flower_forest.client_biome.json"
+        },
+        {
+            "path": "biomes/forest.client_biome.json"
+        },
+        {
+            "path": "biomes/forest_hills.client_biome.json"
+        },
+        {
+            "path": "biomes/frozen_ocean.client_biome.json"
+        },
+        {
+            "path": "biomes/frozen_peaks.client_biome.json"
+        },
+        {
+            "path": "biomes/frozen_river.client_biome.json"
+        },
+        {
+            "path": "biomes/grove.client_biome.json"
+        },
+        {
+            "path": "biomes/hell.client_biome.json"
+        },
+        {
+            "path": "biomes/ice_mountains.client_biome.json"
+        },
+        {
+            "path": "biomes/ice_plains.client_biome.json"
+        },
+        {
+            "path": "biomes/ice_plains_spikes.client_biome.json"
+        },
+        {
+            "path": "biomes/jagged_peaks.client_biome.json"
+        },
+        {
+            "path": "biomes/jungle.client_biome.json"
+        },
+        {
+            "path": "biomes/jungle_edge.client_biome.json"
+        },
+        {
+            "path": "biomes/jungle_edge_mutated.client_biome.json"
+        },
+        {
+            "path": "biomes/jungle_hills.client_biome.json"
+        },
+        {
+            "path": "biomes/jungle_mutated.client_biome.json"
+        },
+        {
+            "path": "biomes/legacy_frozen_ocean.client_biome.json"
+        },
+        {
+            "path": "biomes/lukewarm_ocean.client_biome.json"
+        },
+        {
+            "path": "biomes/lush_caves.client_biome.json"
+        },
+        {
+            "path": "biomes/mangrove_swamp.client_biome.json"
+        },
+        {
+            "path": "biomes/meadow.client_biome.json"
+        },
+        {
+            "path": "biomes/mega_taiga.client_biome.json"
+        },
+        {
+            "path": "biomes/mega_taiga_hills.client_biome.json"
+        },
+        {
+            "path": "biomes/mesa.client_biome.json"
+        },
+        {
+            "path": "biomes/mesa_bryce.client_biome.json"
+        },
+        {
+            "path": "biomes/mesa_plateau.client_biome.json"
+        },
+        {
+            "path": "biomes/mesa_plateau_mutated.client_biome.json"
+        },
+        {
+            "path": "biomes/mesa_plateau_stone.client_biome.json"
+        },
+        {
+            "path": "biomes/mesa_plateau_stone_mutated.client_biome.json"
+        },
+        {
+            "path": "biomes/mushroom_island.client_biome.json"
+        },
+        {
+            "path": "biomes/mushroom_island_shore.client_biome.json"
+        },
+        {
+            "path": "biomes/ocean.client_biome.json"
+        },
+        {
+            "path": "biomes/plains.client_biome.json"
+        },
+        {
+            "path": "biomes/redwood_taiga_hills_mutated.client_biome.json"
+        },
+        {
+            "path": "biomes/redwood_taiga_mutated.client_biome.json"
+        },
+        {
+            "path": "biomes/river.client_biome.json"
+        },
+        {
+            "path": "biomes/roofed_forest.client_biome.json"
+        },
+        {
+            "path": "biomes/roofed_forest_mutated.client_biome.json"
+        },
+        {
+            "path": "biomes/savanna.client_biome.json"
+        },
+        {
+            "path": "biomes/savanna_mutated.client_biome.json"
+        },
+        {
+            "path": "biomes/savanna_plateau.client_biome.json"
+        },
+        {
+            "path": "biomes/savanna_plateau_mutated.client_biome.json"
+        },
+        {
+            "path": "biomes/snowy_slopes.client_biome.json"
+        },
+        {
+            "path": "biomes/soulsand_valley.client_biome.json"
+        },
+        {
+            "path": "biomes/stone_beach.client_biome.json"
+        },
+        {
+            "path": "biomes/stony_peaks.client_biome.json"
+        },
+        {
+            "path": "biomes/sunflower_plains.client_biome.json"
+        },
+        {
+            "path": "biomes/swampland.client_biome.json"
+        },
+        {
+            "path": "biomes/swampland_mutated.client_biome.json"
+        },
+        {
+            "path": "biomes/taiga.client_biome.json"
+        },
+        {
+            "path": "biomes/taiga_hills.client_biome.json"
+        },
+        {
+            "path": "biomes/taiga_mutated.client_biome.json"
+        },
+        {
+            "path": "biomes/the_end.client_biome.json"
+        },
+        {
+            "path": "biomes/warm_ocean.client_biome.json"
+        },
+        {
+            "path": "biomes/warped_forest.client_biome.json"
+        },
+        {
+            "path": "models/entity/bogged.geo.json"
+        },
+        {
+            "path": "sounds/sound_definitions.json"
+        },
+        {
+            "path": "textures/item_texture.json"
+        },
+        {
+            "path": "textures/terrain_texture.json"
+        },
+        {
+            "path": "textures/textures_list.json"
+        },
+        {
+            "path": "textures/items/bundle.png"
+        },
+        {
+            "path": "textures/items/bundle_black.png"
+        },
+        {
+            "path": "textures/items/bundle_black_open.png"
+        },
+        {
+            "path": "textures/items/bundle_black_open_back.png"
+        },
+        {
+            "path": "textures/items/bundle_black_open_front.png"
+        },
+        {
+            "path": "textures/items/bundle_blue.png"
+        },
+        {
+            "path": "textures/items/bundle_blue_open.png"
+        },
+        {
+            "path": "textures/items/bundle_blue_open_back.png"
+        },
+        {
+            "path": "textures/items/bundle_blue_open_front.png"
+        },
+        {
+            "path": "textures/items/bundle_brown.png"
+        },
+        {
+            "path": "textures/items/bundle_brown_open.png"
+        },
+        {
+            "path": "textures/items/bundle_brown_open_back.png"
+        },
+        {
+            "path": "textures/items/bundle_brown_open_front.png"
+        },
+        {
+            "path": "textures/items/bundle_cyan.png"
+        },
+        {
+            "path": "textures/items/bundle_cyan_open.png"
+        },
+        {
+            "path": "textures/items/bundle_cyan_open_back.png"
+        },
+        {
+            "path": "textures/items/bundle_cyan_open_front.png"
+        },
+        {
+            "path": "textures/items/bundle_gray.png"
+        },
+        {
+            "path": "textures/items/bundle_gray_open.png"
+        },
+        {
+            "path": "textures/items/bundle_gray_open_back.png"
+        },
+        {
+            "path": "textures/items/bundle_gray_open_front.png"
+        },
+        {
+            "path": "textures/items/bundle_green.png"
+        },
+        {
+            "path": "textures/items/bundle_green_open.png"
+        },
+        {
+            "path": "textures/items/bundle_green_open_back.png"
+        },
+        {
+            "path": "textures/items/bundle_green_open_front.png"
+        },
+        {
+            "path": "textures/items/bundle_light_blue.png"
+        },
+        {
+            "path": "textures/items/bundle_light_blue_open.png"
+        },
+        {
+            "path": "textures/items/bundle_light_blue_open_back.png"
+        },
+        {
+            "path": "textures/items/bundle_light_blue_open_front.png"
+        },
+        {
+            "path": "textures/items/bundle_light_gray.png"
+        },
+        {
+            "path": "textures/items/bundle_light_gray_open.png"
+        },
+        {
+            "path": "textures/items/bundle_light_gray_open_back.png"
+        },
+        {
+            "path": "textures/items/bundle_light_gray_open_front.png"
+        },
+        {
+            "path": "textures/items/bundle_lime.png"
+        },
+        {
+            "path": "textures/items/bundle_lime_open.png"
+        },
+        {
+            "path": "textures/items/bundle_lime_open_back.png"
+        },
+        {
+            "path": "textures/items/bundle_lime_open_front.png"
+        },
+        {
+            "path": "textures/items/bundle_magenta.png"
+        },
+        {
+            "path": "textures/items/bundle_magenta_open.png"
+        },
+        {
+            "path": "textures/items/bundle_magenta_open_back.png"
+        },
+        {
+            "path": "textures/items/bundle_magenta_open_front.png"
+        },
+        {
+            "path": "textures/items/bundle_open.png"
+        },
+        {
+            "path": "textures/items/bundle_open_back.png"
+        },
+        {
+            "path": "textures/items/bundle_open_front.png"
+        },
+        {
+            "path": "textures/items/bundle_orange.png"
+        },
+        {
+            "path": "textures/items/bundle_orange_open.png"
+        },
+        {
+            "path": "textures/items/bundle_orange_open_back.png"
+        },
+        {
+            "path": "textures/items/bundle_orange_open_front.png"
+        },
+        {
+            "path": "textures/items/bundle_pink.png"
+        },
+        {
+            "path": "textures/items/bundle_pink_open.png"
+        },
+        {
+            "path": "textures/items/bundle_pink_open_back.png"
+        },
+        {
+            "path": "textures/items/bundle_pink_open_front.png"
+        },
+        {
+            "path": "textures/items/bundle_purple.png"
+        },
+        {
+            "path": "textures/items/bundle_purple_open.png"
+        },
+        {
+            "path": "textures/items/bundle_purple_open_back.png"
+        },
+        {
+            "path": "textures/items/bundle_purple_open_front.png"
+        },
+        {
+            "path": "textures/items/bundle_red.png"
+        },
+        {
+            "path": "textures/items/bundle_red_open.png"
+        },
+        {
+            "path": "textures/items/bundle_red_open_back.png"
+        },
+        {
+            "path": "textures/items/bundle_red_open_front.png"
+        },
+        {
+            "path": "textures/items/bundle_white.png"
+        },
+        {
+            "path": "textures/items/bundle_white_open.png"
+        },
+        {
+            "path": "textures/items/bundle_white_open_back.png"
+        },
+        {
+            "path": "textures/items/bundle_white_open_front.png"
+        },
+        {
+            "path": "textures/items/bundle_yellow.png"
+        },
+        {
+            "path": "textures/items/bundle_yellow_open.png"
+        },
+        {
+            "path": "textures/items/bundle_yellow_open_back.png"
+        },
+        {
+            "path": "textures/items/bundle_yellow_open_front.png"
+        }
+    ]
+}

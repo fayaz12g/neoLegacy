@@ -1,0 +1,193 @@
+{
+  "crafter.fail": {
+    "category": "block",
+    "max_distance": 3.0,
+    "sounds": [
+      {
+        "name": "sounds/block/crafter/fail",
+        "pitch": 1.0,
+        "volume": 1.0
+      }
+    ]
+  },
+  "vault.break": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "sounds/block/vault/break1",
+        "pitch": 1.0
+      },
+      {
+        "name": "sounds/block/vault/break2",
+        "pitch": 1.0
+      },
+      {
+        "name": "sounds/block/vault/break3",
+        "pitch": 1.0
+      },
+      {
+        "name": "sounds/block/vault/break4",
+        "pitch": 1.0
+      }
+    ]
+  },
+  "open_door.copper": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "sounds/block/copper_door/toggle1"
+      },
+      {
+        "name": "sounds/block/copper_door/toggle2"
+      },
+      {
+        "name": "sounds/block/copper_door/toggle3"
+      }
+    ]
+  },
+  "music.overworld.lush_caves": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/game/an_ordinary_day",
+        "stream": true,
+        "volume": 0.40,
+        "weight": 2
+      },
+      {
+        "name": "sounds/music/game/left_to_bloom",
+        "stream": true,
+        "volume": 0.40,
+        "weight": 4
+      },
+      {
+        "name": "sounds/music/game/one_more_day",
+        "stream": true,
+        "volume": 0.40,
+        "weight": 2
+      },
+      {
+        "name": "sounds/music/game/echo_in_the_wind",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 2
+      },
+      {
+        "name": "sounds/music/game/floating_dream",
+        "stream": true,
+        "volume": 0.40,
+        "weight": 2
+      },
+      {
+        "name": "sounds/music/game/piano3",
+        "stream": true,
+        "weight": 2
+      },
+      {
+        "name": "sounds/music/game/calm1",
+        "stream": true,
+        "weight": 2
+      },
+      {
+        "name": "sounds/music/game/calm2",
+        "stream": true,
+        "weight": 2
+      },
+      {
+        "name": "sounds/music/game/calm3",
+        "stream": true,
+        "weight": 2
+      },
+      {
+        "name": "sounds/music/game/aerie",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "sounds/music/game/firebugs",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "sounds/music/game/labyrinthine",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "sounds/music/game/featherfall",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 2
+      }
+    ]
+  },
+  "record.creator": {
+    "max_distance": 64.0,
+    "category": "record",
+    "sounds": [
+      {
+        "name": "sounds/music/game/records/creator",
+        "stream": true,
+        "volume": 0.5
+      }
+    ]
+  },
+  "record.creator_music_box": {
+    "max_distance": 64.0,
+    "category": "record",
+    "sounds": [
+      {
+        "name": "sounds/music/game/records/creator_music_box",
+        "stream": true,
+        "volume": 0.5
+      }
+    ]
+  },
+  "record.precipice": {
+    "max_distance": 64.0,
+    "category": "record",
+    "sounds": [
+      {
+        "name": "sounds/music/game/records/precipice",
+        "stream": true,
+        "volume": 0.5
+      }
+    ]
+  },
+  "record.5": {
+    "max_distance": 64.0,
+    "category": "record",
+    "sounds": [
+      {
+        "name": "sounds/music/game/records/5",
+        "stream": true,
+        "volume": 0.5,
+        "load_on_low_memory": true
+      }
+    ]
+  },
+  "record.otherside": {
+    "max_distance": 64.0,
+    "category": "record",
+    "sounds": [
+      {
+        "name": "sounds/music/game/records/otherside",
+        "stream": true,
+        "volume": 0.5,
+        "load_on_low_memory": true
+      }
+    ]
+  },
+  "record.relic": {
+    "max_distance": 64,
+    "category": "record",
+    "sounds": [
+      {
+        "name": "sounds/music/game/records/relic",
+        "stream": true,
+        "volume": 0.5,
+        "load_on_low_memory": true
+      }
+    ]
+  }
+}

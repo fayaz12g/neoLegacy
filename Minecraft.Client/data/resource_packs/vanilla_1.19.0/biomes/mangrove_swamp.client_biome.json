@@ -1,0 +1,23 @@
+{
+  "format_version": "1.21.70",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "mangrove_swamp"
+    },
+    "components": {
+      "minecraft:foliage_appearance": {
+        "color": {
+          "color_map": "mangrove_swamp_foliage"
+        }
+      },
+      "minecraft:grass_appearance": {
+        "color": {
+          "color_map": "swamp_grass"
+        }
+      },
+      "minecraft:biome_music": {
+        "music_definition": "mangrove_swamp"
+      }
+    }
+  }
+}

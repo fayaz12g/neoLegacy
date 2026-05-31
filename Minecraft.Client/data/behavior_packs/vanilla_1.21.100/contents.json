@@ -1,0 +1,58 @@
+{
+    "content": [
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "biomes/deep_frozen_ocean.biome.json"
+        },
+        {
+            "path": "biomes/frozen_ocean.biome.json"
+        },
+        {
+            "path": "biomes/roofed_forest.biome.json"
+        },
+        {
+            "path": "biomes/roofed_forest_mutated.biome.json"
+        },
+        {
+            "path": "entities/allay.json"
+        },
+        {
+            "path": "entities/cave_spider.json"
+        },
+        {
+            "path": "entities/enderman.json"
+        },
+        {
+            "path": "entities/fox.json"
+        },
+        {
+            "path": "entities/glow_squid.json"
+        },
+        {
+            "path": "entities/happy_ghast.json"
+        },
+        {
+            "path": "entities/spider.json"
+        },
+        {
+            "path": "entities/squid.json"
+        },
+        {
+            "path": "entities/wolf.json"
+        },
+        {
+            "path": "features/optional_mountain_spruce_tree_feature.json"
+        },
+        {
+            "path": "feature_rules/grove_spruce_tree_feature.json"
+        },
+        {
+            "path": "item_catalog/crafting_item_catalog.json"
+        },
+        {
+            "path": "loot_tables/entities/zombie.json"
+        }
+    ]
+}

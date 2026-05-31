@@ -1,0 +1,691 @@
+{
+    "content": [
+        {
+            "path": "blocks.json"
+        },
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "sounds.json"
+        },
+        {
+            "path": "animations/breeze.animation.json"
+        },
+        {
+            "path": "animations/wind_charge.animation.json"
+        },
+        {
+            "path": "animation_controllers/breeze.animation_controllers.json"
+        },
+        {
+            "path": "attachables/mace.json"
+        },
+        {
+            "path": "entity/bogged.entity.json"
+        },
+        {
+            "path": "entity/breeze.entity.json"
+        },
+        {
+            "path": "entity/breeze_wind_charge_projectile.entity.json"
+        },
+        {
+            "path": "entity/decorated_pot.entity.json"
+        },
+        {
+            "path": "entity/lingering_potion.entity.json"
+        },
+        {
+            "path": "entity/splash_potion.entity.json"
+        },
+        {
+            "path": "entity/trial_spawner.entity.json"
+        },
+        {
+            "path": "entity/wind_charge_projectile.entity.json"
+        },
+        {
+            "path": "models/entity/bogged.geo.json"
+        },
+        {
+            "path": "models/entity/bogged_armor.geo.json"
+        },
+        {
+            "path": "models/entity/breeze.geo.json"
+        },
+        {
+            "path": "models/entity/wind_charge.geo.json"
+        },
+        {
+            "path": "particles/breeze_ground_particle.json"
+        },
+        {
+            "path": "particles/breeze_wind_explosion.json"
+        },
+        {
+            "path": "particles/infested_ambient.json"
+        },
+        {
+            "path": "particles/infested_emitter.json"
+        },
+        {
+            "path": "particles/ominous_spawning_particle.json"
+        },
+        {
+            "path": "particles/oozing_ambient.json"
+        },
+        {
+            "path": "particles/oozing_emitter.json"
+        },
+        {
+            "path": "particles/raid_omen_ambient.json"
+        },
+        {
+            "path": "particles/raid_omen_emitter.json"
+        },
+        {
+            "path": "particles/small_flame.json"
+        },
+        {
+            "path": "particles/small_soul_fire_flame.json"
+        },
+        {
+            "path": "particles/smash_ground_particle.json"
+        },
+        {
+            "path": "particles/smash_ground_particle_center.json"
+        },
+        {
+            "path": "particles/trial_omen_ambient.json"
+        },
+        {
+            "path": "particles/trial_omen_emitter.json"
+        },
+        {
+            "path": "particles/trial_omen_single.json"
+        },
+        {
+            "path": "particles/trial_spawner_detection.particle.json"
+        },
+        {
+            "path": "particles/trial_spawner_detection_ominous.particle.json"
+        },
+        {
+            "path": "particles/vault_connection.json"
+        },
+        {
+            "path": "particles/weaving_ambient.json"
+        },
+        {
+            "path": "particles/weaving_emitter.json"
+        },
+        {
+            "path": "particles/white_smoke.json"
+        },
+        {
+            "path": "particles/wind_charged_ambient.json"
+        },
+        {
+            "path": "particles/wind_charged_emitter.json"
+        },
+        {
+            "path": "particles/wind_explosion.json"
+        },
+        {
+            "path": "render_controllers/bogged.render_controllers.json"
+        },
+        {
+            "path": "render_controllers/bogged_clothes.render_controllers.json"
+        },
+        {
+            "path": "render_controllers/breeze.render_controllers.json"
+        },
+        {
+            "path": "render_controllers/lingering_potion.render_controllers.json"
+        },
+        {
+            "path": "render_controllers/persona.render_controllers.json"
+        },
+        {
+            "path": "render_controllers/player.render_controllers.json"
+        },
+        {
+            "path": "render_controllers/splash_potion.render_controllers.json"
+        },
+        {
+            "path": "render_controllers/wind_charge.render_controllers.json"
+        },
+        {
+            "path": "sounds/music_definitions.json"
+        },
+        {
+            "path": "sounds/sound_definitions.json"
+        },
+        {
+            "path": "textures/item_texture.json"
+        },
+        {
+            "path": "textures/terrain_texture.json"
+        },
+        {
+            "path": "textures/textures_list.json"
+        },
+        {
+            "path": "textures/blocks/chiseled_copper.png"
+        },
+        {
+            "path": "textures/blocks/chiseled_tuff.png"
+        },
+        {
+            "path": "textures/blocks/chiseled_tuff_bricks.png"
+        },
+        {
+            "path": "textures/blocks/chiseled_tuff_bricks_top.png"
+        },
+        {
+            "path": "textures/blocks/chiseled_tuff_top.png"
+        },
+        {
+            "path": "textures/blocks/copper_bulb.png"
+        },
+        {
+            "path": "textures/blocks/copper_bulb_lit.png"
+        },
+        {
+            "path": "textures/blocks/copper_bulb_lit_powered.png"
+        },
+        {
+            "path": "textures/blocks/copper_bulb_powered.png"
+        },
+        {
+            "path": "textures/blocks/copper_door_bottom.png"
+        },
+        {
+            "path": "textures/blocks/copper_door_top.png"
+        },
+        {
+            "path": "textures/blocks/copper_grate.png"
+        },
+        {
+            "path": "textures/blocks/copper_trapdoor.png"
+        },
+        {
+            "path": "textures/blocks/crafter_bottom.png"
+        },
+        {
+            "path": "textures/blocks/crafter_east.png"
+        },
+        {
+            "path": "textures/blocks/crafter_east_crafting.png"
+        },
+        {
+            "path": "textures/blocks/crafter_east_triggered.png"
+        },
+        {
+            "path": "textures/blocks/crafter_north.png"
+        },
+        {
+            "path": "textures/blocks/crafter_north_crafting.png"
+        },
+        {
+            "path": "textures/blocks/crafter_south.png"
+        },
+        {
+            "path": "textures/blocks/crafter_south_triggered.png"
+        },
+        {
+            "path": "textures/blocks/crafter_top.png"
+        },
+        {
+            "path": "textures/blocks/crafter_top_crafting.png"
+        },
+        {
+            "path": "textures/blocks/crafter_top_triggered.png"
+        },
+        {
+            "path": "textures/blocks/crafter_west.png"
+        },
+        {
+            "path": "textures/blocks/crafter_west_crafting.png"
+        },
+        {
+            "path": "textures/blocks/crafter_west_triggered.png"
+        },
+        {
+            "path": "textures/blocks/exposed_chiseled_copper.png"
+        },
+        {
+            "path": "textures/blocks/exposed_copper_bulb.png"
+        },
+        {
+            "path": "textures/blocks/exposed_copper_bulb_lit.png"
+        },
+        {
+            "path": "textures/blocks/exposed_copper_bulb_lit_powered.png"
+        },
+        {
+            "path": "textures/blocks/exposed_copper_bulb_powered.png"
+        },
+        {
+            "path": "textures/blocks/exposed_copper_door_bottom.png"
+        },
+        {
+            "path": "textures/blocks/exposed_copper_door_top.png"
+        },
+        {
+            "path": "textures/blocks/exposed_copper_grate.png"
+        },
+        {
+            "path": "textures/blocks/exposed_copper_trapdoor.png"
+        },
+        {
+            "path": "textures/blocks/flow_pottery_pattern.png"
+        },
+        {
+            "path": "textures/blocks/guster_pottery_pattern.png"
+        },
+        {
+            "path": "textures/blocks/heavy_core.png"
+        },
+        {
+            "path": "textures/blocks/oxidized_chiseled_copper.png"
+        },
+        {
+            "path": "textures/blocks/oxidized_copper_bulb.png"
+        },
+        {
+            "path": "textures/blocks/oxidized_copper_bulb_lit.png"
+        },
+        {
+            "path": "textures/blocks/oxidized_copper_bulb_lit_powered.png"
+        },
+        {
+            "path": "textures/blocks/oxidized_copper_bulb_powered.png"
+        },
+        {
+            "path": "textures/blocks/oxidized_copper_door_bottom.png"
+        },
+        {
+            "path": "textures/blocks/oxidized_copper_door_top.png"
+        },
+        {
+            "path": "textures/blocks/oxidized_copper_grate.png"
+        },
+        {
+            "path": "textures/blocks/oxidized_copper_trapdoor.png"
+        },
+        {
+            "path": "textures/blocks/polished_tuff.png"
+        },
+        {
+            "path": "textures/blocks/scrape_pottery_pattern.png"
+        },
+        {
+            "path": "textures/blocks/trial_spawner_bottom.png"
+        },
+        {
+            "path": "textures/blocks/trial_spawner_side.png"
+        },
+        {
+            "path": "textures/blocks/trial_spawner_side_active.png"
+        },
+        {
+            "path": "textures/blocks/trial_spawner_side_active_ominous.png"
+        },
+        {
+            "path": "textures/blocks/trial_spawner_side_inactive.png"
+        },
+        {
+            "path": "textures/blocks/trial_spawner_side_inactive_ominous.png"
+        },
+        {
+            "path": "textures/blocks/trial_spawner_top.png"
+        },
+        {
+            "path": "textures/blocks/trial_spawner_top_active.png"
+        },
+        {
+            "path": "textures/blocks/trial_spawner_top_active_ominous.png"
+        },
+        {
+            "path": "textures/blocks/trial_spawner_top_ejecting_reward.png"
+        },
+        {
+            "path": "textures/blocks/trial_spawner_top_ejecting_reward_ominous.png"
+        },
+        {
+            "path": "textures/blocks/trial_spawner_top_inactive.png"
+        },
+        {
+            "path": "textures/blocks/trial_spawner_top_inactive_ominous.png"
+        },
+        {
+            "path": "textures/blocks/trial_spawner_top_open.png"
+        },
+        {
+            "path": "textures/blocks/tuff.png"
+        },
+        {
+            "path": "textures/blocks/tuff_bricks.png"
+        },
+        {
+            "path": "textures/blocks/vault_bottom.png"
+        },
+        {
+            "path": "textures/blocks/vault_bottom_ominous.png"
+        },
+        {
+            "path": "textures/blocks/vault_front_ejecting.png"
+        },
+        {
+            "path": "textures/blocks/vault_front_ejecting_ominous.png"
+        },
+        {
+            "path": "textures/blocks/vault_front_off.png"
+        },
+        {
+            "path": "textures/blocks/vault_front_off_ominous.png"
+        },
+        {
+            "path": "textures/blocks/vault_front_on.png"
+        },
+        {
+            "path": "textures/blocks/vault_front_on_ominous.png"
+        },
+        {
+            "path": "textures/blocks/vault_side_off.png"
+        },
+        {
+            "path": "textures/blocks/vault_side_off_ominous.png"
+        },
+        {
+            "path": "textures/blocks/vault_side_on.png"
+        },
+        {
+            "path": "textures/blocks/vault_side_on_ominous.png"
+        },
+        {
+            "path": "textures/blocks/vault_top.png"
+        },
+        {
+            "path": "textures/blocks/vault_top_ejecting.png"
+        },
+        {
+            "path": "textures/blocks/vault_top_ejecting_ominous.png"
+        },
+        {
+            "path": "textures/blocks/vault_top_ominous.png"
+        },
+        {
+            "path": "textures/blocks/weathered_chiseled_copper.png"
+        },
+        {
+            "path": "textures/blocks/weathered_copper_bulb.png"
+        },
+        {
+            "path": "textures/blocks/weathered_copper_bulb_lit.png"
+        },
+        {
+            "path": "textures/blocks/weathered_copper_bulb_lit_powered.png"
+        },
+        {
+            "path": "textures/blocks/weathered_copper_bulb_powered.png"
+        },
+        {
+            "path": "textures/blocks/weathered_copper_door_bottom.png"
+        },
+        {
+            "path": "textures/blocks/weathered_copper_door_top.png"
+        },
+        {
+            "path": "textures/blocks/weathered_copper_grate.png"
+        },
+        {
+            "path": "textures/blocks/weathered_copper_trapdoor.png"
+        },
+        {
+            "path": "textures/entity/wind_charge.png"
+        },
+        {
+            "path": "textures/entity/banner/banner_flow.png"
+        },
+        {
+            "path": "textures/entity/banner/banner_guster.png"
+        },
+        {
+            "path": "textures/entity/breeze/breeze.png"
+        },
+        {
+            "path": "textures/entity/breeze/breeze_eyes.png"
+        },
+        {
+            "path": "textures/entity/breeze/breeze_wind.png"
+        },
+        {
+            "path": "textures/entity/shield_patterns/flow.png"
+        },
+        {
+            "path": "textures/entity/shield_patterns/guster.png"
+        },
+        {
+            "path": "textures/entity/skeleton/bogged.png"
+        },
+        {
+            "path": "textures/entity/skeleton/bogged_clothes.png"
+        },
+        {
+            "path": "textures/items/bolt_armor_trim_smithing_template.png"
+        },
+        {
+            "path": "textures/items/breeze_rod.png"
+        },
+        {
+            "path": "textures/items/copper_door.png"
+        },
+        {
+            "path": "textures/items/exposed_copper_door.png"
+        },
+        {
+            "path": "textures/items/flow_armor_trim_smithing_template.png"
+        },
+        {
+            "path": "textures/items/flow_banner_pattern.png"
+        },
+        {
+            "path": "textures/items/flow_pottery_sherd.png"
+        },
+        {
+            "path": "textures/items/guster_banner_pattern.png"
+        },
+        {
+            "path": "textures/items/guster_pottery_sherd.png"
+        },
+        {
+            "path": "textures/items/mace.png"
+        },
+        {
+            "path": "textures/items/map_trial_chambers.png"
+        },
+        {
+            "path": "textures/items/music_disc_creator.png"
+        },
+        {
+            "path": "textures/items/music_disc_creator_music_box.png"
+        },
+        {
+            "path": "textures/items/music_disc_precipice.png"
+        },
+        {
+            "path": "textures/items/ominous_bottle.png"
+        },
+        {
+            "path": "textures/items/ominous_trial_key.png"
+        },
+        {
+            "path": "textures/items/oxidized_copper_door.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_infested.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_lingering_infested.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_lingering_oozing.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_lingering_weaving.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_lingering_windCharged.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_oozing.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_splash_infested.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_splash_oozing.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_splash_weaving.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_splash_windCharged.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_weaving.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_windCharged.png"
+        },
+        {
+            "path": "textures/items/scrape_pottery_sherd.png"
+        },
+        {
+            "path": "textures/items/tipped_arrow_infested.png"
+        },
+        {
+            "path": "textures/items/tipped_arrow_oozing.png"
+        },
+        {
+            "path": "textures/items/tipped_arrow_weaving.png"
+        },
+        {
+            "path": "textures/items/tipped_arrow_windCharged.png"
+        },
+        {
+            "path": "textures/items/trial_key.png"
+        },
+        {
+            "path": "textures/items/weathered_copper_door.png"
+        },
+        {
+            "path": "textures/items/wind_charge.png"
+        },
+        {
+            "path": "textures/map/trial_chambers.png"
+        },
+        {
+            "path": "textures/painting/backyard.png"
+        },
+        {
+            "path": "textures/painting/baroque.png"
+        },
+        {
+            "path": "textures/painting/bouquet.png"
+        },
+        {
+            "path": "textures/painting/cavebird.png"
+        },
+        {
+            "path": "textures/painting/changing.png"
+        },
+        {
+            "path": "textures/painting/cotan.png"
+        },
+        {
+            "path": "textures/painting/endboss.png"
+        },
+        {
+            "path": "textures/painting/fern.png"
+        },
+        {
+            "path": "textures/painting/finding.png"
+        },
+        {
+            "path": "textures/painting/humble.png"
+        },
+        {
+            "path": "textures/painting/lowmist.png"
+        },
+        {
+            "path": "textures/painting/meditative.png"
+        },
+        {
+            "path": "textures/painting/orb.png"
+        },
+        {
+            "path": "textures/painting/owlemons.png"
+        },
+        {
+            "path": "textures/painting/passage.png"
+        },
+        {
+            "path": "textures/painting/pond.png"
+        },
+        {
+            "path": "textures/painting/prairie_ride.png"
+        },
+        {
+            "path": "textures/painting/sunflowers.png"
+        },
+        {
+            "path": "textures/painting/tides.png"
+        },
+        {
+            "path": "textures/painting/unpacked.png"
+        },
+        {
+            "path": "textures/particle/gust.png"
+        },
+        {
+            "path": "textures/particle/infested.png"
+        },
+        {
+            "path": "textures/particle/ominous_spawning.png"
+        },
+        {
+            "path": "textures/particle/raid_omen.png"
+        },
+        {
+            "path": "textures/particle/small_gust.png"
+        },
+        {
+            "path": "textures/particle/trial_omen.png"
+        },
+        {
+            "path": "textures/particle/vault_connection.png"
+        },
+        {
+            "path": "textures/particles/trial_spawner_atlas.png"
+        },
+        {
+            "path": "textures/particles/trial_spawner_ominous_atlas.png"
+        },
+        {
+            "path": "textures/trims/bolt.png"
+        },
+        {
+            "path": "textures/trims/bolt_leggings.png"
+        },
+        {
+            "path": "textures/trims/flow.png"
+        },
+        {
+            "path": "textures/trims/flow_leggings.png"
+        }
+    ]
+}

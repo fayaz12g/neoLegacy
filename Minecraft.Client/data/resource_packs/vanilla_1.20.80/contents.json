@@ -1,0 +1,163 @@
+{
+    "content": [
+        {
+            "path": "blocks.json"
+        },
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "sounds.json"
+        },
+        {
+            "path": "animations/armadillo.animation.json"
+        },
+        {
+            "path": "animations/wolf.animations.json"
+        },
+        {
+            "path": "animation_controllers/armadillo.animation_controllers.json"
+        },
+        {
+            "path": "attachables/wolf_armor.json"
+        },
+        {
+            "path": "entity/armadillo.entity.json"
+        },
+        {
+            "path": "entity/wolf.entity.json"
+        },
+        {
+            "path": "models/entity/armadillo.geo.json"
+        },
+        {
+            "path": "models/entity/wolf_armor.geo.json"
+        },
+        {
+            "path": "render_controllers/armadillo.render_controllers.json"
+        },
+        {
+            "path": "render_controllers/wolf.render_controllers.json"
+        },
+        {
+            "path": "render_controllers/wolf_armor.render_controllers.json"
+        },
+        {
+            "path": "sounds/sound_definitions.json"
+        },
+        {
+            "path": "textures/item_texture.json"
+        },
+        {
+            "path": "textures/terrain_texture.json"
+        },
+        {
+            "path": "textures/blocks/missing_tile.png"
+        },
+        {
+            "path": "textures/entity/armadillo.png"
+        },
+        {
+            "path": "textures/entity/wolf/wolf_armor.png"
+        },
+        {
+            "path": "textures/entity/wolf/wolf_armor_cracked_high.png"
+        },
+        {
+            "path": "textures/entity/wolf/wolf_armor_cracked_low.png"
+        },
+        {
+            "path": "textures/entity/wolf/wolf_armor_cracked_medium.png"
+        },
+        {
+            "path": "textures/entity/wolf/wolf_armor_cracked_none.png"
+        },
+        {
+            "path": "textures/entity/wolf/wolf_armor_dyed.tga"
+        },
+        {
+            "path": "textures/entity/wolf/wolf_ashen.png"
+        },
+        {
+            "path": "textures/entity/wolf/wolf_ashen_angry.png"
+        },
+        {
+            "path": "textures/entity/wolf/wolf_ashen_tame.tga"
+        },
+        {
+            "path": "textures/entity/wolf/wolf_black.png"
+        },
+        {
+            "path": "textures/entity/wolf/wolf_black_angry.png"
+        },
+        {
+            "path": "textures/entity/wolf/wolf_black_tame.tga"
+        },
+        {
+            "path": "textures/entity/wolf/wolf_chestnut.png"
+        },
+        {
+            "path": "textures/entity/wolf/wolf_chestnut_angry.png"
+        },
+        {
+            "path": "textures/entity/wolf/wolf_chestnut_tame.tga"
+        },
+        {
+            "path": "textures/entity/wolf/wolf_rusty.png"
+        },
+        {
+            "path": "textures/entity/wolf/wolf_rusty_angry.png"
+        },
+        {
+            "path": "textures/entity/wolf/wolf_rusty_tame.tga"
+        },
+        {
+            "path": "textures/entity/wolf/wolf_snowy.png"
+        },
+        {
+            "path": "textures/entity/wolf/wolf_snowy_angry.png"
+        },
+        {
+            "path": "textures/entity/wolf/wolf_snowy_tame.tga"
+        },
+        {
+            "path": "textures/entity/wolf/wolf_spotted.png"
+        },
+        {
+            "path": "textures/entity/wolf/wolf_spotted_angry.png"
+        },
+        {
+            "path": "textures/entity/wolf/wolf_spotted_tame.tga"
+        },
+        {
+            "path": "textures/entity/wolf/wolf_striped.png"
+        },
+        {
+            "path": "textures/entity/wolf/wolf_striped_angry.png"
+        },
+        {
+            "path": "textures/entity/wolf/wolf_striped_tame.tga"
+        },
+        {
+            "path": "textures/entity/wolf/wolf_tame.tga"
+        },
+        {
+            "path": "textures/entity/wolf/wolf_woods.png"
+        },
+        {
+            "path": "textures/entity/wolf/wolf_woods_angry.png"
+        },
+        {
+            "path": "textures/entity/wolf/wolf_woods_tame.tga"
+        },
+        {
+            "path": "textures/items/armadillo_scute.png"
+        },
+        {
+            "path": "textures/items/wolf_armor.png"
+        },
+        {
+            "path": "textures/items/wolf_armor_dyed.tga"
+        }
+    ]
+}

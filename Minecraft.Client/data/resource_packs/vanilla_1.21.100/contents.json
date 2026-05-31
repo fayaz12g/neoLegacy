@@ -1,0 +1,64 @@
+{
+    "content": [
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "sounds.json"
+        },
+        {
+            "path": "animations/squid.animation.json"
+        },
+        {
+            "path": "biomes/roofed_forest.client_biome.json"
+        },
+        {
+            "path": "biomes/swampland.client_biome.json"
+        },
+        {
+            "path": "biomes/swampland_mutated.client_biome.json"
+        },
+        {
+            "path": "fogs/swampland_fog_setting.json"
+        },
+        {
+            "path": "fogs/swampland_mutated_fog_setting.json"
+        },
+        {
+            "path": "models/entity/item_sprite.geo.json"
+        },
+        {
+            "path": "models/entity/squid.geo.json"
+        },
+        {
+            "path": "render_controllers/happy_ghast.render_controllers.json"
+        },
+        {
+            "path": "sounds/sound_definitions.json"
+        },
+        {
+            "path": "textures/flame_atlas.png"
+        },
+        {
+            "path": "textures/flame_atlas.texture_set.json"
+        },
+        {
+            "path": "textures/item_texture.json"
+        },
+        {
+            "path": "textures/textures_list.json"
+        },
+        {
+            "path": "textures/items/music_disc_lava_chicken.png"
+        },
+        {
+            "path": "textures/painting/dennis.png"
+        },
+        {
+            "path": "textures/painting/dennis.texture_set.json"
+        },
+        {
+            "path": "textures/painting/dennis_mers.tga"
+        }
+    ]
+}

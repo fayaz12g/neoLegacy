@@ -1,0 +1,70 @@
+{
+    "content": [
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "entities/camel.json"
+        },
+        {
+            "path": "entities/dolphin.json"
+        },
+        {
+            "path": "entities/drowned.json"
+        },
+        {
+            "path": "entities/evocation_illager.json"
+        },
+        {
+            "path": "entities/hoglin.json"
+        },
+        {
+            "path": "entities/husk.json"
+        },
+        {
+            "path": "entities/pig.json"
+        },
+        {
+            "path": "entities/piglin.json"
+        },
+        {
+            "path": "entities/skeleton.json"
+        },
+        {
+            "path": "entities/sniffer.json"
+        },
+        {
+            "path": "entities/snow_golem.json"
+        },
+        {
+            "path": "entities/stray.json"
+        },
+        {
+            "path": "entities/villager_v2.json"
+        },
+        {
+            "path": "entities/vindicator.json"
+        },
+        {
+            "path": "entities/witch.json"
+        },
+        {
+            "path": "entities/wither_skeleton.json"
+        },
+        {
+            "path": "entities/zombie.json"
+        },
+        {
+            "path": "entities/zombie_villager.json"
+        },
+        {
+            "path": "entities/zombie_villager_v2.json"
+        },
+        {
+            "path": "feature_rules/overworld_underground_diamond_ore_feature_square.json"
+        },
+        {
+            "path": "loot_tables/gameplay/entities/sniffer_seeds.json"
+        }
+    ]
+}

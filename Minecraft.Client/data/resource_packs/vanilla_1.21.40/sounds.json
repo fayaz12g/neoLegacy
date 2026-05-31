@@ -1,0 +1,62 @@
+{
+  "block_sounds": {
+    "mob_spawner": {
+      "volume": 1.0,
+      "pitch": 1.0,
+      "events": {
+        "hit": {
+          "sound": "block.mob_spawner.step",
+          "volume": 0.4,
+          "pitch": 0.5
+        }
+      }
+    },
+    "trial_spawner": {
+      "volume": 1.0,
+      "pitch": 1.0,
+      "events": {
+        "hit": {
+          "sound": "trial_spawner.hit",
+          "volume": 0.38,
+          "pitch": 0.5
+        }
+      }
+    }
+  },
+  "interactive_sounds": {
+    "block_sounds": {
+      "mob_spawner": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "step": {
+            "sound": "block.mob_spawner.step",
+            "volume": 0.2
+          }
+        }
+      }
+    }
+  },
+  "individual_event_sounds": {
+    "events" :{
+      "bundle.drop_contents":  {"sound":  "bundle.drop_contents", "volume": 1.0, "pitch": 1.0},
+      "bundle.insert":  {"sound":  "bundle.insert", "volume": 1.0, "pitch": 1.0},
+      "bundle.remove_one":  {"sound":  "bundle.remove_one", "volume": 1.0, "pitch": 1.0},
+      "bundle.insert_fail":  {"sound":  "bundle.insert_fail", "volume": 1.0, "pitch": 1.0}
+    }
+  },
+  "entity_sounds": {
+    "entities": {
+      "wither_skeleton": {
+        "volume": 1.0,
+        "events": {
+          "step": {
+            "sound": "entity.wither_skeleton.step",
+            "volume": 1.0,
+            "pitch": 1.0
+          }
+        }
+      }
+    }
+  }
+}

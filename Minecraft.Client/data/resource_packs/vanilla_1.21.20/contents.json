@@ -1,0 +1,28 @@
+{
+    "content": [
+        {
+            "path": "blocks.json"
+        },
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "sounds.json"
+        },
+        {
+            "path": "sounds/sound_definitions.json"
+        },
+        {
+            "path": "textures/terrain_texture.json"
+        },
+        {
+            "path": "textures/entity/banner/banner_flow.png"
+        },
+        {
+            "path": "textures/entity/banner/banner_guster.png"
+        },
+        {
+            "path": "textures/entity/banner/banner_skull.png"
+        }
+    ]
+}

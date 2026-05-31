@@ -1,0 +1,5 @@
+{
+	"$coin_color": [ 1, 1, 1 ],
+	"$coin_bonus_price_color": [ 1, 1, 1 ],
+	"$coin_offer_text_color": [ 1, 1, 1 ]
+}

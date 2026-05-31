@@ -1,0 +1,100 @@
+{
+    "content": [
+        {
+            "path": "blocks.json"
+        },
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "sounds.json"
+        },
+        {
+            "path": "animations/evoker.animation.json"
+        },
+        {
+            "path": "animations/vex.animation.json"
+        },
+        {
+            "path": "animation_controllers/evoker.animation_controllers.json"
+        },
+        {
+            "path": "animation_controllers/humanoid.animation_controllers.json"
+        },
+        {
+            "path": "entity/ender_dragon.entity.json"
+        },
+        {
+            "path": "entity/evocation_illager.entity.json"
+        },
+        {
+            "path": "entity/evocation_illager.v1.0.entity.json"
+        },
+        {
+            "path": "entity/iron_golem.entity.json"
+        },
+        {
+            "path": "entity/polar_bear.entity.json"
+        },
+        {
+            "path": "entity/snow_golem.entity.json"
+        },
+        {
+            "path": "entity/snow_golem.v1.0.entity.json"
+        },
+        {
+            "path": "entity/vex.entity.json"
+        },
+        {
+            "path": "entity/wither.entity.json"
+        },
+        {
+            "path": "entity/wither.v1.0.entity.json"
+        },
+        {
+            "path": "models/entity/allay.geo.json"
+        },
+        {
+            "path": "models/entity/evoker.geo.json"
+        },
+        {
+            "path": "models/entity/evoker_v1.0.geo.json"
+        },
+        {
+            "path": "models/entity/vex.geo.json"
+        },
+        {
+            "path": "particles/glow.json"
+        },
+        {
+            "path": "particles/mobspell_ambient.json"
+        },
+        {
+            "path": "render_controllers/vex.render_controllers.json"
+        },
+        {
+            "path": "sounds/sound_definitions.json"
+        },
+        {
+            "path": "textures/textures_list.json"
+        },
+        {
+            "path": "textures/entity/horse2/donkey.png"
+        },
+        {
+            "path": "textures/entity/horse2/horse_skeleton.png"
+        },
+        {
+            "path": "textures/entity/horse2/horse_zombie.png"
+        },
+        {
+            "path": "textures/entity/horse2/mule.png"
+        },
+        {
+            "path": "textures/entity/vex/vex.png"
+        },
+        {
+            "path": "textures/entity/vex/vex_charging.png"
+        }
+    ]
+}

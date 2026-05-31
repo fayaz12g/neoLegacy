@@ -1,0 +1,25 @@
+{
+    "content": [
+        {
+            "path": "blocks.json"
+        },
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "sounds.json"
+        },
+        {
+            "path": "animations/ender_crystal.animation.json"
+        },
+        {
+            "path": "items/suspicious_stew.json"
+        },
+        {
+            "path": "sounds/sound_definitions.json"
+        },
+        {
+            "path": "textures/terrain_texture.json"
+        }
+    ]
+}

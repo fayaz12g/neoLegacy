@@ -1,0 +1,155 @@
+{
+  "individual_event_sounds": {
+    "events": {
+      "bottle.fill": {"sound": "bottle.fill", "volume": 1.0, "pitch": 1.0},
+      "bottle.empty": {"sound": "bottle.empty", "volume": 1.0, "pitch": 1.0},
+      "bottle.dragonbreath": {"sound": "bottle.dragonbreath", "volume": 1.0, "pitch": 1.0},
+      "horn_call0": {
+        "sound": "horn.call.0",
+        "pitch": 1.0,
+        "volume": 16.0
+      },
+      "horn_call1": {
+        "sound": "horn.call.1",
+        "pitch": 1.0,
+        "volume": 16.0
+      },
+      "horn_call2": {
+        "sound": "horn.call.2",
+        "pitch": 1.0,
+        "volume": 16.0
+      },
+      "horn_call3": {
+        "sound": "horn.call.3",
+        "pitch": 1.0,
+        "volume": 16.0
+      },
+      "horn_call4": {
+        "sound": "horn.call.4",
+        "pitch": 1.0,
+        "volume": 16.0
+      },
+      "horn_call5": {
+        "sound": "horn.call.5",
+        "pitch": 1.0,
+        "volume": 16.0
+      },
+      "horn_call6": {
+        "sound": "horn.call.6",
+        "pitch": 1.0,
+        "volume": 16.0
+      },
+      "horn_call7": {
+        "sound": "horn.call.7",
+        "pitch": 1.0,
+        "volume": 16.0
+      }
+    }
+  },
+  "block_sounds": {
+  },
+  "interactive_sounds": {
+    "block_sounds": {
+    }
+  },
+  "entity_sounds": {
+    "entities": {
+      "wither_skeleton": {
+        "volume": 1.0,
+        "events": {
+          "ambient": {
+            "sound": "entity.wither_skeleton.ambient",
+            "volume": 1.0,
+            "pitch": [0.8, 1.2]
+          },
+          "hurt": {
+            "sound": "entity.wither_skeleton.hurt",
+            "volume": 1.0,
+            "pitch": [0.8, 1.2]
+          },
+          "death": {
+            "sound": "entity.wither_skeleton.death",
+            "volume": 1.0,
+            "pitch": [0.8, 1.2]
+          }
+        }
+      },
+      "guardian": {
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.guardian.land_idle",
+          "hurt": "mob.guardian.land_hit",
+          "death": "mob.guardian.land_death",
+          "ambient.in.water": "mob.guardian.ambient",
+          "hurt.in.water": "mob.guardian.hit",
+          "death.in.water": "mob.guardian.death",
+          "flop": "mob.guardian.flop"
+        }
+      },
+      "elder_guardian": {
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.guardian.land_idle",
+          "hurt": "mob.guardian.land_hit",
+          "death": "mob.elderguardian.death",
+          "ambient.in.water": "mob.elderguardian.idle",
+          "hurt.in.water": "mob.elderguardian.hit",
+          "death.in.water": "mob.elderguardian.death",
+          "flop":  "mob.guardian.flop"
+        }
+      },
+      "cat": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient.tame": "mob.cat.meow",
+          "ambient": "mob.cat.straymeow",
+          "hurt": {
+            "sound": "mob.cat.hit",
+            "volume": 0.45
+          },
+          "death": {
+            "sound": "mob.cat.hit",
+            "volume": 0.5,
+            "pitch": 0.9
+          },
+          "purr": "mob.cat.purr",
+          "purreow": "mob.cat.purreow",
+          "eat": "mob.cat.eat",
+          "tempt": {
+            "sound": "mob.cat.beg_for_food",
+            "volume": 0.7,
+            "pitch": 1.0
+          }
+        }
+      },
+      "player": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "throw": {
+            "sound": "random.bow",
+            "volume": 0.5,
+            "pitch": [ 0.33, 0.5 ]
+          },
+          "hurt": "game.player.hurt",
+          "death": "game.player.die",
+          "hurt.in.water": "game.player.hurt",
+          "death.in.water": "game.player.die",
+          "attack.nodamage": "game.player.attack.nodamage",
+          "attack.strong": "game.player.attack.strong",
+          "attack.critical": "game.player.attack.critical",
+          "elderguardian.curse": {
+            "sound": "mob.elderguardian.curse",
+            "volume": 1.0,
+            "pitch": 1.0
+          },
+          "splash": {
+            "sound": "entity.generic.splash",
+            "pitch": [0.6, 1.4]
+          }
+        }
+      }
+    }
+  }
+}

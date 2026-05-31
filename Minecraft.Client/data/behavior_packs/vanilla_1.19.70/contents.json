@@ -1,0 +1,28 @@
+{
+    "content": [
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "entities/donkey.json"
+        },
+        {
+            "path": "entities/ender_crystal.json"
+        },
+        {
+            "path": "entities/horse.json"
+        },
+        {
+            "path": "entities/llama.json"
+        },
+        {
+            "path": "entities/witch.json"
+        },
+        {
+            "path": "spawn_rules/tropicalfish.json"
+        },
+        {
+            "path": "spawn_rules/zombie_pigman.json"
+        }
+    ]
+}

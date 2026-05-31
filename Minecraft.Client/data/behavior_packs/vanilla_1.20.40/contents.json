@@ -1,0 +1,40 @@
+{
+    "content": [
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "entities/arrow.json"
+        },
+        {
+            "path": "entities/cat.json"
+        },
+        {
+            "path": "entities/fox.json"
+        },
+        {
+            "path": "entities/rabbit.json"
+        },
+        {
+            "path": "entities/sheep.json"
+        },
+        {
+            "path": "entities/sniffer.json"
+        },
+        {
+            "path": "entities/witch.json"
+        },
+        {
+            "path": "entities/zombie_villager_v2.json"
+        },
+        {
+            "path": "loot_tables/gameplay/entities/sniffer_seeds.json"
+        },
+        {
+            "path": "trading/economy_trades/cartographer_trades.json"
+        },
+        {
+            "path": "trading/economy_trades/fisherman_trades.json"
+        }
+    ]
+}

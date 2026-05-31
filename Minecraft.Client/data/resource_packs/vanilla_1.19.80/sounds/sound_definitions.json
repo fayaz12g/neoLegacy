@@ -1,0 +1,27 @@
+{
+  "format_version": "1.14.0",
+  "sound_definitions": {
+    "block.campfire.crackle": {
+      "category": "block",
+      "max_distance": 24.0,
+      "sounds": [
+        "sounds/block/campfire/crackle1",
+        "sounds/block/campfire/crackle2",
+        "sounds/block/campfire/crackle3",
+        "sounds/block/campfire/crackle4",
+        "sounds/block/campfire/crackle5",
+        "sounds/block/campfire/crackle6"
+      ]
+    },
+    "click_off.metal_pressure_plate": {
+      "category": "block",
+      "sounds": [
+        {
+          "name": "sounds/random/click",
+          "pitch": 0.65,
+          "volume": 0.3
+        }
+      ]
+    }
+  }
+}

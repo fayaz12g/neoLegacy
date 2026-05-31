@@ -1,0 +1,40 @@
+{
+    "content": [
+        {
+            "path": "blocks.json"
+        },
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "sounds.json"
+        },
+        {
+            "path": "animations/armor_stand.animation.json"
+        },
+        {
+            "path": "animations/humanoid.animation.json"
+        },
+        {
+            "path": "animations/player.animation.json"
+        },
+        {
+            "path": "animations/zombie.animation.json"
+        },
+        {
+            "path": "models/mobs.json"
+        },
+        {
+            "path": "models/entity/player_armor.json"
+        },
+        {
+            "path": "render_controllers/cape.render_controllers.json"
+        },
+        {
+            "path": "sounds/sound_definitions.json"
+        },
+        {
+            "path": "textures/terrain_texture.json"
+        }
+    ]
+}

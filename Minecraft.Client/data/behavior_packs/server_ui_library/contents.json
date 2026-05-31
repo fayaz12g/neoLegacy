@@ -1,0 +1,28 @@
+{
+    "content": [
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "pack_icon.png"
+        },
+        {
+            "path": "scripts/server-ui-0.1.0.js"
+        },
+        {
+            "path": "scripts/server-ui-1.0.0.js"
+        },
+        {
+            "path": "scripts/server-ui-2.0.0.js"
+        },
+        {
+            "path": "scripts/server-ui-alpha.js"
+        },
+        {
+            "path": "scripts/server-ui-beta.js"
+        },
+        {
+            "path": "scripts/server-ui-internal.js"
+        }
+    ]
+}

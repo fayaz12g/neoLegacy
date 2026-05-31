@@ -1,0 +1,76 @@
+{
+    "content": [
+        {
+            "path": "blocks.json"
+        },
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "sounds.json"
+        },
+        {
+            "path": "animations/breeze.animation.json"
+        },
+        {
+            "path": "attachables/wolf_armor.json"
+        },
+        {
+            "path": "entity/horse_v1.entity.json"
+        },
+        {
+            "path": "entity/horse_v2.entity.json"
+        },
+        {
+            "path": "entity/horse_v3.entity.json"
+        },
+        {
+            "path": "particles/breeze_ground_particle.json"
+        },
+        {
+            "path": "particles/trial_spawner_detection.particle.json"
+        },
+        {
+            "path": "particles/trial_spawner_detection_ominous.particle.json"
+        },
+        {
+            "path": "render_controllers/horse_v1_and_v2.render_controllers.json"
+        },
+        {
+            "path": "render_controllers/horse_v3.render_controllers.json"
+        },
+        {
+            "path": "render_controllers/wind_charge.render_controllers.json"
+        },
+        {
+            "path": "sounds/sound_definitions.json"
+        },
+        {
+            "path": "textures/terrain_texture.json"
+        },
+        {
+            "path": "textures/blocks/trial_spawner_side_active.png"
+        },
+        {
+            "path": "textures/blocks/trial_spawner_side_inactive.png"
+        },
+        {
+            "path": "textures/blocks/trial_spawner_top_active.png"
+        },
+        {
+            "path": "textures/blocks/trial_spawner_top_active_ominous.png"
+        },
+        {
+            "path": "textures/blocks/trial_spawner_top_ejecting_reward.png"
+        },
+        {
+            "path": "textures/blocks/trial_spawner_top_ejecting_reward_ominous.png"
+        },
+        {
+            "path": "textures/blocks/trial_spawner_top_inactive.png"
+        },
+        {
+            "path": "textures/blocks/trial_spawner_top_inactive_ominous.png"
+        }
+    ]
+}

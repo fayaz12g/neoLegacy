@@ -1,0 +1,47 @@
+{
+	"resource_pack_name": "vanilla",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+		"oak_log_top": {
+			"textures": "textures/blocks/log_oak_top"
+		},
+		"oak_log_side": {
+			"textures": "textures/blocks/log_oak"
+		},
+		"spruce_log_top": {
+			"textures": "textures/blocks/log_spruce_top"
+		},
+		"spruce_log_side": {
+			"textures": "textures/blocks/log_spruce"
+		},
+		"birch_log_top": {
+			"textures": "textures/blocks/log_birch_top"
+		},
+		"birch_log_side": {
+			"textures": "textures/blocks/log_birch"
+		},
+		"jungle_log_top": {
+			"textures": "textures/blocks/log_jungle_top"
+		},
+		"jungle_log_side": {
+			"textures": "textures/blocks/log_jungle"
+		},
+		"acacia_log_top": {
+			"textures": "textures/blocks/log_acacia_top"
+		},
+		"acacia_log_side": {
+			"textures": "textures/blocks/log_acacia"
+		},
+		"dark_oak_log_top": {
+			"textures": "textures/blocks/log_big_oak_top"
+		},
+		"dark_oak_log_side": {
+			"textures": "textures/blocks/log_big_oak"
+		},
+		"oak_planks": {
+			"textures": "textures/blocks/planks_oak"
+		}
+	}
+}

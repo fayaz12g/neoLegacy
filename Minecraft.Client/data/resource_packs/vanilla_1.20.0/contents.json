@@ -1,0 +1,1171 @@
+{
+    "content": [
+        {
+            "path": "biomes_client.json"
+        },
+        {
+            "path": "blocks.json"
+        },
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "sounds.json"
+        },
+        {
+            "path": "animations/camel.animation.json"
+        },
+        {
+            "path": "animations/humanoid.animation.json"
+        },
+        {
+            "path": "animations/shield.animation.json"
+        },
+        {
+            "path": "animations/sniffer.animation.json"
+        },
+        {
+            "path": "animation_controllers/camel.animation_controllers.json"
+        },
+        {
+            "path": "animation_controllers/player.animation_controllers.json"
+        },
+        {
+            "path": "animation_controllers/sniffer.animation_controllers.json"
+        },
+        {
+            "path": "attachables/shield.entity.json"
+        },
+        {
+            "path": "biomes/cherry_grove.client_biome.json"
+        },
+        {
+            "path": "biomes/desert.client_biome.json"
+        },
+        {
+            "path": "biomes/desert_hills.client_biome.json"
+        },
+        {
+            "path": "biomes/desert_mutated.client_biome.json"
+        },
+        {
+            "path": "biomes/jungle_edge.client_biome.json"
+        },
+        {
+            "path": "biomes/mesa.client_biome.json"
+        },
+        {
+            "path": "entity/boat.entity.json"
+        },
+        {
+            "path": "entity/camel.entity.json"
+        },
+        {
+            "path": "entity/chest_boat.entity.json"
+        },
+        {
+            "path": "entity/decorated_pot.entity.json"
+        },
+        {
+            "path": "entity/player.entity.json"
+        },
+        {
+            "path": "entity/skull.entity.json"
+        },
+        {
+            "path": "entity/sniffer.entity.json"
+        },
+        {
+            "path": "fogs/cherry_grove_fog_setting.json"
+        },
+        {
+            "path": "items/pitcher_pod.json"
+        },
+        {
+            "path": "items/torchflower_seeds.json"
+        },
+        {
+            "path": "models/entity/camel.geo.json"
+        },
+        {
+            "path": "models/entity/sniffer.geo.json"
+        },
+        {
+            "path": "particles/cherry_leaves_particle.json"
+        },
+        {
+            "path": "render_controllers/armor.render_controllers.json"
+        },
+        {
+            "path": "render_controllers/armor_stand.render_controllers.json"
+        },
+        {
+            "path": "render_controllers/camel.render_controllers.json"
+        },
+        {
+            "path": "render_controllers/persona.render_controllers.json"
+        },
+        {
+            "path": "render_controllers/shield.render_controllers.json"
+        },
+        {
+            "path": "render_controllers/sniffer.render_controllers.json"
+        },
+        {
+            "path": "sounds/music_definitions.json"
+        },
+        {
+            "path": "sounds/sound_definitions.json"
+        },
+        {
+            "path": "textures/item_texture.json"
+        },
+        {
+            "path": "textures/terrain_texture.json"
+        },
+        {
+            "path": "textures/textures_list.json"
+        },
+        {
+            "path": "textures/blocks/angler_pottery_pattern.png"
+        },
+        {
+            "path": "textures/blocks/archer_pottery_pattern.png"
+        },
+        {
+            "path": "textures/blocks/arms_up_pottery_pattern.png"
+        },
+        {
+            "path": "textures/blocks/bamboo_block.png"
+        },
+        {
+            "path": "textures/blocks/bamboo_block_top.png"
+        },
+        {
+            "path": "textures/blocks/bamboo_door_bottom.png"
+        },
+        {
+            "path": "textures/blocks/bamboo_door_top.png"
+        },
+        {
+            "path": "textures/blocks/bamboo_fence.png"
+        },
+        {
+            "path": "textures/blocks/bamboo_fence_gate.png"
+        },
+        {
+            "path": "textures/blocks/bamboo_mosaic.png"
+        },
+        {
+            "path": "textures/blocks/bamboo_planks.png"
+        },
+        {
+            "path": "textures/blocks/bamboo_trapdoor.png"
+        },
+        {
+            "path": "textures/blocks/blade_pottery_pattern.png"
+        },
+        {
+            "path": "textures/blocks/brewer_pottery_pattern.png"
+        },
+        {
+            "path": "textures/blocks/burn_pottery_pattern.png"
+        },
+        {
+            "path": "textures/blocks/calibrated_sculk_sensor_amethyst.png"
+        },
+        {
+            "path": "textures/blocks/calibrated_sculk_sensor_input_side.png"
+        },
+        {
+            "path": "textures/blocks/calibrated_sculk_sensor_top.png"
+        },
+        {
+            "path": "textures/blocks/cherry_door_bottom.png"
+        },
+        {
+            "path": "textures/blocks/cherry_door_top.png"
+        },
+        {
+            "path": "textures/blocks/cherry_leaves.png"
+        },
+        {
+            "path": "textures/blocks/cherry_leaves_opaque.png"
+        },
+        {
+            "path": "textures/blocks/cherry_log_side.png"
+        },
+        {
+            "path": "textures/blocks/cherry_log_top.png"
+        },
+        {
+            "path": "textures/blocks/cherry_planks.png"
+        },
+        {
+            "path": "textures/blocks/cherry_sapling.png"
+        },
+        {
+            "path": "textures/blocks/cherry_trapdoor.png"
+        },
+        {
+            "path": "textures/blocks/chiseled_bookshelf_empty.png"
+        },
+        {
+            "path": "textures/blocks/chiseled_bookshelf_occupied.png"
+        },
+        {
+            "path": "textures/blocks/chiseled_bookshelf_side.png"
+        },
+        {
+            "path": "textures/blocks/chiseled_bookshelf_top.png"
+        },
+        {
+            "path": "textures/blocks/danger_pottery_pattern.png"
+        },
+        {
+            "path": "textures/blocks/decorated_pot_base.png"
+        },
+        {
+            "path": "textures/blocks/decorated_pot_side.png"
+        },
+        {
+            "path": "textures/blocks/explorer_pottery_pattern.png"
+        },
+        {
+            "path": "textures/blocks/friend_pottery_pattern.png"
+        },
+        {
+            "path": "textures/blocks/heartbreak_pottery_pattern.png"
+        },
+        {
+            "path": "textures/blocks/heart_pottery_pattern.png"
+        },
+        {
+            "path": "textures/blocks/howl_pottery_pattern.png"
+        },
+        {
+            "path": "textures/blocks/miner_pottery_pattern.png"
+        },
+        {
+            "path": "textures/blocks/mourner_pottery_pattern.png"
+        },
+        {
+            "path": "textures/blocks/pink_petals.png"
+        },
+        {
+            "path": "textures/blocks/pink_petals_stem.png"
+        },
+        {
+            "path": "textures/blocks/pitcher_crop_bottom.png"
+        },
+        {
+            "path": "textures/blocks/pitcher_crop_bottom_stage_1.png"
+        },
+        {
+            "path": "textures/blocks/pitcher_crop_bottom_stage_2.png"
+        },
+        {
+            "path": "textures/blocks/pitcher_crop_bottom_stage_3.png"
+        },
+        {
+            "path": "textures/blocks/pitcher_crop_bottom_stage_4.png"
+        },
+        {
+            "path": "textures/blocks/pitcher_crop_side.png"
+        },
+        {
+            "path": "textures/blocks/pitcher_crop_top.png"
+        },
+        {
+            "path": "textures/blocks/pitcher_crop_top_stage_3.png"
+        },
+        {
+            "path": "textures/blocks/pitcher_crop_top_stage_4.png"
+        },
+        {
+            "path": "textures/blocks/plenty_pottery_pattern.png"
+        },
+        {
+            "path": "textures/blocks/prize_pottery_pattern.png"
+        },
+        {
+            "path": "textures/blocks/scaffolding_bottom.tga"
+        },
+        {
+            "path": "textures/blocks/scaffolding_side.tga"
+        },
+        {
+            "path": "textures/blocks/scaffolding_top.tga"
+        },
+        {
+            "path": "textures/blocks/sheaf_pottery_pattern.png"
+        },
+        {
+            "path": "textures/blocks/shelter_pottery_pattern.png"
+        },
+        {
+            "path": "textures/blocks/skull_pottery_pattern.png"
+        },
+        {
+            "path": "textures/blocks/sniffer_egg_not_cracked_bottom.png"
+        },
+        {
+            "path": "textures/blocks/sniffer_egg_not_cracked_east.png"
+        },
+        {
+            "path": "textures/blocks/sniffer_egg_not_cracked_north.png"
+        },
+        {
+            "path": "textures/blocks/sniffer_egg_not_cracked_south.png"
+        },
+        {
+            "path": "textures/blocks/sniffer_egg_not_cracked_top.png"
+        },
+        {
+            "path": "textures/blocks/sniffer_egg_not_cracked_west.png"
+        },
+        {
+            "path": "textures/blocks/sniffer_egg_slightly_cracked_bottom.png"
+        },
+        {
+            "path": "textures/blocks/sniffer_egg_slightly_cracked_east.png"
+        },
+        {
+            "path": "textures/blocks/sniffer_egg_slightly_cracked_north.png"
+        },
+        {
+            "path": "textures/blocks/sniffer_egg_slightly_cracked_south.png"
+        },
+        {
+            "path": "textures/blocks/sniffer_egg_slightly_cracked_top.png"
+        },
+        {
+            "path": "textures/blocks/sniffer_egg_slightly_cracked_west.png"
+        },
+        {
+            "path": "textures/blocks/sniffer_egg_very_cracked_bottom.png"
+        },
+        {
+            "path": "textures/blocks/sniffer_egg_very_cracked_east.png"
+        },
+        {
+            "path": "textures/blocks/sniffer_egg_very_cracked_north.png"
+        },
+        {
+            "path": "textures/blocks/sniffer_egg_very_cracked_south.png"
+        },
+        {
+            "path": "textures/blocks/sniffer_egg_very_cracked_top.png"
+        },
+        {
+            "path": "textures/blocks/sniffer_egg_very_cracked_west.png"
+        },
+        {
+            "path": "textures/blocks/snort_pottery_pattern.png"
+        },
+        {
+            "path": "textures/blocks/stripped_bamboo_block.png"
+        },
+        {
+            "path": "textures/blocks/stripped_bamboo_block_top.png"
+        },
+        {
+            "path": "textures/blocks/stripped_cherry_log_side.png"
+        },
+        {
+            "path": "textures/blocks/stripped_cherry_log_top.png"
+        },
+        {
+            "path": "textures/blocks/suspicious_gravel_0.png"
+        },
+        {
+            "path": "textures/blocks/suspicious_gravel_1.png"
+        },
+        {
+            "path": "textures/blocks/suspicious_gravel_2.png"
+        },
+        {
+            "path": "textures/blocks/suspicious_gravel_3.png"
+        },
+        {
+            "path": "textures/blocks/suspicious_sand_0.png"
+        },
+        {
+            "path": "textures/blocks/suspicious_sand_1.png"
+        },
+        {
+            "path": "textures/blocks/suspicious_sand_2.png"
+        },
+        {
+            "path": "textures/blocks/suspicious_sand_3.png"
+        },
+        {
+            "path": "textures/blocks/torchflower.png"
+        },
+        {
+            "path": "textures/blocks/torchflower_crop_stage_0.png"
+        },
+        {
+            "path": "textures/blocks/torchflower_crop_stage_1.png"
+        },
+        {
+            "path": "textures/entity/acacia_hanging_sign.png"
+        },
+        {
+            "path": "textures/entity/bamboo_hanging_sign.png"
+        },
+        {
+            "path": "textures/entity/bamboo_sign.png"
+        },
+        {
+            "path": "textures/entity/birch_hanging_sign.png"
+        },
+        {
+            "path": "textures/entity/cherry_hanging_sign.png"
+        },
+        {
+            "path": "textures/entity/cherry_sign.png"
+        },
+        {
+            "path": "textures/entity/crimson_hanging_sign.png"
+        },
+        {
+            "path": "textures/entity/dark_oak_hanging_sign.png"
+        },
+        {
+            "path": "textures/entity/jungle_hanging_sign.png"
+        },
+        {
+            "path": "textures/entity/mangrove_hanging_sign.png"
+        },
+        {
+            "path": "textures/entity/oak_hanging_sign.png"
+        },
+        {
+            "path": "textures/entity/spruce_hanging_sign.png"
+        },
+        {
+            "path": "textures/entity/warped_hanging_sign.png"
+        },
+        {
+            "path": "textures/entity/boat/bamboo_raft.png"
+        },
+        {
+            "path": "textures/entity/boat/cherry_boat.png"
+        },
+        {
+            "path": "textures/entity/boat/chest_boat_bamboo.png"
+        },
+        {
+            "path": "textures/entity/boat/chest_boat_cherry.png"
+        },
+        {
+            "path": "textures/entity/camel/camel.png"
+        },
+        {
+            "path": "textures/entity/shield_patterns/base.png"
+        },
+        {
+            "path": "textures/entity/shield_patterns/border.png"
+        },
+        {
+            "path": "textures/entity/shield_patterns/bricks.png"
+        },
+        {
+            "path": "textures/entity/shield_patterns/circle.png"
+        },
+        {
+            "path": "textures/entity/shield_patterns/creeper.png"
+        },
+        {
+            "path": "textures/entity/shield_patterns/cross.png"
+        },
+        {
+            "path": "textures/entity/shield_patterns/curly_border.png"
+        },
+        {
+            "path": "textures/entity/shield_patterns/diagonal_left.png"
+        },
+        {
+            "path": "textures/entity/shield_patterns/diagonal_right.png"
+        },
+        {
+            "path": "textures/entity/shield_patterns/diagonal_up_left.png"
+        },
+        {
+            "path": "textures/entity/shield_patterns/diagonal_up_right.png"
+        },
+        {
+            "path": "textures/entity/shield_patterns/flower.png"
+        },
+        {
+            "path": "textures/entity/shield_patterns/globe.png"
+        },
+        {
+            "path": "textures/entity/shield_patterns/gradient.png"
+        },
+        {
+            "path": "textures/entity/shield_patterns/gradient_up.png"
+        },
+        {
+            "path": "textures/entity/shield_patterns/half_horizontal.png"
+        },
+        {
+            "path": "textures/entity/shield_patterns/half_horizontal_bottom.png"
+        },
+        {
+            "path": "textures/entity/shield_patterns/half_vertical.png"
+        },
+        {
+            "path": "textures/entity/shield_patterns/half_vertical_right.png"
+        },
+        {
+            "path": "textures/entity/shield_patterns/illager.png"
+        },
+        {
+            "path": "textures/entity/shield_patterns/mojang.png"
+        },
+        {
+            "path": "textures/entity/shield_patterns/piglin.png"
+        },
+        {
+            "path": "textures/entity/shield_patterns/rhombus.png"
+        },
+        {
+            "path": "textures/entity/shield_patterns/skull.png"
+        },
+        {
+            "path": "textures/entity/shield_patterns/small_stripes.png"
+        },
+        {
+            "path": "textures/entity/shield_patterns/square_bottom_left.png"
+        },
+        {
+            "path": "textures/entity/shield_patterns/square_bottom_right.png"
+        },
+        {
+            "path": "textures/entity/shield_patterns/square_top_left.png"
+        },
+        {
+            "path": "textures/entity/shield_patterns/square_top_right.png"
+        },
+        {
+            "path": "textures/entity/shield_patterns/straight_cross.png"
+        },
+        {
+            "path": "textures/entity/shield_patterns/stripe_bottom.png"
+        },
+        {
+            "path": "textures/entity/shield_patterns/stripe_center.png"
+        },
+        {
+            "path": "textures/entity/shield_patterns/stripe_downleft.png"
+        },
+        {
+            "path": "textures/entity/shield_patterns/stripe_downright.png"
+        },
+        {
+            "path": "textures/entity/shield_patterns/stripe_left.png"
+        },
+        {
+            "path": "textures/entity/shield_patterns/stripe_middle.png"
+        },
+        {
+            "path": "textures/entity/shield_patterns/stripe_right.png"
+        },
+        {
+            "path": "textures/entity/shield_patterns/stripe_top.png"
+        },
+        {
+            "path": "textures/entity/shield_patterns/triangles_bottom.png"
+        },
+        {
+            "path": "textures/entity/shield_patterns/triangles_top.png"
+        },
+        {
+            "path": "textures/entity/shield_patterns/triangle_bottom.png"
+        },
+        {
+            "path": "textures/entity/shield_patterns/triangle_top.png"
+        },
+        {
+            "path": "textures/entity/sniffer/sniffer.png"
+        },
+        {
+            "path": "textures/items/acacia_hanging_sign.png"
+        },
+        {
+            "path": "textures/items/angler_pottery_sherd.png"
+        },
+        {
+            "path": "textures/items/archer_pottery_sherd.png"
+        },
+        {
+            "path": "textures/items/arms_up_pottery_sherd.png"
+        },
+        {
+            "path": "textures/items/bamboo_chest_raft.png"
+        },
+        {
+            "path": "textures/items/bamboo_door.png"
+        },
+        {
+            "path": "textures/items/bamboo_hanging_sign.png"
+        },
+        {
+            "path": "textures/items/bamboo_raft.png"
+        },
+        {
+            "path": "textures/items/bamboo_sign.png"
+        },
+        {
+            "path": "textures/items/birch_hanging_sign.png"
+        },
+        {
+            "path": "textures/items/blade_pottery_sherd.png"
+        },
+        {
+            "path": "textures/items/brewer_pottery_sherd.png"
+        },
+        {
+            "path": "textures/items/brush.png"
+        },
+        {
+            "path": "textures/items/burn_pottery_sherd.png"
+        },
+        {
+            "path": "textures/items/cherry_boat.png"
+        },
+        {
+            "path": "textures/items/cherry_chest_boat.png"
+        },
+        {
+            "path": "textures/items/cherry_door.png"
+        },
+        {
+            "path": "textures/items/cherry_hanging_sign.png"
+        },
+        {
+            "path": "textures/items/cherry_sign.png"
+        },
+        {
+            "path": "textures/items/coast_armor_trim_smithing_template.png"
+        },
+        {
+            "path": "textures/items/crimson_hanging_sign.png"
+        },
+        {
+            "path": "textures/items/danger_pottery_sherd.png"
+        },
+        {
+            "path": "textures/items/dark_oak_hanging_sign.png"
+        },
+        {
+            "path": "textures/items/dune_armor_trim_smithing_template.png"
+        },
+        {
+            "path": "textures/items/explorer_pottery_sherd.png"
+        },
+        {
+            "path": "textures/items/eye_armor_trim_smithing_template.png"
+        },
+        {
+            "path": "textures/items/friend_pottery_sherd.png"
+        },
+        {
+            "path": "textures/items/heartbreak_pottery_sherd.png"
+        },
+        {
+            "path": "textures/items/heart_pottery_sherd.png"
+        },
+        {
+            "path": "textures/items/host_armor_trim_smithing_template.png"
+        },
+        {
+            "path": "textures/items/howl_pottery_sherd.png"
+        },
+        {
+            "path": "textures/items/jungle_hanging_sign.png"
+        },
+        {
+            "path": "textures/items/mangrove_hanging_sign.png"
+        },
+        {
+            "path": "textures/items/miner_pottery_sherd.png"
+        },
+        {
+            "path": "textures/items/mourner_pottery_sherd.png"
+        },
+        {
+            "path": "textures/items/music_disc_relic.png"
+        },
+        {
+            "path": "textures/items/netherite_upgrade_smithing_template.png"
+        },
+        {
+            "path": "textures/items/oak_hanging_sign.png"
+        },
+        {
+            "path": "textures/items/pink_petals.png"
+        },
+        {
+            "path": "textures/items/pitcher_pod.png"
+        },
+        {
+            "path": "textures/items/plenty_pottery_sherd.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_blindness.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_damageBoost.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_drinkable.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_fireResistance.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_harm.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_heal.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_invisibility.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_jump.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_levitation.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_lingering.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_lingering_damageBoost.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_lingering_fireResistance.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_lingering_harm.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_lingering_heal.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_lingering_invisibility.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_lingering_jump.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_lingering_luck.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_lingering_moveSlowdown.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_lingering_moveSpeed.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_lingering_nightVision.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_lingering_poison.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_lingering_regeneration.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_lingering_slowFall.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_lingering_turtleMaster.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_lingering_waterBreathing.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_lingering_weakness.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_lingering_wither.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_moveSlowdown.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_moveSpeed.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_nightVision.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_poison.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_regeneration.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_resistance.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_saturation.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_slowFall.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_splash.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_splash_blindness.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_splash_damageBoost.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_splash_fireResistance.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_splash_harm.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_splash_heal.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_splash_invisibility.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_splash_jump.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_splash_levitation.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_splash_moveSlowdown.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_splash_moveSpeed.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_splash_nightVision.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_splash_poison.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_splash_regeneration.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_splash_resistance.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_splash_saturation.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_splash_slowFall.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_splash_turtleMaster.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_splash_waterBreathing.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_splash_weakness.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_splash_wither.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_turtleMaster.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_waterBreathing.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_weakness.png"
+        },
+        {
+            "path": "textures/items/potion_bottle_wither.png"
+        },
+        {
+            "path": "textures/items/prize_pottery_sherd.png"
+        },
+        {
+            "path": "textures/items/raiser_armor_trim_smithing_template.png"
+        },
+        {
+            "path": "textures/items/rib_armor_trim_smithing_template.png"
+        },
+        {
+            "path": "textures/items/sentry_armor_trim_smithing_template.png"
+        },
+        {
+            "path": "textures/items/shaper_armor_trim_smithing_template.png"
+        },
+        {
+            "path": "textures/items/sheaf_pottery_sherd.png"
+        },
+        {
+            "path": "textures/items/shelter_pottery_sherd.png"
+        },
+        {
+            "path": "textures/items/silence_armor_trim_smithing_template.png"
+        },
+        {
+            "path": "textures/items/skull_pottery_sherd.png"
+        },
+        {
+            "path": "textures/items/sniffer_egg.png"
+        },
+        {
+            "path": "textures/items/snort_pottery_sherd.png"
+        },
+        {
+            "path": "textures/items/snout_armor_trim_smithing_template.png"
+        },
+        {
+            "path": "textures/items/spire_armor_trim_smithing_template.png"
+        },
+        {
+            "path": "textures/items/spruce_hanging_sign.png"
+        },
+        {
+            "path": "textures/items/tide_armor_trim_smithing_template.png"
+        },
+        {
+            "path": "textures/items/tipped_arrow_fireres.png"
+        },
+        {
+            "path": "textures/items/tipped_arrow_harm.png"
+        },
+        {
+            "path": "textures/items/tipped_arrow_healing.png"
+        },
+        {
+            "path": "textures/items/tipped_arrow_invisibility.png"
+        },
+        {
+            "path": "textures/items/tipped_arrow_leaping.png"
+        },
+        {
+            "path": "textures/items/tipped_arrow_luck.png"
+        },
+        {
+            "path": "textures/items/tipped_arrow_nightvision.png"
+        },
+        {
+            "path": "textures/items/tipped_arrow_poison.png"
+        },
+        {
+            "path": "textures/items/tipped_arrow_regen.png"
+        },
+        {
+            "path": "textures/items/tipped_arrow_slow.png"
+        },
+        {
+            "path": "textures/items/tipped_arrow_slowfalling.png"
+        },
+        {
+            "path": "textures/items/tipped_arrow_strength.png"
+        },
+        {
+            "path": "textures/items/tipped_arrow_swift.png"
+        },
+        {
+            "path": "textures/items/tipped_arrow_turtlemaster.png"
+        },
+        {
+            "path": "textures/items/tipped_arrow_waterbreathing.png"
+        },
+        {
+            "path": "textures/items/tipped_arrow_weakness.png"
+        },
+        {
+            "path": "textures/items/tipped_arrow_wither.png"
+        },
+        {
+            "path": "textures/items/torchflower_seeds.png"
+        },
+        {
+            "path": "textures/items/vex_armor_trim_smithing_template.png"
+        },
+        {
+            "path": "textures/items/ward_armor_trim_smithing_template.png"
+        },
+        {
+            "path": "textures/items/warped_hanging_sign.png"
+        },
+        {
+            "path": "textures/items/wayfinder_armor_trim_smithing_template.png"
+        },
+        {
+            "path": "textures/items/wild_armor_trim_smithing_template.png"
+        },
+        {
+            "path": "textures/particle/cherry_petal_atlas.png"
+        },
+        {
+            "path": "textures/trims/coast.png"
+        },
+        {
+            "path": "textures/trims/coast_leggings.png"
+        },
+        {
+            "path": "textures/trims/dune.png"
+        },
+        {
+            "path": "textures/trims/dune_leggings.png"
+        },
+        {
+            "path": "textures/trims/eye.png"
+        },
+        {
+            "path": "textures/trims/eye_leggings.png"
+        },
+        {
+            "path": "textures/trims/host.png"
+        },
+        {
+            "path": "textures/trims/host_leggings.png"
+        },
+        {
+            "path": "textures/trims/raiser.png"
+        },
+        {
+            "path": "textures/trims/raiser_leggings.png"
+        },
+        {
+            "path": "textures/trims/rib.png"
+        },
+        {
+            "path": "textures/trims/rib_leggings.png"
+        },
+        {
+            "path": "textures/trims/sentry.png"
+        },
+        {
+            "path": "textures/trims/sentry_leggings.png"
+        },
+        {
+            "path": "textures/trims/shaper.png"
+        },
+        {
+            "path": "textures/trims/shaper_leggings.png"
+        },
+        {
+            "path": "textures/trims/silence.png"
+        },
+        {
+            "path": "textures/trims/silence_leggings.png"
+        },
+        {
+            "path": "textures/trims/snout.png"
+        },
+        {
+            "path": "textures/trims/snout_leggings.png"
+        },
+        {
+            "path": "textures/trims/spire.png"
+        },
+        {
+            "path": "textures/trims/spire_leggings.png"
+        },
+        {
+            "path": "textures/trims/tide.png"
+        },
+        {
+            "path": "textures/trims/tide_leggings.png"
+        },
+        {
+            "path": "textures/trims/vex.png"
+        },
+        {
+            "path": "textures/trims/vex_leggings.png"
+        },
+        {
+            "path": "textures/trims/ward.png"
+        },
+        {
+            "path": "textures/trims/ward_leggings.png"
+        },
+        {
+            "path": "textures/trims/wayfinder.png"
+        },
+        {
+            "path": "textures/trims/wayfinder_leggings.png"
+        },
+        {
+            "path": "textures/trims/wild.png"
+        },
+        {
+            "path": "textures/trims/wild_leggings.png"
+        },
+        {
+            "path": "textures/trims/color_palettes/amethyst.png"
+        },
+        {
+            "path": "textures/trims/color_palettes/copper.png"
+        },
+        {
+            "path": "textures/trims/color_palettes/copper_darker.png"
+        },
+        {
+            "path": "textures/trims/color_palettes/diamond.png"
+        },
+        {
+            "path": "textures/trims/color_palettes/diamond_darker.png"
+        },
+        {
+            "path": "textures/trims/color_palettes/emerald.png"
+        },
+        {
+            "path": "textures/trims/color_palettes/gold.png"
+        },
+        {
+            "path": "textures/trims/color_palettes/gold_darker.png"
+        },
+        {
+            "path": "textures/trims/color_palettes/iron.png"
+        },
+        {
+            "path": "textures/trims/color_palettes/iron_darker.png"
+        },
+        {
+            "path": "textures/trims/color_palettes/lapis.png"
+        },
+        {
+            "path": "textures/trims/color_palettes/netherite.png"
+        },
+        {
+            "path": "textures/trims/color_palettes/netherite_darker.png"
+        },
+        {
+            "path": "textures/trims/color_palettes/quartz.png"
+        },
+        {
+            "path": "textures/trims/color_palettes/redstone.png"
+        },
+        {
+            "path": "textures/trims/color_palettes/trim_palette.png"
+        },
+        {
+            "path": "textures/trims/items/boots_trim.png"
+        },
+        {
+            "path": "textures/trims/items/chestplate_trim.png"
+        },
+        {
+            "path": "textures/trims/items/helmet_trim.png"
+        },
+        {
+            "path": "textures/trims/items/leggings_trim.png"
+        }
+    ]
+}

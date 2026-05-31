@@ -1,0 +1,40 @@
+{
+  "entity_sounds": {
+    "entities": {
+      "parrot": {
+        "events": {
+          "imitate.phantom": {
+            "sound": "mob.phantom.idle",
+            "volume": 0.7,
+            "pitch": 1.5
+          },
+          "imitate.zoglin": {
+            "sound": "mob.zoglin.idle",
+            "volume": 0.7,
+            "pitch": 1.7
+          },
+          "imitate.guardian": {
+            "sound": "mob.guardian.ambient",
+            "volume": 0.7,
+            "pitch": 1.8
+          },
+          "imitate.ravager": {
+            "sound": "mob.ravager.ambient",
+            "volume": 0.7,
+            "pitch": 1.7
+          },
+          "imitate.pillager": {
+            "sound": "mob.pillager.idle",
+            "volume": 0.7,
+            "pitch": 1.8
+          },
+          "imitate.blaze": {
+            "sound": "mob.blaze.breathe",
+            "volume": 0.4,
+            "pitch": 1.8
+          }
+        }
+      }
+    }
+  }
+}

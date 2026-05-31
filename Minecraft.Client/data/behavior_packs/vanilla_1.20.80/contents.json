@@ -1,0 +1,340 @@
+{
+    "content": [
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "entities/allay.json"
+        },
+        {
+            "path": "entities/armadillo.json"
+        },
+        {
+            "path": "entities/axolotl.json"
+        },
+        {
+            "path": "entities/bat.json"
+        },
+        {
+            "path": "entities/bee.json"
+        },
+        {
+            "path": "entities/blaze.json"
+        },
+        {
+            "path": "entities/camel.json"
+        },
+        {
+            "path": "entities/cat.json"
+        },
+        {
+            "path": "entities/cave_spider.json"
+        },
+        {
+            "path": "entities/chicken.json"
+        },
+        {
+            "path": "entities/cow.json"
+        },
+        {
+            "path": "entities/creeper.json"
+        },
+        {
+            "path": "entities/dolphin.json"
+        },
+        {
+            "path": "entities/donkey.json"
+        },
+        {
+            "path": "entities/drowned.json"
+        },
+        {
+            "path": "entities/elder_guardian.json"
+        },
+        {
+            "path": "entities/enderman.json"
+        },
+        {
+            "path": "entities/endermite.json"
+        },
+        {
+            "path": "entities/ender_dragon.json"
+        },
+        {
+            "path": "entities/evocation_illager.json"
+        },
+        {
+            "path": "entities/fish.json"
+        },
+        {
+            "path": "entities/fox.json"
+        },
+        {
+            "path": "entities/frog.json"
+        },
+        {
+            "path": "entities/ghast.json"
+        },
+        {
+            "path": "entities/glow_squid.json"
+        },
+        {
+            "path": "entities/goat.json"
+        },
+        {
+            "path": "entities/guardian.json"
+        },
+        {
+            "path": "entities/hoglin.json"
+        },
+        {
+            "path": "entities/horse.json"
+        },
+        {
+            "path": "entities/husk.json"
+        },
+        {
+            "path": "entities/llama.json"
+        },
+        {
+            "path": "entities/llama_spit.json"
+        },
+        {
+            "path": "entities/magma_cube.json"
+        },
+        {
+            "path": "entities/mooshroom.json"
+        },
+        {
+            "path": "entities/mule.json"
+        },
+        {
+            "path": "entities/npc.json"
+        },
+        {
+            "path": "entities/ocelot.json"
+        },
+        {
+            "path": "entities/panda.json"
+        },
+        {
+            "path": "entities/parrot.json"
+        },
+        {
+            "path": "entities/phantom.json"
+        },
+        {
+            "path": "entities/pig.json"
+        },
+        {
+            "path": "entities/piglin.json"
+        },
+        {
+            "path": "entities/piglin_brute.json"
+        },
+        {
+            "path": "entities/pillager.json"
+        },
+        {
+            "path": "entities/player.json"
+        },
+        {
+            "path": "entities/polar_bear.json"
+        },
+        {
+            "path": "entities/pufferfish.json"
+        },
+        {
+            "path": "entities/rabbit.json"
+        },
+        {
+            "path": "entities/ravager.json"
+        },
+        {
+            "path": "entities/salmon.json"
+        },
+        {
+            "path": "entities/sheep.json"
+        },
+        {
+            "path": "entities/shulker.json"
+        },
+        {
+            "path": "entities/silverfish.json"
+        },
+        {
+            "path": "entities/skeleton.json"
+        },
+        {
+            "path": "entities/skeleton_horse.json"
+        },
+        {
+            "path": "entities/slime.json"
+        },
+        {
+            "path": "entities/sniffer.json"
+        },
+        {
+            "path": "entities/spider.json"
+        },
+        {
+            "path": "entities/squid.json"
+        },
+        {
+            "path": "entities/stray.json"
+        },
+        {
+            "path": "entities/strider.json"
+        },
+        {
+            "path": "entities/tadpole.json"
+        },
+        {
+            "path": "entities/trader_llama.json"
+        },
+        {
+            "path": "entities/tropicalfish.json"
+        },
+        {
+            "path": "entities/turtle.json"
+        },
+        {
+            "path": "entities/vex.json"
+        },
+        {
+            "path": "entities/vindicator.json"
+        },
+        {
+            "path": "entities/wandering_trader.json"
+        },
+        {
+            "path": "entities/warden.json"
+        },
+        {
+            "path": "entities/witch.json"
+        },
+        {
+            "path": "entities/wither.json"
+        },
+        {
+            "path": "entities/wither_skeleton.json"
+        },
+        {
+            "path": "entities/wolf.json"
+        },
+        {
+            "path": "entities/zoglin.json"
+        },
+        {
+            "path": "entities/zombie.json"
+        },
+        {
+            "path": "entities/zombie_horse.json"
+        },
+        {
+            "path": "entities/zombie_villager.json"
+        },
+        {
+            "path": "item_catalog/crafting_item_catalog.json"
+        },
+        {
+            "path": "loot_tables/chests/village/village_plains_house.json"
+        },
+        {
+            "path": "loot_tables/entities/armadillo_brush.json"
+        },
+        {
+            "path": "loot_tables/entities/iron_golem.json"
+        },
+        {
+            "path": "recipes/banner_pattern_flower.json"
+        },
+        {
+            "path": "recipes/blue_dye_from_cornflower.json"
+        },
+        {
+            "path": "recipes/crafting_table_default.json"
+        },
+        {
+            "path": "recipes/light_blue_dye_from_blue_orchid.json"
+        },
+        {
+            "path": "recipes/light_gray_dye_from_azure_bluet.json"
+        },
+        {
+            "path": "recipes/light_gray_dye_from_oxeye_daisy.json"
+        },
+        {
+            "path": "recipes/light_gray_dye_from_white_tulip.json"
+        },
+        {
+            "path": "recipes/magenta_dye_from_allium.json"
+        },
+        {
+            "path": "recipes/orange_dye_from_orange_tulip.json"
+        },
+        {
+            "path": "recipes/pink_dye_from_pink_tulip.json"
+        },
+        {
+            "path": "recipes/red_dye_from_poppy.json"
+        },
+        {
+            "path": "recipes/red_dye_from_tulip.json"
+        },
+        {
+            "path": "recipes/suspicious_stew_from_allium.json"
+        },
+        {
+            "path": "recipes/suspicious_stew_from_azure_bluet.json"
+        },
+        {
+            "path": "recipes/suspicious_stew_from_blue_orchid.json"
+        },
+        {
+            "path": "recipes/suspicious_stew_from_cornflower.json"
+        },
+        {
+            "path": "recipes/suspicious_stew_from_lily_of_the_valley.json"
+        },
+        {
+            "path": "recipes/suspicious_stew_from_oxeye_daisy.json"
+        },
+        {
+            "path": "recipes/suspicious_stew_from_poppy.json"
+        },
+        {
+            "path": "recipes/suspicious_stew_from_tulip_orange.json"
+        },
+        {
+            "path": "recipes/suspicious_stew_from_tulip_pink.json"
+        },
+        {
+            "path": "recipes/suspicious_stew_from_tulip_red.json"
+        },
+        {
+            "path": "recipes/suspicious_stew_from_tulip_white.json"
+        },
+        {
+            "path": "recipes/white_dye_from_lily_of_the_valley.json"
+        },
+        {
+            "path": "recipes/wolf_armor.json"
+        },
+        {
+            "path": "spawn_rules/armadillo.json"
+        },
+        {
+            "path": "spawn_rules/fox.json"
+        },
+        {
+            "path": "spawn_rules/rabbit.json"
+        },
+        {
+            "path": "spawn_rules/wolf.json"
+        },
+        {
+            "path": "trading/economy_trades/wandering_trader_trades.json"
+        }
+    ]
+}

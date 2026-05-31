@@ -1,0 +1,113 @@
+{
+  "ui.hardcore_toggle_press": {
+    "category": "ui",
+    "sounds": [
+      {
+        "name": "sounds/fire/ignite",
+        "volume": 0.5
+      }
+    ]
+  },
+  "ui.hardcore_enable": {
+    "category": "ui",
+    "sounds": [
+      {
+        "name": "sounds/ui/hardcore/hardcore_enable",
+        "volume": 0.4
+      }
+    ]
+  },
+  "ui.hardcore_disable": {
+    "category": "ui",
+    "sounds": [
+      {
+        "name": "sounds/ui/hardcore/hardcore_disable",
+        "volume": 0.4
+      }
+    ]
+  },
+  "step.heavy_core": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "sounds/block/heavy_core/step1"
+      },
+      {
+        "name": "sounds/block/heavy_core/step2"
+      },
+      {
+        "name": "sounds/block/heavy_core/step3"
+      },
+      {
+        "name": "sounds/block/heavy_core/step4"
+      }
+    ]
+  },
+  "vault.reject_rewarded_player": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "sounds/block/vault/reject_rewarded_player"
+      }
+    ]
+  },
+  "crafter.craft": {
+    "category": "block",
+    "max_distance":  5.0,
+    "sounds": [
+      {
+        "name": "sounds/block/crafter/craft",
+        "pitch": 1.0,
+        "volume": 1.0
+      }
+    ]
+  },
+  "crafter.fail": {
+    "category": "block",
+    "max_distance": 5.0,
+    "sounds": [
+      {
+        "name": "sounds/block/crafter/fail",
+        "pitch": 1.0,
+        "volume": 1.0
+      }
+    ]
+  },
+  "block.mob_spawner.break": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "sounds/block/mob_spawner/break1"
+      },
+      {
+        "name": "sounds/block/mob_spawner/break2"
+      },
+      {
+        "name": "sounds/block/mob_spawner/break3"
+      },
+      {
+        "name": "sounds/block/mob_spawner/break4"
+      }
+    ]
+  },
+  "block.mob_spawner.step": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "sounds/block/mob_spawner/step1"
+      },
+      {
+        "name": "sounds/block/mob_spawner/step2"
+      },
+      {
+        "name": "sounds/block/mob_spawner/step3"
+      },
+      {
+        "name": "sounds/block/mob_spawner/step4"
+      },
+      {
+        "name": "sounds/block/mob_spawner/step5"
+      }
+    ]
+  }
+}

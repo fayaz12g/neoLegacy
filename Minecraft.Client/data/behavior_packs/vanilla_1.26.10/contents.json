@@ -1,0 +1,220 @@
+{
+    "content": [
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "entities/armadillo.json"
+        },
+        {
+            "path": "entities/axolotl.json"
+        },
+        {
+            "path": "entities/bee.json"
+        },
+        {
+            "path": "entities/camel.json"
+        },
+        {
+            "path": "entities/cat.json"
+        },
+        {
+            "path": "entities/chicken.json"
+        },
+        {
+            "path": "entities/cow.json"
+        },
+        {
+            "path": "entities/dolphin.json"
+        },
+        {
+            "path": "entities/donkey.json"
+        },
+        {
+            "path": "entities/enderman.json"
+        },
+        {
+            "path": "entities/fox.json"
+        },
+        {
+            "path": "entities/glow_squid.json"
+        },
+        {
+            "path": "entities/goat.json"
+        },
+        {
+            "path": "entities/happy_ghast.json"
+        },
+        {
+            "path": "entities/hoglin.json"
+        },
+        {
+            "path": "entities/horse.json"
+        },
+        {
+            "path": "entities/llama.json"
+        },
+        {
+            "path": "entities/mooshroom.json"
+        },
+        {
+            "path": "entities/mule.json"
+        },
+        {
+            "path": "entities/nautilus.json"
+        },
+        {
+            "path": "entities/ocelot.json"
+        },
+        {
+            "path": "entities/panda.json"
+        },
+        {
+            "path": "entities/pig.json"
+        },
+        {
+            "path": "entities/piglin.json"
+        },
+        {
+            "path": "entities/polar_bear.json"
+        },
+        {
+            "path": "entities/rabbit.json"
+        },
+        {
+            "path": "entities/sheep.json"
+        },
+        {
+            "path": "entities/skeleton_horse.json"
+        },
+        {
+            "path": "entities/sniffer.json"
+        },
+        {
+            "path": "entities/squid.json"
+        },
+        {
+            "path": "entities/strider.json"
+        },
+        {
+            "path": "entities/tadpole.json"
+        },
+        {
+            "path": "entities/trader_llama.json"
+        },
+        {
+            "path": "entities/turtle.json"
+        },
+        {
+            "path": "entities/wolf.json"
+        },
+        {
+            "path": "entities/zombie_horse.json"
+        },
+        {
+            "path": "item_catalog/crafting_item_catalog.json"
+        },
+        {
+            "path": "loot_tables/chests/ancient_city.json"
+        },
+        {
+            "path": "loot_tables/chests/woodland_mansion.json"
+        },
+        {
+            "path": "recipes/golden_dandelion.json"
+        },
+        {
+            "path": "recipes/name_tag.json"
+        },
+        {
+            "path": "recipes/stonecutter_chiseled_stone_bricks_from_cobblestone.json"
+        },
+        {
+            "path": "recipes/stonecutter_cobblestone_from_stone.json"
+        },
+        {
+            "path": "recipes/stonecutter_cobblestone_slab_from_stone.json"
+        },
+        {
+            "path": "recipes/stonecutter_cobblestone_stairs_from_stone.json"
+        },
+        {
+            "path": "recipes/stonecutter_cobblestone_wall_from_stone.json"
+        },
+        {
+            "path": "recipes/stonecutter_stone_bricks_from_cobblestone.json"
+        },
+        {
+            "path": "recipes/stonecutter_stone_brick_slab_from_cobblestone.json"
+        },
+        {
+            "path": "recipes/stonecutter_stone_brick_stairs_from_cobblestone.json"
+        },
+        {
+            "path": "recipes/stonecutter_stone_brick_wall_from_cobblestone.json"
+        },
+        {
+            "path": "recipes/stonecutting_chiseled_deepslate_from_deepslate.json"
+        },
+        {
+            "path": "recipes/stonecutting_cobbled_deepslateblock_from_deepslate.json"
+        },
+        {
+            "path": "recipes/stonecutting_cobbled_deepslate_slab_from_deepslate.json"
+        },
+        {
+            "path": "recipes/stonecutting_cobbled_deepslate_stairs_from_deepslate.json"
+        },
+        {
+            "path": "recipes/stonecutting_cobbled_deepslate_wall_from_deepslate.json"
+        },
+        {
+            "path": "recipes/stonecutting_deepslate_bricks_from_deepslate.json"
+        },
+        {
+            "path": "recipes/stonecutting_deepslate_brick_slab_from_deepslate.json"
+        },
+        {
+            "path": "recipes/stonecutting_deepslate_brick_stairs_from_deepslate.json"
+        },
+        {
+            "path": "recipes/stonecutting_deepslate_brick_wall_from_deepslate.json"
+        },
+        {
+            "path": "recipes/stonecutting_deepslate_tiles_from_deepslate.json"
+        },
+        {
+            "path": "recipes/stonecutting_deepslate_tile_slab_from_deepslate.json"
+        },
+        {
+            "path": "recipes/stonecutting_deepslate_tile_stairs_from_deepslate.json"
+        },
+        {
+            "path": "recipes/stonecutting_deepslate_tile_wall_from_deepslate.json"
+        },
+        {
+            "path": "recipes/stonecutting_polished_deepslateblock_from_deepslate.json"
+        },
+        {
+            "path": "recipes/stonecutting_polished_deepslate_slab_from_deepslate.json"
+        },
+        {
+            "path": "recipes/stonecutting_polished_deepslate_stairs_from_deepslate.json"
+        },
+        {
+            "path": "recipes/stonecutting_polished_deepslate_wall_from_deepslate.json"
+        },
+        {
+            "path": "recipes/suspicious_stew_from_golden_dandelion.json"
+        },
+        {
+            "path": "recipes/yellow_dye_from_golden_dandelion.json"
+        },
+        {
+            "path": "trading/economy_trades/librarian_trades.json"
+        },
+        {
+            "path": "trading/economy_trades/wandering_trader_trades.json"
+        }
+    ]
+}

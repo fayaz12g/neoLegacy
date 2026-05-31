@@ -1,0 +1,102 @@
+{
+  "format_version": "1.14.0",
+  "sound_definitions": {
+    "music.menu": {
+      "category": "music",
+      "sounds": [
+        {
+          "name": "sounds/music/game/a_familiar_room",
+          "stream": true,
+          "volume": 0.4
+        },
+        {
+          "name": "sounds/music/game/bromeliad",
+          "stream": true,
+          "volume": 0.4
+        },
+        {
+          "name": "sounds/music/game/crescent_dunes",
+          "stream": true,
+          "volume": 0.4
+        },
+        {
+          "name": "sounds/music/game/echo_in_the_wind",
+          "stream": true,
+          "volume": 0.4
+        },
+        {
+          "name": "sounds/music/menu/menu1",
+          "stream": true,
+          "volume": 0.3
+        },
+        {
+          "name": "sounds/music/menu/menu2",
+          "stream": true,
+          "volume": 0.3
+        },
+        {
+          "name": "sounds/music/menu/menu3",
+          "stream": true,
+          "volume": 0.3
+        },
+        {
+          "name": "sounds/music/menu/menu4",
+          "stream": true,
+          "volume": 0.3
+        }
+      ]
+    },
+    "pumpkin.carve": {
+      "category": "block",
+      "sounds": [
+        "sounds/block/pumpkin/carve1",
+        "sounds/block/pumpkin/carve2"
+      ]
+    },
+    "mob.husk.convert_to_zombie": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/mob/husk/convert1",
+        "sounds/mob/husk/convert2"
+      ]
+    },
+    "mob.hoglin.converted_to_zombified": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/mob/hoglin/converted1",
+        "sounds/mob/hoglin/converted2"
+      ]
+    },
+    "ambient.underwater.enter": {
+      "category": "player",
+      "sounds": [
+        {
+          "name": "sounds/ambient/underwater/enter1",
+          "volume": 0.8
+        },
+        {
+          "name": "sounds/ambient/underwater/enter2",
+          "volume": 0.8
+        },
+        {
+          "name": "sounds/ambient/underwater/enter3",
+          "volume": 0.8
+        }
+      ]
+    },
+    "ambient.underwater.exit": {
+      "category": "player",
+      "sounds": [
+        {
+          "name": "sounds/ambient/underwater/exit1"
+        },
+        {
+          "name": "sounds/ambient/underwater/exit2"
+        },
+        {
+          "name": "sounds/ambient/underwater/exit3"
+        }
+      ]
+    }
+  }
+}

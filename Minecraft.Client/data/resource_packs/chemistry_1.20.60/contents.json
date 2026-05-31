@@ -1,0 +1,13 @@
+{
+    "content": [
+        {
+            "path": "blocks.json"
+        },
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "textures/terrain_texture.json"
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "content": [
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "tropicalfish.json"
+        },
+        {
+            "path": "entities/allay.json"
+        },
+        {
+            "path": "entities/donkey.json"
+        },
+        {
+            "path": "entities/ender_dragon.json"
+        },
+        {
+            "path": "entities/horse.json"
+        },
+        {
+            "path": "entities/husk.json"
+        },
+        {
+            "path": "entities/iron_golem.json"
+        },
+        {
+            "path": "entities/llama.json"
+        },
+        {
+            "path": "entities/magma_cube.json"
+        },
+        {
+            "path": "entities/mule.json"
+        },
+        {
+            "path": "entities/slime.json"
+        },
+        {
+            "path": "entities/snow_golem.json"
+        },
+        {
+            "path": "entities/villager.json"
+        },
+        {
+            "path": "entities/villager_v2.json"
+        },
+        {
+            "path": "entities/wandering_trader.json"
+        },
+        {
+            "path": "entities/wither.json"
+        },
+        {
+            "path": "features/mangrove_tree_feature.json"
+        },
+        {
+            "path": "features/tall_mangrove_tree_feature.json"
+        },
+        {
+            "path": "trading/economy_trades/wandering_trader_trades.json"
+        }
+    ]
+}

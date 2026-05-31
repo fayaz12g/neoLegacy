@@ -1,0 +1,104 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "white_concrete_powder": {
+      "textures": "textures/blocks/concrete_powder_white"
+    },
+    "orange_concrete_powder": {
+      "textures": "textures/blocks/concrete_powder_orange"
+    },
+    "magenta_concrete_powder": {
+      "textures": "textures/blocks/concrete_powder_magenta"
+    },
+    "light_blue_concrete_powder": {
+      "textures": "textures/blocks/concrete_powder_light_blue"
+    },
+    "yellow_concrete_powder": {
+      "textures": "textures/blocks/concrete_powder_yellow"
+    },
+    "lime_concrete_powder": {
+      "textures": "textures/blocks/concrete_powder_lime"
+    },
+    "pink_concrete_powder": {
+      "textures": "textures/blocks/concrete_powder_pink"
+    },
+    "gray_concrete_powder": {
+      "textures": "textures/blocks/concrete_powder_gray"
+    },
+    "light_gray_concrete_powder": {
+      "textures": "textures/blocks/concrete_powder_silver"
+    },
+    "cyan_concrete_powder": {
+      "textures": "textures/blocks/concrete_powder_cyan"
+    },
+    "purple_concrete_powder": {
+      "textures": "textures/blocks/concrete_powder_purple"
+    },
+    "blue_concrete_powder": {
+      "textures": "textures/blocks/concrete_powder_blue"
+    },
+    "brown_concrete_powder": {
+      "textures": "textures/blocks/concrete_powder_brown"
+    },
+    "green_concrete_powder": {
+      "textures": "textures/blocks/concrete_powder_green"
+    },
+    "red_concrete_powder": {
+      "textures": "textures/blocks/concrete_powder_red"
+    },
+    "black_concrete_powder": {
+      "textures": "textures/blocks/concrete_powder_black"
+	  },
+    "white_terracotta": {
+      "textures": "textures/blocks/hardened_clay_stained_white"
+    },
+    "orange_terracotta": {
+      "textures": "textures/blocks/hardened_clay_stained_orange"
+    },
+    "magenta_terracotta": {
+      "textures": "textures/blocks/hardened_clay_stained_magenta"
+    },
+    "light_blue_terracotta": {
+      "textures": "textures/blocks/hardened_clay_stained_light_blue"
+    },
+    "yellow_terracotta": {
+      "textures": "textures/blocks/hardened_clay_stained_yellow"
+    },
+    "lime_terracotta": {
+      "textures": "textures/blocks/hardened_clay_stained_lime"
+    },
+    "pink_terracotta": {
+      "textures": "textures/blocks/hardened_clay_stained_pink"
+    },
+    "gray_terracotta": {
+      "textures": "textures/blocks/hardened_clay_stained_gray"
+    },
+    "light_gray_terracotta": {
+      "textures": "textures/blocks/hardened_clay_stained_silver"
+    },
+    "cyan_terracotta": {
+      "textures": "textures/blocks/hardened_clay_stained_cyan"
+    },
+    "purple_terracotta": {
+      "textures": "textures/blocks/hardened_clay_stained_purple"
+    },
+    "blue_terracotta": {
+      "textures": "textures/blocks/hardened_clay_stained_blue"
+    },
+    "brown_terracotta": {
+      "textures": "textures/blocks/hardened_clay_stained_brown"
+    },
+    "green_terracotta": {
+      "textures": "textures/blocks/hardened_clay_stained_green"
+    },
+    "red_terracotta": {
+      "textures": "textures/blocks/hardened_clay_stained_red"
+    },
+    "black_terracotta": {
+      "textures": "textures/blocks/hardened_clay_stained_black"
+    }
+  }
+}

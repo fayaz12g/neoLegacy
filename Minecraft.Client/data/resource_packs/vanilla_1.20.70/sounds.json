@@ -1,0 +1,685 @@
+{
+  "interactive_sounds": {
+    "block_sounds": {
+      "normal": {
+        "events": {
+          "fall": {
+            "sound": "fall.stone",
+            "volume": 0.4
+          }
+        }
+      },
+      "anvil": {
+        "events": {
+          "fall": {
+            "sound": "step.stone",
+            "volume": 0.4
+          }
+        }
+      },
+      "hanging_sign": {
+        "events": {
+          "fall": {
+            "sound": "step.hanging_sign",
+            "volume": 0.4
+          }
+        }
+      },
+      "nether_wood_hanging_sign": {
+        "events": {
+          "fall": {
+            "sound": "step.nether_wood_hanging_sign",
+            "volume": 0.4
+          }
+        }
+      },
+      "bamboo_wood_hanging_sign": {
+        "events": {
+          "fall": {
+            "sound": "step.bamboo_wood_hanging_sign",
+            "volume": 0.4
+          }
+        }
+      },
+      "suspicious_gravel": {
+        "events": {
+          "fall": {
+            "sound": "step.suspicious_gravel",
+            "volume": 0.4
+          }
+        }
+      },
+      "suspicious_sand": {
+        "events": {
+          "fall": {
+            "sound": "step.suspicious_sand",
+            "volume": 0.4
+          }
+        }
+      },
+      "chiseled_bookshelf": {
+        "events": {
+          "fall": {
+            "sound": "step.chiseled_bookshelf",
+            "volume": 0.4
+          }
+        }
+      },
+      "bamboo_wood": {
+        "events": {
+          "fall": {
+            "sound": "fall.bamboo_wood",
+            "volume": 0.4
+          }
+        }
+      },
+      "cherry_wood": {
+        "events": {
+          "fall": {
+            "sound": "fall.cherry_wood",
+            "volume": 0.4
+          }
+        }
+      },
+      "cherry_wood_hanging_sign": {
+        "events": {
+          "fall": {
+            "sound": "step.cherry_wood_hanging_sign",
+            "volume": 0.4
+          }
+        }
+      },
+      "cherry_leaves": {
+        "events": {
+          "fall": {
+            "sound": "fall.cherry_leaves",
+            "volume": 0.4
+          }
+        }
+      },
+      "pink_petals": {
+        "events": {
+          "fall": {
+            "sound": "fall.pink_petals",
+            "volume": 0.4
+          }
+        }
+      },
+      "nether_wood": {
+        "events": {
+          "fall": {
+            "sound": "fall.nether_wood",
+            "volume": 0.4
+          }
+        }
+      },
+      "froglight": {
+        "events": {
+          "fall": {
+            "sound": "step.froglight",
+            "volume": 0.4
+          }
+        }
+      },
+      "frog_spawn": {
+        "events": {
+          "fall": {
+            "sound": "step.frog_spawn",
+            "volume": 0.3,
+            "pitch": 1.3
+          }
+        }
+      },
+      "sculk_sensor": {
+        "events": {
+          "fall": {
+            "sound": "fall.sculk_sensor",
+            "volume": 0.4
+          }
+        }
+      },
+      "sculk": {
+        "events": {
+          "fall": {
+            "sound": "step.sculk",
+            "volume": 0.4
+          }
+        }
+      },
+      "sculk_catalyst": {
+        "events": {
+          "fall": {
+            "sound": "step.sculk_catalyst",
+            "volume": 0.4
+          }
+        }
+      },
+      "sculk_shrieker": {
+        "events": {
+          "fall": {
+            "sound": "step.sculk_shrieker",
+            "volume": 0.4
+          }
+        }
+      },
+      "sculk_vein": {
+        "events": {
+          "fall": {
+            "sound": "step.sculk_vein",
+            "volume": 0.4
+          }
+        }
+      },
+      "muddy_mangrove_roots": {
+        "events": {
+          "fall": {
+            "sound": "block.muddy_mangrove_roots.fall",
+            "volume": 0.4
+          }
+        }
+      },
+      "mangrove_roots": {
+        "events": {
+          "fall": {
+            "sound": "block.mangrove_roots.fall",
+            "volume": 0.4
+          }
+        }
+      },
+      "mud_bricks": {
+        "events": {
+          "fall": {
+            "sound": "block.mud_bricks.fall",
+            "volume": 0.4
+          }
+        }
+      },
+      "packed_mud": {
+        "events": {
+          "fall": {
+            "sound": "block.packed_mud.fall",
+            "volume": 0.4
+          }
+        }
+      },
+      "mud": {
+        "events": {
+          "fall": {
+            "sound": "block.mud.fall",
+            "volume": 0.4
+          }
+        }
+      },
+      "dirt_with_roots": {
+        "events": {
+          "fall": {
+            "sound": "fall.hanging_roots",
+            "volume": 0.4
+          }
+        }
+      },
+      "candle": {
+        "events": {
+          "fall": {
+            "sound": "step.candle",
+            "volume": 1.0
+          }
+        }
+      },
+      "powder_snow": {
+        "events": {
+          "fall": {
+            "sound": "fall.powder_snow",
+            "volume": 0.4
+          }
+        }
+      },
+      "copper": {
+        "events": {
+          "fall": {
+            "sound": "fall.copper",
+            "volume": 0.4
+          }
+        }
+      },
+      "big_dripleaf": {
+        "events": {
+          "fall": {
+            "sound": "fall.big_dripleaf",
+            "volume": 0.4
+          }
+        }
+      },
+      "dripstone_block": {
+        "events": {
+          "fall": {
+            "sound": "fall.dripstone_block",
+            "volume": 0.4
+          }
+        }
+      },
+      "pointed_dripstone": {
+        "events": {
+          "fall": {
+            "sound": "fall.pointed_dripstone",
+            "volume": 0.4
+          }
+        }
+      },
+      "hanging_roots": {
+        "events": {
+          "fall": {
+            "sound": "fall.hanging_roots",
+            "volume": 0.4
+          }
+        }
+      },
+      "spore_blossom": {
+        "events": {
+          "fall": {
+            "sound": "fall.spore_blossom",
+            "volume": 0.4
+          }
+        }
+      },
+      "azalea_leaves": {
+        "events": {
+          "fall": {
+            "sound": "fall.azalea_leaves",
+            "volume": 0.4
+          }
+        }
+      },
+      "azalea": {
+        "events": {
+          "fall": {
+            "sound": "fall.azalea",
+            "volume": 0.4
+          }
+        }
+      },
+      "cave_vines": {
+        "events": {
+          "fall": {
+            "sound": "fall.cave_vines",
+            "volume": 0.4
+          }
+        }
+      },
+      "moss_block": {
+        "events": {
+          "fall": {
+            "sound": "fall.moss"
+          }
+        }
+      },
+      "moss_carpet": {
+        "events": {
+          "fall": {
+            "sound": "fall.moss"
+          }
+        }
+      },
+      "deepslate": {
+        "events": {
+          "fall": {
+            "sound": "fall.deepslate",
+            "volume": 0.4
+          }
+        }
+      },
+      "deepslate_bricks": {
+        "events": {
+          "fall": {
+            "sound": "fall.deepslate_bricks",
+            "volume": 0.4
+          }
+        }
+      },
+      "amethyst_block": {
+        "events": {
+          "fall": {
+            "sound": "fall.amethyst_block",
+            "volume": 1.0
+          }
+        }
+      },
+      "amethyst_cluster": {
+        "events": {
+          "fall": {
+            "sound": "fall.amethyst_cluster",
+            "volume": 1.0
+          }
+        }
+      },
+      "large_amethyst_bud": {
+        "events": {
+          "fall": {
+            "sound": "fall.amethyst_cluster",
+            "volume": 1.0
+          }
+        }
+      },
+      "medium_amethyst_bud": {
+        "events": {
+          "fall": {
+            "sound": "fall.amethyst_cluster",
+            "volume": 1.0
+          }
+        }
+      },
+      "small_amethyst_bud": {
+        "events": {
+          "fall": {
+            "sound": "fall.amethyst_cluster",
+            "volume": 1.0
+          }
+        }
+      },
+      "tuff": {
+        "events": {
+          "fall": {
+            "sound": "fall.tuff",
+            "volume": 1.0
+          }
+        }
+      },
+      "calcite": {
+        "events": {
+          "fall": {
+            "sound": "fall.calcite",
+            "volume": 1.0
+          }
+        }
+      },
+      "soul_sand": {
+        "events": {
+          "fall": {
+            "sound": "fall.soul_sand",
+            "volume": 0.4
+            }
+          }
+       },
+      "soul_soil": {
+        "events": {
+          "fall": {
+            "sound": "fall.soul_soil",
+            "volume": 0.4
+          }
+        }
+      },
+      "nylium": {
+        "events": {
+          "fall": {
+            "sound": "fall.nylium",
+            "volume": 0.4
+            }
+         }
+      },
+      "roots": {
+        "events": {
+          "fall": {
+            "sound": "fall.roots",
+            "volume": 0.4
+          }
+        }
+      },
+      "fungus": {
+        "events": {
+          "fall": {
+            "sound": "dig.fungus",
+             "volume": 0.4
+          }
+        }
+      },
+      "stem": {
+        "events": {
+          "fall": {
+            "sound": "fall.stem",
+            "volume": 0.4
+          }
+        }
+      },
+      "shroomlight": {
+        "events": {
+          "fall": {
+            "sound": "fall.shroomlight",
+            "volume": 0.4
+          }
+        }
+      },
+      "basalt": {
+        "events": {
+          "fall": {
+            "sound": "fall.basalt",
+            "volume": 0.4
+          }
+        }
+      },
+      "bone_block": {
+        "events": {
+          "fall": {
+            "sound": "fall.bone_block",
+            "volume": 0.4
+          }
+        }
+      },
+      "nether_brick": {
+        "events": {
+          "fall": {
+            "sound": "fall.nether_brick",
+            "volume": 0.4
+          }
+        }
+      },
+      "netherrack": {
+        "events": {
+          "fall": {
+            "sound": "fall.netherrack",
+            "volume": 0.4
+          }
+        }
+      },
+      "nether_sprouts": {
+        "events": {
+          "fall": {
+            "sound": "fall.nether_sprouts",
+            "volume": 0.4
+          }
+        }
+      },
+      "nether_wart": {
+        "events": {
+          "fall": {
+            "sound": "fall.nether_wart",
+            "volume": 0.4
+          }
+        }
+      },
+      "nether_gold_ore": {
+        "events": {
+          "fall": {
+            "sound": "fall.nether_gold_ore",
+            "volume": 0.4
+          }
+        }
+      },
+      "ancient_debris": {
+        "events": {
+          "fall": {
+            "sound": "fall.ancient_debris",
+            "volume": 0.4
+          }
+        }
+      },
+      "honey_block": {
+        "events": {
+          "fall": {
+            "sound": "fall.honey_block",
+            "volume": 0.4
+          }
+        }
+      },
+      "coral": {
+        "events": {
+          "fall": {
+            "sound": "fall.coral",
+            "volume": 0.4
+          }
+        }
+      },
+      "netherite": {
+        "events": {
+          "fall": {
+            "sound": "fall.netherite",
+            "volume": 0.4
+          }
+        }
+      },
+      "lodestone": {
+        "events": {
+          "fall": {
+            "sound": "fall.stone",
+            "volume": 0.4
+          }
+        }
+      },
+      "chain": {
+        "events": {
+          "fall": {
+            "sound": "fall.chain",
+            "volume": 0.4
+          }
+        }
+      },
+      "vines": {
+        "events": {
+          "fall": {
+            "sound": "fall.vines",
+            "volume": 0.4
+          }
+        }
+      },
+      "gravel": {
+        "events": {
+          "fall": {
+            "sound": "fall.gravel",
+            "volume": 0.4
+          }
+        }
+      },
+      "wood": {
+        "events": {
+          "fall": {
+            "sound": "fall.wood",
+            "volume": 0.4
+          }
+        }
+      },
+      "grass": {
+        "events": {
+          "fall": {
+            "sound": "fall.grass",
+            "volume": 0.4
+          }
+        }
+      },
+      "stone": {
+        "events": {
+          "fall": {
+            "sound": "fall.stone",
+            "volume": 0.4
+          }
+        }
+      },
+      "cloth": {
+        "events": {
+          "fall": {
+            "sound": "fall.cloth",
+            "volume": 0.4
+          }
+        }
+      },
+      "glass": {
+        "events": {
+          "fall": {
+            "sound": "fall.stone",
+            "volume": 0.4
+          }
+        }
+      },
+      "sand": {
+        "events": {
+          "fall": {
+            "sound": "fall.sand",
+            "volume": 0.4
+          }
+        }
+      },
+      "snow": {
+        "events": {
+          "fall": {
+            "sound": "fall.snow",
+            "volume": 0.4
+          }
+        }
+      },
+      "ladder": {
+        "events": {
+          "fall": {
+            "sound": "fall.ladder",
+            "volume": 0.4
+          }
+        }
+      },
+      "slime": {
+        "events": {
+          "fall": {
+            "sound": "fall.slime",
+            "volume": 0.4
+          }
+        }
+      },
+      "metal": {
+        "events": {
+          "fall": {
+            "sound": "fall.stone",
+            "volume": 0.4
+          }
+        }
+      },
+      "turtle_egg": {
+        "events": {
+          "fall": {
+            "sound": "fall.egg" ,
+            "volume": 0.4
+          }
+        }
+      },
+      "bamboo": {
+        "events": {
+          "fall": {
+            "sound": "block.bamboo.fall",
+            "volume": 0.4
+          }
+        }
+      },
+      "lantern": {
+        "events": {
+          "fall": {
+            "sound": "block.lantern.fall",
+            "volume": 0.4
+          }
+        }
+      },
+      "scaffolding": {
+        "events": {
+          "fall": {
+            "sound": "block.scaffolding.fall",
+            "volume": 0.4
+          }
+        }
+      }
+    }
+  }
+}

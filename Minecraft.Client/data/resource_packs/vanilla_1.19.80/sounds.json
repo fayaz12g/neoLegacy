@@ -1,0 +1,60 @@
+{
+  "individual_event_sounds": {
+    "events": {
+      "block.campfire.crackle": {
+        "sound": "block.campfire.crackle",
+        "volume": [ 0.5, 1.5 ],
+        "pitch": [ 0.6, 1.3 ]
+      }
+    }
+  },
+  "entity_sounds": {
+    "entities": {
+      "pig": {
+        "events": {
+          "eat": ""
+        }
+      },
+      "cow": {
+        "events": {
+          "eat": ""
+        }
+      },
+      "sheep": {
+        "events": {
+          "eat": ""
+        }
+      },
+      "chicken": {
+        "events": {
+          "eat": ""
+        }
+      },
+      "hoglin": {
+        "events": {
+          "eat": ""
+        }
+      },
+      "rabbit": {
+        "events": {
+          "eat": ""
+        }
+      },
+      "turtle": {
+        "events": {
+          "eat": ""
+        }
+      },
+      "wolf": {
+        "events": {
+          "eat": ""
+        }
+      },
+      "axolotl": {
+        "events": {
+          "eat": ""
+        }
+      }
+    }
+  }
+}

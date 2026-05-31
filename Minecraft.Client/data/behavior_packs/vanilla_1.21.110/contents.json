@@ -1,0 +1,298 @@
+{
+    "content": [
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "entities/boat.json"
+        },
+        {
+            "path": "entities/bogged.json"
+        },
+        {
+            "path": "entities/camel.json"
+        },
+        {
+            "path": "entities/chest_boat.json"
+        },
+        {
+            "path": "entities/copper_golem.json"
+        },
+        {
+            "path": "entities/donkey.json"
+        },
+        {
+            "path": "entities/drowned.json"
+        },
+        {
+            "path": "entities/fox.json"
+        },
+        {
+            "path": "entities/happy_ghast.json"
+        },
+        {
+            "path": "entities/horse.json"
+        },
+        {
+            "path": "entities/husk.json"
+        },
+        {
+            "path": "entities/mule.json"
+        },
+        {
+            "path": "entities/piglin.json"
+        },
+        {
+            "path": "entities/skeleton.json"
+        },
+        {
+            "path": "entities/stray.json"
+        },
+        {
+            "path": "entities/trader_llama.json"
+        },
+        {
+            "path": "entities/wither_skeleton.json"
+        },
+        {
+            "path": "entities/zombie.json"
+        },
+        {
+            "path": "entities/zombie_pigman.json"
+        },
+        {
+            "path": "entities/zombie_villager_v2.json"
+        },
+        {
+            "path": "item_catalog/crafting_item_catalog.json"
+        },
+        {
+            "path": "loot_tables/chests/desert_pyramid.json"
+        },
+        {
+            "path": "loot_tables/chests/end_city_treasure.json"
+        },
+        {
+            "path": "loot_tables/chests/jungle_temple.json"
+        },
+        {
+            "path": "loot_tables/chests/monster_room.json"
+        },
+        {
+            "path": "loot_tables/chests/nether_bridge.json"
+        },
+        {
+            "path": "loot_tables/chests/simple_dungeon.json"
+        },
+        {
+            "path": "loot_tables/chests/stronghold_corridor.json"
+        },
+        {
+            "path": "loot_tables/chests/village/village_weaponsmith.json"
+        },
+        {
+            "path": "loot_tables/entities/armor_set_copper.json"
+        },
+        {
+            "path": "loot_tables/entities/copper_golem.json"
+        },
+        {
+            "path": "loot_tables/entities/copper_golem_shear.json"
+        },
+        {
+            "path": "loot_tables/entities/skeleton_gear.json"
+        },
+        {
+            "path": "loot_tables/entities/zombie_equipment.json"
+        },
+        {
+            "path": "recipes/acacia_shelf_from_stripped_acacia_log.json"
+        },
+        {
+            "path": "recipes/bamboo_shelf_from_stripped_bamboo_block.json"
+        },
+        {
+            "path": "recipes/birch_shelf_from_stripped_birch_log.json"
+        },
+        {
+            "path": "recipes/cherry_shelf_from_stripped_cherry_log.json"
+        },
+        {
+            "path": "recipes/copper_axe.json"
+        },
+        {
+            "path": "recipes/copper_bars.json"
+        },
+        {
+            "path": "recipes/copper_boots.json"
+        },
+        {
+            "path": "recipes/copper_chain.json"
+        },
+        {
+            "path": "recipes/copper_chest.json"
+        },
+        {
+            "path": "recipes/copper_chestplate.json"
+        },
+        {
+            "path": "recipes/copper_helmet.json"
+        },
+        {
+            "path": "recipes/copper_hoe.json"
+        },
+        {
+            "path": "recipes/copper_ingot_from_nuggets.json"
+        },
+        {
+            "path": "recipes/copper_lantern.json"
+        },
+        {
+            "path": "recipes/copper_leggings.json"
+        },
+        {
+            "path": "recipes/copper_nugget.json"
+        },
+        {
+            "path": "recipes/copper_pickaxe.json"
+        },
+        {
+            "path": "recipes/copper_shovel.json"
+        },
+        {
+            "path": "recipes/copper_sword.json"
+        },
+        {
+            "path": "recipes/copper_torch.json"
+        },
+        {
+            "path": "recipes/crafting_table_copper_trapdoor.json"
+        },
+        {
+            "path": "recipes/crimson_shelf_from_stripped_crimson_stem.json"
+        },
+        {
+            "path": "recipes/dark_oak_shelf_from_stripped_dark_oak_log.json"
+        },
+        {
+            "path": "recipes/furnace_copper_axe.json"
+        },
+        {
+            "path": "recipes/furnace_copper_boots.json"
+        },
+        {
+            "path": "recipes/furnace_copper_chestplate.json"
+        },
+        {
+            "path": "recipes/furnace_copper_helmet.json"
+        },
+        {
+            "path": "recipes/furnace_copper_hoe.json"
+        },
+        {
+            "path": "recipes/furnace_copper_leggings.json"
+        },
+        {
+            "path": "recipes/furnace_copper_pickaxe.json"
+        },
+        {
+            "path": "recipes/furnace_copper_shovel.json"
+        },
+        {
+            "path": "recipes/furnace_copper_sword.json"
+        },
+        {
+            "path": "recipes/furnace_horse_armor_copper.json"
+        },
+        {
+            "path": "recipes/jungle_shelf_from_stripped_jungle_log.json"
+        },
+        {
+            "path": "recipes/mangrove_shelf_from_stripped_mangrove_log.json"
+        },
+        {
+            "path": "recipes/oak_shelf_from_stripped_oak_log.json"
+        },
+        {
+            "path": "recipes/pale_oak_shelf_from_stripped_pale_oak_log.json"
+        },
+        {
+            "path": "recipes/spruce_shelf_from_stripped_spruce_log.json"
+        },
+        {
+            "path": "recipes/warped_shelf_from_stripped_warped_stem.json"
+        },
+        {
+            "path": "recipes/waxing_copper_bars.json"
+        },
+        {
+            "path": "recipes/waxing_copper_chain.json"
+        },
+        {
+            "path": "recipes/waxing_copper_chest.json"
+        },
+        {
+            "path": "recipes/waxing_copper_golem_statue.json"
+        },
+        {
+            "path": "recipes/waxing_copper_lantern.json"
+        },
+        {
+            "path": "recipes/waxing_exposed_copper_bars.json"
+        },
+        {
+            "path": "recipes/waxing_exposed_copper_chain.json"
+        },
+        {
+            "path": "recipes/waxing_exposed_copper_chest.json"
+        },
+        {
+            "path": "recipes/waxing_exposed_copper_golem_statue.json"
+        },
+        {
+            "path": "recipes/waxing_exposed_copper_lantern.json"
+        },
+        {
+            "path": "recipes/waxing_exposed_lightning_rod.json"
+        },
+        {
+            "path": "recipes/waxing_lightning_rod.json"
+        },
+        {
+            "path": "recipes/waxing_oxidized_copper_bars.json"
+        },
+        {
+            "path": "recipes/waxing_oxidized_copper_chain.json"
+        },
+        {
+            "path": "recipes/waxing_oxidized_copper_chest.json"
+        },
+        {
+            "path": "recipes/waxing_oxidized_copper_golem_statue.json"
+        },
+        {
+            "path": "recipes/waxing_oxidized_copper_lantern.json"
+        },
+        {
+            "path": "recipes/waxing_oxidized_lightning_rod.json"
+        },
+        {
+            "path": "recipes/waxing_weathered_copper_bars.json"
+        },
+        {
+            "path": "recipes/waxing_weathered_copper_chain.json"
+        },
+        {
+            "path": "recipes/waxing_weathered_copper_chest.json"
+        },
+        {
+            "path": "recipes/waxing_weathered_copper_golem_statue.json"
+        },
+        {
+            "path": "recipes/waxing_weathered_copper_lantern.json"
+        },
+        {
+            "path": "recipes/waxing_weathered_lightning_rod.json"
+        }
+    ]
+}

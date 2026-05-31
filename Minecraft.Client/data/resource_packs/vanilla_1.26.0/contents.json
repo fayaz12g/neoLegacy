@@ -1,0 +1,25 @@
+{
+    "content": [
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "sounds.json"
+        },
+        {
+            "path": "models/entity/wolf.geo.json"
+        },
+        {
+            "path": "models/entity/wolf_armor.geo.json"
+        },
+        {
+            "path": "sounds/sound_definitions.json"
+        },
+        {
+            "path": "textures/blocks/stripped_spruce_log.png"
+        },
+        {
+            "path": "textures/blocks/stripped_spruce_log_top.png"
+        }
+    ]
+}

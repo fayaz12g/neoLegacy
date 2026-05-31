@@ -1,0 +1,73 @@
+{
+    "content": [
+        {
+            "path": "blocks.json"
+        },
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "sounds.json"
+        },
+        {
+            "path": "entity/zombie_villager_v2.entity.json"
+        },
+        {
+            "path": "particles/cherry_leaves_particle.json"
+        },
+        {
+            "path": "render_controllers/zombie_villager_v2.render_controllers.json"
+        },
+        {
+            "path": "sounds/sound_definitions.json"
+        },
+        {
+            "path": "textures/terrain_texture.json"
+        },
+        {
+            "path": "textures/entity/zombie_villager2/professions/armorer.tga"
+        },
+        {
+            "path": "textures/entity/zombie_villager2/professions/butcher.tga"
+        },
+        {
+            "path": "textures/entity/zombie_villager2/professions/cartographer.tga"
+        },
+        {
+            "path": "textures/entity/zombie_villager2/professions/cleric.tga"
+        },
+        {
+            "path": "textures/entity/zombie_villager2/professions/farmer.tga"
+        },
+        {
+            "path": "textures/entity/zombie_villager2/professions/fisherman.tga"
+        },
+        {
+            "path": "textures/entity/zombie_villager2/professions/fletcher.tga"
+        },
+        {
+            "path": "textures/entity/zombie_villager2/professions/leatherworker.tga"
+        },
+        {
+            "path": "textures/entity/zombie_villager2/professions/librarian.tga"
+        },
+        {
+            "path": "textures/entity/zombie_villager2/professions/nitwit.tga"
+        },
+        {
+            "path": "textures/entity/zombie_villager2/professions/shepherd.tga"
+        },
+        {
+            "path": "textures/entity/zombie_villager2/professions/stonemason.tga"
+        },
+        {
+            "path": "textures/entity/zombie_villager2/professions/toolsmith.tga"
+        },
+        {
+            "path": "textures/entity/zombie_villager2/professions/unskilled.tga"
+        },
+        {
+            "path": "textures/entity/zombie_villager2/professions/weaponsmith.tga"
+        }
+    ]
+}

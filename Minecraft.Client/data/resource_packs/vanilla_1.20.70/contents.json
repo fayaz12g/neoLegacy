@@ -1,0 +1,25 @@
+{
+    "content": [
+        {
+            "path": "blocks.json"
+        },
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "sounds.json"
+        },
+        {
+            "path": "entity/phantom.entity.json"
+        },
+        {
+            "path": "entity/warden.entity.json"
+        },
+        {
+            "path": "textures/terrain_texture.json"
+        },
+        {
+            "path": "textures/entity/shield_patterns/globe.png"
+        }
+    ]
+}

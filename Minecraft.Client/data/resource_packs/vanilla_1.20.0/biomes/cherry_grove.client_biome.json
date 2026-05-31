@@ -1,0 +1,19 @@
+{
+  "format_version": "1.21.70",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "cherry_grove"
+    },
+    "components": {
+      "minecraft:foliage_appearance": {
+        "color": "#b6db61"
+      },
+      "minecraft:grass_appearance": {
+        "color": "#b6db61"
+      },
+      "minecraft:biome_music": {
+        "music_definition": "cherry_grove"
+      }
+    }
+  }
+}

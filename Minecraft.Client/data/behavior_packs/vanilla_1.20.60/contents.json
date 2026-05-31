@@ -1,0 +1,25 @@
+{
+    "content": [
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "entities/bee.json"
+        },
+        {
+            "path": "entities/pufferfish.json"
+        },
+        {
+            "path": "entities/xp_orb.json"
+        },
+        {
+            "path": "entities/zoglin.json"
+        },
+        {
+            "path": "items/suspicious_stew.json"
+        },
+        {
+            "path": "spawn_rules/wolf.json"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+  "individual_event_sounds": {
+    "events": {
+      "pumpkin.carve": {"sound": "pumpkin.carve", "volume": 1.0, "pitch": 1.0},
+      "mob.husk.convert_to_zombie": {"sound": "mob.husk.convert_to_zombie", "volume": 1.0, "pitch": [0.8, 1.2]},
+      "mob.pig.death": {"sound": "mob.pig.death", "volume": 1.0, "pitch": [0.8, 1.2]},
+      "mob.hoglin.converted_to_zombified": {"sound": "mob.hoglin.converted_to_zombified", "volume": 1.0, "pitch": [0.8, 1.2]},
+      "ambient.underwater.enter": {"sound": "ambient.underwater.enter", "volume": 1.0, "pitch": 1.0},
+      "ambient.underwater.exit": {"sound": "ambient.underwater.exit", "volume": 1.0, "pitch": 1.0}
+    }
+  },
+  "block_sounds": {
+  },
+  "interactive_sounds": {
+    "block_sounds": {
+    }
+  },
+  "entity_sounds": {
+    "entities": {
+      "snow_golem": {
+        "volume": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "mob.snowgolem.hurt",
+            "pitch": [ 0.8, 1.2 ]
+            },
+          "death": {
+            "sound": "mob.snowgolem.death",
+            "pitch": [ 0.8, 1.2 ]
+          },
+          "shoot": {
+            "sound": "mob.snowgolem.shoot",
+            "pitch": [ 0.33, 0.5 ]
+          }
+        }
+      }
+    }
+  }
+}

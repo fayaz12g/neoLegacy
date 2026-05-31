@@ -1,0 +1,25 @@
+{
+    "content": [
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "entities/arrow.json"
+        },
+        {
+            "path": "entities/drowned.json"
+        },
+        {
+            "path": "entities/wither_skeleton.json"
+        },
+        {
+            "path": "item_catalog/crafting_item_catalog.json"
+        },
+        {
+            "path": "loot_tables/entities/drowned_ranged_equipment.json"
+        },
+        {
+            "path": "loot_tables/entities/zombie.json"
+        }
+    ]
+}

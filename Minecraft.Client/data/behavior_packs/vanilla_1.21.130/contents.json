@@ -1,0 +1,271 @@
+{
+    "content": [
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "entities/axolotl.json"
+        },
+        {
+            "path": "entities/camel.json"
+        },
+        {
+            "path": "entities/camel_husk.json"
+        },
+        {
+            "path": "entities/cat.json"
+        },
+        {
+            "path": "entities/cave_spider.json"
+        },
+        {
+            "path": "entities/chicken.json"
+        },
+        {
+            "path": "entities/cow.json"
+        },
+        {
+            "path": "entities/donkey.json"
+        },
+        {
+            "path": "entities/drowned.json"
+        },
+        {
+            "path": "entities/horse.json"
+        },
+        {
+            "path": "entities/husk.json"
+        },
+        {
+            "path": "entities/mooshroom.json"
+        },
+        {
+            "path": "entities/mule.json"
+        },
+        {
+            "path": "entities/nautilus.json"
+        },
+        {
+            "path": "entities/ocelot.json"
+        },
+        {
+            "path": "entities/panda.json"
+        },
+        {
+            "path": "entities/parched.json"
+        },
+        {
+            "path": "entities/phantom.json"
+        },
+        {
+            "path": "entities/pig.json"
+        },
+        {
+            "path": "entities/piglin.json"
+        },
+        {
+            "path": "entities/player.json"
+        },
+        {
+            "path": "entities/sheep.json"
+        },
+        {
+            "path": "entities/skeleton.json"
+        },
+        {
+            "path": "entities/skeleton_horse.json"
+        },
+        {
+            "path": "entities/spider.json"
+        },
+        {
+            "path": "entities/trader_llama.json"
+        },
+        {
+            "path": "entities/wither.json"
+        },
+        {
+            "path": "entities/wolf.json"
+        },
+        {
+            "path": "entities/zombie.json"
+        },
+        {
+            "path": "entities/zombie_horse.json"
+        },
+        {
+            "path": "entities/zombie_nautilus.json"
+        },
+        {
+            "path": "entities/zombie_pigman.json"
+        },
+        {
+            "path": "entities/zombie_villager_v2.json"
+        },
+        {
+            "path": "feature_rules/crimson_fungus_warped_feature.json"
+        },
+        {
+            "path": "feature_rules/crimson_roots_warped_feature.json"
+        },
+        {
+            "path": "items/copper_spear.json"
+        },
+        {
+            "path": "items/diamond_spear.json"
+        },
+        {
+            "path": "items/golden_spear.json"
+        },
+        {
+            "path": "items/iron_spear.json"
+        },
+        {
+            "path": "items/netherite_spear.json"
+        },
+        {
+            "path": "items/stone_spear.json"
+        },
+        {
+            "path": "items/wooden_spear.json"
+        },
+        {
+            "path": "item_catalog/crafting_item_catalog.json"
+        },
+        {
+            "path": "loot_tables/chests/bastion_treasure.json"
+        },
+        {
+            "path": "loot_tables/chests/buriedtreasure.json"
+        },
+        {
+            "path": "loot_tables/chests/end_city_treasure.json"
+        },
+        {
+            "path": "loot_tables/chests/shipwrecksupply.json"
+        },
+        {
+            "path": "loot_tables/chests/underwater_ruin_big.json"
+        },
+        {
+            "path": "loot_tables/chests/underwater_ruin_small.json"
+        },
+        {
+            "path": "loot_tables/chests/village/village_weaponsmith.json"
+        },
+        {
+            "path": "loot_tables/entities/camel_husk.json"
+        },
+        {
+            "path": "loot_tables/entities/creeper.json"
+        },
+        {
+            "path": "loot_tables/entities/drowned_rider_equipment.json"
+        },
+        {
+            "path": "loot_tables/entities/husk_rider.json"
+        },
+        {
+            "path": "loot_tables/entities/nautilus.json"
+        },
+        {
+            "path": "loot_tables/entities/parched.json"
+        },
+        {
+            "path": "loot_tables/entities/piglin_gear_melee.json"
+        },
+        {
+            "path": "loot_tables/entities/zombie_equipment.json"
+        },
+        {
+            "path": "loot_tables/entities/zombie_horse.json"
+        },
+        {
+            "path": "loot_tables/entities/zombie_nautilus.json"
+        },
+        {
+            "path": "loot_tables/entities/zombie_pigman_gear.json"
+        },
+        {
+            "path": "loot_tables/entities/zombie_rider.json"
+        },
+        {
+            "path": "loot_tables/entities/zombie_rider_equipment.json"
+        },
+        {
+            "path": "loot_tables/gameplay/fishing/jungle_fish.json"
+        },
+        {
+            "path": "recipes/copper_spear.json"
+        },
+        {
+            "path": "recipes/diamond_spear.json"
+        },
+        {
+            "path": "recipes/furnace_copper_nautilus_armor.json"
+        },
+        {
+            "path": "recipes/furnace_copper_spear.json"
+        },
+        {
+            "path": "recipes/furnace_golden_nautilus_armor.json"
+        },
+        {
+            "path": "recipes/furnace_golden_spear.json"
+        },
+        {
+            "path": "recipes/furnace_iron_nautilus_armor.json"
+        },
+        {
+            "path": "recipes/furnace_iron_spear.json"
+        },
+        {
+            "path": "recipes/golden_spear.json"
+        },
+        {
+            "path": "recipes/iron_spear.json"
+        },
+        {
+            "path": "recipes/smithing_netherite_horse_armor.json"
+        },
+        {
+            "path": "recipes/smithing_netherite_nautilus_armor.json"
+        },
+        {
+            "path": "recipes/smithing_netherite_spear.json"
+        },
+        {
+            "path": "recipes/stone_spear.json"
+        },
+        {
+            "path": "recipes/wooden_spear.json"
+        },
+        {
+            "path": "spawn_rules/camel_husk.json"
+        },
+        {
+            "path": "spawn_rules/dolphin.json"
+        },
+        {
+            "path": "spawn_rules/drowned.json"
+        },
+        {
+            "path": "spawn_rules/nautilus.json"
+        },
+        {
+            "path": "spawn_rules/parched.json"
+        },
+        {
+            "path": "spawn_rules/pufferfish.json"
+        },
+        {
+            "path": "spawn_rules/skeleton.json"
+        },
+        {
+            "path": "spawn_rules/zombie_horse.json"
+        },
+        {
+            "path": "worldgen/metadata/jigsawstructure_metadata_registry.dat"
+        }
+    ]
+}

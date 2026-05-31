@@ -1,0 +1,22 @@
+[
+    {
+        "flipbook_texture": "textures/blocks/copper_lantern",
+        "atlas_tile": "copper_lantern",
+        "ticks_per_frame": 8
+    },
+    {
+        "flipbook_texture": "textures/blocks/exposed_copper_lantern",
+        "atlas_tile": "exposed_copper_lantern",
+        "ticks_per_frame": 8
+    },
+    {
+        "flipbook_texture": "textures/blocks/oxidized_copper_lantern",
+        "atlas_tile": "oxidized_copper_lantern",
+        "ticks_per_frame": 8
+    },
+    {
+        "flipbook_texture": "textures/blocks/weathered_copper_lantern",
+        "atlas_tile": "weathered_copper_lantern",
+        "ticks_per_frame": 8
+    }
+]

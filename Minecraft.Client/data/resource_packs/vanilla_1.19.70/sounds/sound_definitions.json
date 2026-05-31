@@ -1,0 +1,309 @@
+{
+  "format_version": "1.14.0",
+  "sound_definitions": {
+    "note.banjo": {
+      "category": "record",
+      "max_distance": 48.0,
+      "sounds": [
+        {
+          "name": "sounds/note/banjo",
+          "load_on_low_memory": true
+        }
+      ]
+    },
+    "note.bass": {
+      "category": "record",
+      "max_distance": 48.0,
+      "sounds": [
+        {
+          "name": "sounds/note/bass",
+          "load_on_low_memory": true
+        }
+      ]
+    },
+    "note.bassattack": {
+      "category": "record",
+      "max_distance": 48.0,
+      "sounds": [
+        {
+          "name": "sounds/note/bassattack",
+          "load_on_low_memory": true
+        }
+      ]
+    },
+    "note.bd": {
+      "category": "record",
+      "max_distance": 48.0,
+      "sounds": [
+        {
+          "name": "sounds/note/bd",
+          "load_on_low_memory": true
+        }
+      ]
+    },
+    "note.bell": {
+      "category": "record",
+      "max_distance": 48.0,
+      "sounds": [
+        {
+          "name": "sounds/note/bell",
+          "load_on_low_memory": true
+        }
+      ]
+    },
+    "note.bit": {
+      "category": "record",
+      "max_distance": 48.0,
+      "sounds": [
+        {
+          "name": "sounds/note/bit",
+          "load_on_low_memory": true
+        }
+      ]
+    },
+    "note.cow_bell": {
+      "category": "record",
+      "max_distance": 48.0,
+      "sounds": [
+        {
+          "name": "sounds/note/cow_bell",
+          "load_on_low_memory": true
+        }
+      ]
+    },
+    "note.didgeridoo": {
+      "category": "record",
+      "max_distance": 48.0,
+      "sounds": [
+        {
+          "name": "sounds/note/didgeridoo",
+          "load_on_low_memory": true
+        }
+      ]
+    },
+    "note.flute": {
+      "category": "record",
+      "max_distance": 48.0,
+      "sounds": [
+        {
+          "name": "sounds/note/flute",
+          "load_on_low_memory": true
+        }
+      ]
+    },
+    "note.guitar": {
+      "category": "record",
+      "max_distance": 48.0,
+      "sounds": [
+        {
+          "name": "sounds/note/guitar",
+          "load_on_low_memory": true
+        }
+      ]
+    },
+    "note.harp": {
+      "category": "record",
+      "max_distance": 48.0,
+      "sounds": [
+        {
+          "name": "sounds/note/harp",
+          "load_on_low_memory": true
+        }
+      ]
+    },
+    "note.hat": {
+      "category": "record",
+      "max_distance": 48.0,
+      "sounds": [
+        {
+          "name": "sounds/note/hat",
+          "load_on_low_memory": true
+        }
+      ]
+    },
+    "note.chime": {
+      "category": "record",
+      "max_distance": 48.0,
+      "sounds": [
+        {
+          "name": "sounds/note/icechime",
+          "load_on_low_memory": true
+        }
+      ]
+    },
+    "note.iron_xylophone": {
+      "category": "record",
+      "max_distance": 48.0,
+      "sounds": [
+        {
+          "name": "sounds/note/iron_xylophone",
+          "load_on_low_memory": true
+        }
+      ]
+    },
+    "note.pling": {
+      "category": "record",
+      "max_distance": 48.0,
+      "sounds": [
+        {
+          "name": "sounds/note/pling",
+          "load_on_low_memory": true
+        }
+      ]
+    },
+    "note.snare": {
+      "category": "record",
+      "max_distance": 48.0,
+      "sounds": [
+        {
+          "name": "sounds/note/snare",
+          "load_on_low_memory": true
+        }
+      ]
+    },
+    "note.xylophone": {
+      "category": "record",
+      "max_distance": 48.0,
+      "sounds": [
+        {
+          "name": "sounds/note/xylobone",
+          "load_on_low_memory": true
+        }
+      ]
+    },
+    "mob.ghast.affectionate_scream": {
+      "category": "hostile",
+      "min_distance": 0.0,
+      "max_distance": 80.0,
+      "sounds": [
+        {
+          "name": "sounds/mob/ghast/affectionate_scream",
+          "volume": 0.5
+        }
+      ]
+    },
+    "mob.ghast.charge": {
+      "category": "hostile",
+      "min_distance": 0.0,
+      "max_distance": 80.0,
+      "sounds": [
+        {
+          "name": "sounds/mob/ghast/charge",
+          "volume": 0.5,
+          "load_on_low_memory": true
+        }
+      ]
+    },
+    "mob.ghast.death": {
+      "category": "hostile",
+      "min_distance": 0.0,
+      "max_distance": 80.0,
+      "sounds": [
+        {
+          "name": "sounds/mob/ghast/death",
+          "volume": 0.5
+        }
+      ]
+    },
+    "mob.ghast.fireball": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/mob/ghast/fireball4"
+      ]
+    },
+    "mob.ghast.moan": {
+      "category": "hostile",
+      "min_distance": 0.0,
+      "max_distance": 80.0,
+      "sounds": [
+        {
+          "name": "sounds/mob/ghast/moan1",
+          "volume": 0.5,
+          "load_on_low_memory": true
+        },
+        {
+          "name": "sounds/mob/ghast/moan2",
+          "volume": 0.5
+        },
+        {
+          "name": "sounds/mob/ghast/moan3",
+          "volume": 0.5
+        },
+        {
+          "name": "sounds/mob/ghast/moan4",
+          "volume": 0.5
+        },
+        {
+          "name": "sounds/mob/ghast/moan5",
+          "volume": 0.5
+        },
+        {
+          "name": "sounds/mob/ghast/moan6",
+          "volume": 0.5
+        },
+        {
+          "name": "sounds/mob/ghast/moan7",
+          "volume": 0.5
+        }
+      ]
+    },
+    "mob.ghast.scream": {
+      "category": "hostile",
+      "min_distance": 0.0,
+      "max_distance": 80.0,
+      "sounds": [
+        {
+          "name": "sounds/mob/ghast/scream1",
+          "volume": 0.5
+        },
+        {
+          "name": "sounds/mob/ghast/scream2",
+          "volume": 0.5
+        },
+        {
+          "name": "sounds/mob/ghast/scream3",
+          "volume": 0.5,
+          "load_on_low_memory": true
+        },
+        {
+          "name": "sounds/mob/ghast/scream4",
+          "volume": 0.5
+        },
+        {
+          "name": "sounds/mob/ghast/scream5",
+          "volume": 0.5
+        }
+      ]
+    },
+    "random.wood_click": {
+      "category": "block",
+      "sounds": [
+        {
+          "name": "sounds/random/wood_click",
+          "volume": 0.3,
+          "load_on_low_memory": true
+        }
+      ]
+    },
+    "random.stone_click": {
+      "category": "block",
+      "sounds": [
+        {
+          "name": "sounds/random/click",
+          "volume": 0.3,
+          "load_on_low_memory": true
+        }
+      ]
+    },
+    "random.lever_click": {
+      "category": "block",
+      "sounds": [
+        {
+          "name": "sounds/random/click",
+          "volume": 0.3,
+          "load_on_low_memory": true
+        }
+      ]
+    }
+  }
+}

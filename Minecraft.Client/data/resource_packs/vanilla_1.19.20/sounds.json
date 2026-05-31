@@ -1,0 +1,12 @@
+{
+  "individual_event_sounds": {
+    "events": {
+      "block.sculk_catalyst.bloom": {
+        "sound": "bloom.sculk_catalyst",
+        "volume": 2.0,
+        "pitch": [ 0.6, 1.0 ]
+      },
+	    "block.smithing_table.use": {"sound": "smithing_table.use", "volume": 0.25, "pitch": 1.0 }
+    }
+  }
+}

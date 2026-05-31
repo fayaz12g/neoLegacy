@@ -1,0 +1,196 @@
+{
+    "content": [
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "entities/donkey.json"
+        },
+        {
+            "path": "entities/drowned.json"
+        },
+        {
+            "path": "entities/horse.json"
+        },
+        {
+            "path": "entities/iron_golem.json"
+        },
+        {
+            "path": "entities/llama.json"
+        },
+        {
+            "path": "entities/mule.json"
+        },
+        {
+            "path": "entities/skeleton.json"
+        },
+        {
+            "path": "entities/trader_llama.json"
+        },
+        {
+            "path": "entities/villager_v2.json"
+        },
+        {
+            "path": "entities/zombie_villager_v2.json"
+        },
+        {
+            "path": "recipes/black_stained_glass.json"
+        },
+        {
+            "path": "recipes/black_stained_glass_from_ink_sac.json"
+        },
+        {
+            "path": "recipes/black_stained_glass_pane.json"
+        },
+        {
+            "path": "recipes/black_stained_glass_pane_from_pane.json"
+        },
+        {
+            "path": "recipes/blue_stained_glass.json"
+        },
+        {
+            "path": "recipes/blue_stained_glass_from_lapis_lazuli.json"
+        },
+        {
+            "path": "recipes/blue_stained_glass_pane.json"
+        },
+        {
+            "path": "recipes/blue_stained_glass_pane_from_pane.json"
+        },
+        {
+            "path": "recipes/brown_stained_glass.json"
+        },
+        {
+            "path": "recipes/brown_stained_glass_from_cocoa_beans.json"
+        },
+        {
+            "path": "recipes/brown_stained_glass_pane.json"
+        },
+        {
+            "path": "recipes/brown_stained_glass_pane_from_pane.json"
+        },
+        {
+            "path": "recipes/cyan_stained_glass.json"
+        },
+        {
+            "path": "recipes/cyan_stained_glass_pane.json"
+        },
+        {
+            "path": "recipes/cyan_stained_glass_pane_from_pane.json"
+        },
+        {
+            "path": "recipes/gray_stained_glass.json"
+        },
+        {
+            "path": "recipes/gray_stained_glass_pane.json"
+        },
+        {
+            "path": "recipes/gray_stained_glass_pane_from_pane.json"
+        },
+        {
+            "path": "recipes/green_stained_glass.json"
+        },
+        {
+            "path": "recipes/green_stained_glass_pane.json"
+        },
+        {
+            "path": "recipes/green_stained_glass_pane_from_pane.json"
+        },
+        {
+            "path": "recipes/light_blue_stained_glass.json"
+        },
+        {
+            "path": "recipes/light_blue_stained_glass_pane.json"
+        },
+        {
+            "path": "recipes/light_blue_stained_glass_pane_from_pane.json"
+        },
+        {
+            "path": "recipes/light_gray_stained_glass.json"
+        },
+        {
+            "path": "recipes/light_gray_stained_glass_pane.json"
+        },
+        {
+            "path": "recipes/light_gray_stained_glass_pane_from_pane.json"
+        },
+        {
+            "path": "recipes/lime_stained_glass.json"
+        },
+        {
+            "path": "recipes/lime_stained_glass_pane.json"
+        },
+        {
+            "path": "recipes/lime_stained_glass_pane_from_pane.json"
+        },
+        {
+            "path": "recipes/magenta_stained_glass.json"
+        },
+        {
+            "path": "recipes/magenta_stained_glass_pane.json"
+        },
+        {
+            "path": "recipes/magenta_stained_glass_pane_from_pane.json"
+        },
+        {
+            "path": "recipes/orange_stained_glass.json"
+        },
+        {
+            "path": "recipes/orange_stained_glass_pane.json"
+        },
+        {
+            "path": "recipes/orange_stained_glass_pane_from_pane.json"
+        },
+        {
+            "path": "recipes/pink_stained_glass.json"
+        },
+        {
+            "path": "recipes/pink_stained_glass_pane.json"
+        },
+        {
+            "path": "recipes/pink_stained_glass_pane_from_pane.json"
+        },
+        {
+            "path": "recipes/purple_stained_glass.json"
+        },
+        {
+            "path": "recipes/purple_stained_glass_pane.json"
+        },
+        {
+            "path": "recipes/purple_stained_glass_pane_from_pane.json"
+        },
+        {
+            "path": "recipes/red_stained_glass.json"
+        },
+        {
+            "path": "recipes/red_stained_glass_pane.json"
+        },
+        {
+            "path": "recipes/red_stained_glass_pane_from_pane.json"
+        },
+        {
+            "path": "recipes/white_stained_glass.json"
+        },
+        {
+            "path": "recipes/white_stained_glass_from_bonemeal.json"
+        },
+        {
+            "path": "recipes/white_stained_glass_pane.json"
+        },
+        {
+            "path": "recipes/white_stained_glass_pane_from_pane.json"
+        },
+        {
+            "path": "recipes/yellow_stained_glass.json"
+        },
+        {
+            "path": "recipes/yellow_stained_glass_pane.json"
+        },
+        {
+            "path": "recipes/yellow_stained_glass_pane_from_pane.json"
+        },
+        {
+            "path": "trading/economy_trades/wandering_trader_trades.json"
+        }
+    ]
+}

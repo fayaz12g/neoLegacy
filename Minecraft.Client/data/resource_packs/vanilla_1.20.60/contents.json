@@ -1,0 +1,13 @@
+{
+    "content": [
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "textures/entity/chest/double_normal.png"
+        },
+        {
+            "path": "textures/entity/chest/trapped_double.png"
+        }
+    ]
+}

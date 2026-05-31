@@ -1,0 +1,28 @@
+{
+    "content": [
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "sounds.json"
+        },
+        {
+            "path": "animations/bat.animation.json"
+        },
+        {
+            "path": "entity/bat.entity.json"
+        },
+        {
+            "path": "models/entity/bat_v2.geo.json"
+        },
+        {
+            "path": "particles/dust_plume.json"
+        },
+        {
+            "path": "sounds/sound_definitions.json"
+        },
+        {
+            "path": "textures/entity/bat_v2.png"
+        }
+    ]
+}

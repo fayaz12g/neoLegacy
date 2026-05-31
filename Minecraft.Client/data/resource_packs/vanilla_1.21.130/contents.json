@@ -1,0 +1,514 @@
+{
+    "content": [
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "sounds.json"
+        },
+        {
+            "path": "animations/humanoid.animation.json"
+        },
+        {
+            "path": "animations/nautilus.animation.json"
+        },
+        {
+            "path": "animations/player.animation.json"
+        },
+        {
+            "path": "animations/player_firstperson.animation.json"
+        },
+        {
+            "path": "animations/spear.animation.json"
+        },
+        {
+            "path": "animation_controllers/humanoid.animation_controllers.json"
+        },
+        {
+            "path": "animation_controllers/nautilus.animation_controllers.json"
+        },
+        {
+            "path": "animation_controllers/player.animation_controllers.json"
+        },
+        {
+            "path": "animation_controllers/spear.animation_controllers.json"
+        },
+        {
+            "path": "attachables/copper_spear.entity.json"
+        },
+        {
+            "path": "attachables/diamond_spear.entity.json"
+        },
+        {
+            "path": "attachables/golden_spear.entity.json"
+        },
+        {
+            "path": "attachables/iron_spear.entity.json"
+        },
+        {
+            "path": "attachables/netherite_spear.entity.json"
+        },
+        {
+            "path": "attachables/stone_spear.entity.json"
+        },
+        {
+            "path": "attachables/wooden_spear.entity.json"
+        },
+        {
+            "path": "ddui/root/barrel_screen.json"
+        },
+        {
+            "path": "ddui/root/chest_screen.json"
+        },
+        {
+            "path": "ddui/root/custom_form.json"
+        },
+        {
+            "path": "ddui/root/default_chest_screen.json"
+        },
+        {
+            "path": "ddui/root/ender_chest_screen.json"
+        },
+        {
+            "path": "ddui/root/message_box.json"
+        },
+        {
+            "path": "ddui/root/shulker_box_screen.json"
+        },
+        {
+            "path": "entity/camel_husk.entity.json"
+        },
+        {
+            "path": "entity/drowned.entity.json"
+        },
+        {
+            "path": "entity/horse_v3.entity.json"
+        },
+        {
+            "path": "entity/husk.entity.json"
+        },
+        {
+            "path": "entity/nautilus.entity.json"
+        },
+        {
+            "path": "entity/parched.entity.json"
+        },
+        {
+            "path": "entity/piglin.entity.json"
+        },
+        {
+            "path": "entity/player.entity.json"
+        },
+        {
+            "path": "entity/zombie.entity.json"
+        },
+        {
+            "path": "entity/zombie_horse_v3.entity.json"
+        },
+        {
+            "path": "entity/zombie_nautilus.entity.json"
+        },
+        {
+            "path": "entity/zombie_pigman.entity.json"
+        },
+        {
+            "path": "entity/zombie_villager_v2.entity.json"
+        },
+        {
+            "path": "models/entity/camel_husk.geo.json"
+        },
+        {
+            "path": "models/entity/copper_golem_sitting.geo.json"
+        },
+        {
+            "path": "models/entity/nautilus.geo.json"
+        },
+        {
+            "path": "models/entity/nautilus_armor.geo.json"
+        },
+        {
+            "path": "models/entity/nautilus_baby.geo.json"
+        },
+        {
+            "path": "models/entity/parched.geo.json"
+        },
+        {
+            "path": "models/entity/spear.geo.json"
+        },
+        {
+            "path": "models/entity/zombie_nautilus_coral.geo.json"
+        },
+        {
+            "path": "particles/nautilus_bubbles.json"
+        },
+        {
+            "path": "render_controllers/horse_v3.render_controllers.json"
+        },
+        {
+            "path": "render_controllers/nautilus.render_controllers.json"
+        },
+        {
+            "path": "render_controllers/zombie_horse_v3.render_controllers.json"
+        },
+        {
+            "path": "render_controllers/zombie_nautilus.render_controllers.json"
+        },
+        {
+            "path": "sounds/sound_definitions.json"
+        },
+        {
+            "path": "textures/item_texture.json"
+        },
+        {
+            "path": "textures/texture_list.json"
+        },
+        {
+            "path": "textures/entity/camel_husk/camel_husk.png"
+        },
+        {
+            "path": "textures/entity/camel_husk/camel_husk.texture_set.json"
+        },
+        {
+            "path": "textures/entity/camel_husk/camel_husk_mers.tga"
+        },
+        {
+            "path": "textures/entity/horse/horse_zombie.png"
+        },
+        {
+            "path": "textures/entity/horse/horse_zombie.texture_set.json"
+        },
+        {
+            "path": "textures/entity/horse/horse_zombie_mers.tga"
+        },
+        {
+            "path": "textures/entity/horse2/horse_zombie.png"
+        },
+        {
+            "path": "textures/entity/horse2/horse_zombie.texture_set.json"
+        },
+        {
+            "path": "textures/entity/horse2/horse_zombie_mers.tga"
+        },
+        {
+            "path": "textures/entity/horse2/armor/horse_armor_netherite.png"
+        },
+        {
+            "path": "textures/entity/horse2/armor/horse_armor_netherite.texture_set.json"
+        },
+        {
+            "path": "textures/entity/horse2/armor/horse_armor_netherite_mers.tga"
+        },
+        {
+            "path": "textures/entity/nautilus/nautilus.png"
+        },
+        {
+            "path": "textures/entity/nautilus/nautilus.texture_set.json"
+        },
+        {
+            "path": "textures/entity/nautilus/nautilus_baby.png"
+        },
+        {
+            "path": "textures/entity/nautilus/nautilus_baby.texture_set.json"
+        },
+        {
+            "path": "textures/entity/nautilus/nautilus_baby_mers.tga"
+        },
+        {
+            "path": "textures/entity/nautilus/nautilus_mers.tga"
+        },
+        {
+            "path": "textures/entity/nautilus/nautilus_saddle.png"
+        },
+        {
+            "path": "textures/entity/nautilus/nautilus_saddle.texture_set.json"
+        },
+        {
+            "path": "textures/entity/nautilus/nautilus_saddle_mers.tga"
+        },
+        {
+            "path": "textures/entity/nautilus/zombie_nautilus.png"
+        },
+        {
+            "path": "textures/entity/nautilus/zombie_nautilus.texture_set.json"
+        },
+        {
+            "path": "textures/entity/nautilus/zombie_nautilus_coral.png"
+        },
+        {
+            "path": "textures/entity/nautilus/zombie_nautilus_coral.texture_set.json"
+        },
+        {
+            "path": "textures/entity/nautilus/zombie_nautilus_coral_mers.tga"
+        },
+        {
+            "path": "textures/entity/nautilus/zombie_nautilus_mers.tga"
+        },
+        {
+            "path": "textures/entity/nautilus/armor/nautilus_armor_copper.png"
+        },
+        {
+            "path": "textures/entity/nautilus/armor/nautilus_armor_diamond.png"
+        },
+        {
+            "path": "textures/entity/nautilus/armor/nautilus_armor_gold.png"
+        },
+        {
+            "path": "textures/entity/nautilus/armor/nautilus_armor_iron.png"
+        },
+        {
+            "path": "textures/entity/nautilus/armor/nautilus_armor_netherite.png"
+        },
+        {
+            "path": "textures/entity/parched/parched.png"
+        },
+        {
+            "path": "textures/entity/parched/parched.texture_set.json"
+        },
+        {
+            "path": "textures/entity/parched/parched_mers.tga"
+        },
+        {
+            "path": "textures/entity/spear/copper_spear.png"
+        },
+        {
+            "path": "textures/entity/spear/copper_spear.texture_set.json"
+        },
+        {
+            "path": "textures/entity/spear/copper_spear_mers.tga"
+        },
+        {
+            "path": "textures/entity/spear/diamond_spear.png"
+        },
+        {
+            "path": "textures/entity/spear/diamond_spear.texture_set.json"
+        },
+        {
+            "path": "textures/entity/spear/diamond_spear_mers.tga"
+        },
+        {
+            "path": "textures/entity/spear/gold_spear.png"
+        },
+        {
+            "path": "textures/entity/spear/gold_spear.texture_set.json"
+        },
+        {
+            "path": "textures/entity/spear/gold_spear_mers.tga"
+        },
+        {
+            "path": "textures/entity/spear/iron_spear.png"
+        },
+        {
+            "path": "textures/entity/spear/iron_spear.texture_set.json"
+        },
+        {
+            "path": "textures/entity/spear/iron_spear_mers.tga"
+        },
+        {
+            "path": "textures/entity/spear/netherite_spear.png"
+        },
+        {
+            "path": "textures/entity/spear/netherite_spear.texture_set.json"
+        },
+        {
+            "path": "textures/entity/spear/netherite_spear_mers.tga"
+        },
+        {
+            "path": "textures/entity/spear/stone_spear.png"
+        },
+        {
+            "path": "textures/entity/spear/stone_spear.texture_set.json"
+        },
+        {
+            "path": "textures/entity/spear/stone_spear_mers.tga"
+        },
+        {
+            "path": "textures/entity/spear/wood_spear.png"
+        },
+        {
+            "path": "textures/entity/spear/wood_spear.texture_set.json"
+        },
+        {
+            "path": "textures/entity/spear/wood_spear_mers.tga"
+        },
+        {
+            "path": "textures/items/netherite_horse_armor.png"
+        },
+        {
+            "path": "textures/items/netherite_horse_armor.texture_set.json"
+        },
+        {
+            "path": "textures/items/netherite_horse_armor_mers.tga"
+        },
+        {
+            "path": "textures/items/nautilus_armor/copper_nautilus_armor.png"
+        },
+        {
+            "path": "textures/items/nautilus_armor/copper_nautilus_armor.texture_set.json"
+        },
+        {
+            "path": "textures/items/nautilus_armor/copper_nautilus_armor_mers.tga"
+        },
+        {
+            "path": "textures/items/nautilus_armor/diamond_nautilus_armor.png"
+        },
+        {
+            "path": "textures/items/nautilus_armor/diamond_nautilus_armor.texture_set.json"
+        },
+        {
+            "path": "textures/items/nautilus_armor/diamond_nautilus_armor_mers.tga"
+        },
+        {
+            "path": "textures/items/nautilus_armor/gold_nautilus_armor.png"
+        },
+        {
+            "path": "textures/items/nautilus_armor/gold_nautilus_armor.texture_set.json"
+        },
+        {
+            "path": "textures/items/nautilus_armor/gold_nautilus_armor_mers.tga"
+        },
+        {
+            "path": "textures/items/nautilus_armor/iron_nautilus_armor.png"
+        },
+        {
+            "path": "textures/items/nautilus_armor/iron_nautilus_armor.texture_set.json"
+        },
+        {
+            "path": "textures/items/nautilus_armor/iron_nautilus_armor_mers.tga"
+        },
+        {
+            "path": "textures/items/nautilus_armor/netherite_nautilus_armor.png"
+        },
+        {
+            "path": "textures/items/nautilus_armor/netherite_nautilus_armor.texture_set.json"
+        },
+        {
+            "path": "textures/items/nautilus_armor/netherite_nautilus_armor_mers.tga"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_camel_husk.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_camel_husk.texture_set.json"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_camel_husk_mers.tga"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_nautilus.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_nautilus.texture_set.json"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_nautilus_mers.tga"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_parched.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_parched.texture_set.json"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_parched_mers.tga"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_zombie_horse.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_zombie_horse.texture_set.json"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_zombie_horse_mers.tga"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_zombie_nautilus.png"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_zombie_nautilus.texture_set.json"
+        },
+        {
+            "path": "textures/items/spawn_eggs/spawn_egg_zombie_nautilus_mers.tga"
+        },
+        {
+            "path": "textures/items/spear/copper_spear.png"
+        },
+        {
+            "path": "textures/items/spear/copper_spear.texture_set.json"
+        },
+        {
+            "path": "textures/items/spear/copper_spear_mers.tga"
+        },
+        {
+            "path": "textures/items/spear/diamond_spear.png"
+        },
+        {
+            "path": "textures/items/spear/diamond_spear.texture_set.json"
+        },
+        {
+            "path": "textures/items/spear/diamond_spear_mers.tga"
+        },
+        {
+            "path": "textures/items/spear/gold_spear.png"
+        },
+        {
+            "path": "textures/items/spear/gold_spear.texture_set.json"
+        },
+        {
+            "path": "textures/items/spear/gold_spear_mers.tga"
+        },
+        {
+            "path": "textures/items/spear/iron_spear.png"
+        },
+        {
+            "path": "textures/items/spear/iron_spear.texture_set.json"
+        },
+        {
+            "path": "textures/items/spear/iron_spear_mers.tga"
+        },
+        {
+            "path": "textures/items/spear/netherite_spear.png"
+        },
+        {
+            "path": "textures/items/spear/netherite_spear.texture_set.json"
+        },
+        {
+            "path": "textures/items/spear/netherite_spear_mers.tga"
+        },
+        {
+            "path": "textures/items/spear/stone_spear.png"
+        },
+        {
+            "path": "textures/items/spear/stone_spear.texture_set.json"
+        },
+        {
+            "path": "textures/items/spear/stone_spear_mers.tga"
+        },
+        {
+            "path": "textures/items/spear/wood_spear.png"
+        },
+        {
+            "path": "textures/items/spear/wood_spear.texture_set.json"
+        },
+        {
+            "path": "textures/items/spear/wood_spear_mers.tga"
+        },
+        {
+            "path": "textures/ui/panoramahdr_0.hdr"
+        },
+        {
+            "path": "textures/ui/panoramahdr_1.hdr"
+        },
+        {
+            "path": "textures/ui/panoramahdr_2.hdr"
+        },
+        {
+            "path": "textures/ui/panoramahdr_3.hdr"
+        },
+        {
+            "path": "textures/ui/panoramahdr_4.hdr"
+        },
+        {
+            "path": "textures/ui/panoramahdr_5.hdr"
+        }
+    ]
+}

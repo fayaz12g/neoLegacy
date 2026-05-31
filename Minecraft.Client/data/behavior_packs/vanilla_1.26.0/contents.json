@@ -1,0 +1,286 @@
+{
+    "content": [
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "biomes/cold_ocean.biome.json"
+        },
+        {
+            "path": "biomes/cold_taiga.biome.json"
+        },
+        {
+            "path": "biomes/cold_taiga_hills.biome.json"
+        },
+        {
+            "path": "biomes/deep_cold_ocean.biome.json"
+        },
+        {
+            "path": "biomes/deep_frozen_ocean.biome.json"
+        },
+        {
+            "path": "biomes/deep_lukewarm_ocean.biome.json"
+        },
+        {
+            "path": "biomes/deep_ocean.biome.json"
+        },
+        {
+            "path": "biomes/deep_warm_ocean.biome.json"
+        },
+        {
+            "path": "biomes/desert.biome.json"
+        },
+        {
+            "path": "biomes/frozen_ocean.biome.json"
+        },
+        {
+            "path": "biomes/ice_plains.biome.json"
+        },
+        {
+            "path": "biomes/legacy_frozen_ocean.biome.json"
+        },
+        {
+            "path": "biomes/lukewarm_ocean.biome.json"
+        },
+        {
+            "path": "biomes/mangrove_swamp.biome.json"
+        },
+        {
+            "path": "biomes/meadow.biome.json"
+        },
+        {
+            "path": "biomes/mesa.biome.json"
+        },
+        {
+            "path": "biomes/mesa_bryce.biome.json"
+        },
+        {
+            "path": "biomes/mesa_plateau.biome.json"
+        },
+        {
+            "path": "biomes/mesa_plateau_mutated.biome.json"
+        },
+        {
+            "path": "biomes/mesa_plateau_stone.biome.json"
+        },
+        {
+            "path": "biomes/mesa_plateau_stone_mutated.biome.json"
+        },
+        {
+            "path": "biomes/ocean.biome.json"
+        },
+        {
+            "path": "biomes/plains.biome.json"
+        },
+        {
+            "path": "biomes/savanna.biome.json"
+        },
+        {
+            "path": "biomes/sunflower_plains.biome.json"
+        },
+        {
+            "path": "biomes/swampland.biome.json"
+        },
+        {
+            "path": "biomes/swampland_mutated.biome.json"
+        },
+        {
+            "path": "biomes/taiga.biome.json"
+        },
+        {
+            "path": "biomes/taiga_hills.biome.json"
+        },
+        {
+            "path": "biomes/warm_ocean.biome.json"
+        },
+        {
+            "path": "entities/allay.json"
+        },
+        {
+            "path": "entities/armadillo.json"
+        },
+        {
+            "path": "entities/axolotl.json"
+        },
+        {
+            "path": "entities/bee.json"
+        },
+        {
+            "path": "entities/bogged.json"
+        },
+        {
+            "path": "entities/camel.json"
+        },
+        {
+            "path": "entities/camel_husk.json"
+        },
+        {
+            "path": "entities/cat.json"
+        },
+        {
+            "path": "entities/cave_spider.json"
+        },
+        {
+            "path": "entities/chicken.json"
+        },
+        {
+            "path": "entities/cow.json"
+        },
+        {
+            "path": "entities/dolphin.json"
+        },
+        {
+            "path": "entities/donkey.json"
+        },
+        {
+            "path": "entities/drowned.json"
+        },
+        {
+            "path": "entities/fox.json"
+        },
+        {
+            "path": "entities/frog.json"
+        },
+        {
+            "path": "entities/glow_squid.json"
+        },
+        {
+            "path": "entities/goat.json"
+        },
+        {
+            "path": "entities/happy_ghast.json"
+        },
+        {
+            "path": "entities/hoglin.json"
+        },
+        {
+            "path": "entities/horse.json"
+        },
+        {
+            "path": "entities/husk.json"
+        },
+        {
+            "path": "entities/llama.json"
+        },
+        {
+            "path": "entities/mooshroom.json"
+        },
+        {
+            "path": "entities/mule.json"
+        },
+        {
+            "path": "entities/nautilus.json"
+        },
+        {
+            "path": "entities/ocelot.json"
+        },
+        {
+            "path": "entities/panda.json"
+        },
+        {
+            "path": "entities/parched.json"
+        },
+        {
+            "path": "entities/pig.json"
+        },
+        {
+            "path": "entities/piglin.json"
+        },
+        {
+            "path": "entities/polar_bear.json"
+        },
+        {
+            "path": "entities/rabbit.json"
+        },
+        {
+            "path": "entities/sheep.json"
+        },
+        {
+            "path": "entities/skeleton.json"
+        },
+        {
+            "path": "entities/skeleton_horse.json"
+        },
+        {
+            "path": "entities/sniffer.json"
+        },
+        {
+            "path": "entities/snow_golem.json"
+        },
+        {
+            "path": "entities/spider.json"
+        },
+        {
+            "path": "entities/squid.json"
+        },
+        {
+            "path": "entities/stray.json"
+        },
+        {
+            "path": "entities/strider.json"
+        },
+        {
+            "path": "entities/tadpole.json"
+        },
+        {
+            "path": "entities/trader_llama.json"
+        },
+        {
+            "path": "entities/turtle.json"
+        },
+        {
+            "path": "entities/villager_v2.json"
+        },
+        {
+            "path": "entities/wolf.json"
+        },
+        {
+            "path": "entities/zoglin.json"
+        },
+        {
+            "path": "entities/zombie.json"
+        },
+        {
+            "path": "entities/zombie_horse.json"
+        },
+        {
+            "path": "entities/zombie_nautilus.json"
+        },
+        {
+            "path": "entities/zombie_pigman.json"
+        },
+        {
+            "path": "entities/zombie_villager_v2.json"
+        },
+        {
+            "path": "items/copper_spear.json"
+        },
+        {
+            "path": "items/diamond_spear.json"
+        },
+        {
+            "path": "items/golden_spear.json"
+        },
+        {
+            "path": "items/iron_spear.json"
+        },
+        {
+            "path": "items/netherite_spear.json"
+        },
+        {
+            "path": "items/stone_spear.json"
+        },
+        {
+            "path": "loot_tables/entities/drowned_equipment.json"
+        },
+        {
+            "path": "loot_tables/entities/zombie_rider_equipment.json"
+        },
+        {
+            "path": "spawn_rules/camel_husk.json"
+        },
+        {
+            "path": "spawn_rules/zombie_horse.json"
+        }
+    ]
+}

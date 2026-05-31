@@ -1,0 +1,273 @@
+{
+  "entity_sounds": {
+    "entities": {
+      "ghast": {
+        "volume": 5.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "warn": "mob.ghast.charge",
+          "shoot": {
+            "sound": "mob.ghast.fireball",
+            "volume": 0.7
+          },
+          "ambient": "mob.ghast.moan",
+          "hurt": "mob.ghast.scream",
+          "death": "mob.ghast.death"
+        }
+      }
+    }
+  },
+  "block_sounds": {
+    "amethyst_block": {
+      "events": {
+        "default": "",
+        "item.use.on": {
+          "sound": "step.amethyst_block",
+          "pitch": 0.8
+        },
+        "break": {
+          "sound": "break.amethyst_block",
+          "volume": 1.0
+        },
+        "hit": {
+          "sound": "hit.amethyst_block",
+          "volume": 1.0,
+          "pitch": [ 0.5, 1.2 ]
+        },
+        "place": {
+          "sound": "place.amethyst_block",
+          "volume": 1.0
+        },
+        "power.on": {
+          "sound": "block.click",
+          "pitch": 0.6
+        },
+        "power.off": {
+          "sound": "block.click",
+          "pitch": 0.5
+        }
+      }
+    },
+    "amethyst_cluster": {
+      "volume": 1.0,
+      "pitch": 1.0,
+      "events": {
+        "default": "",
+        "item.use.on": {
+          "sound": "step.amethyst_cluster",
+          "pitch": 0.8
+        },
+        "break": {
+          "sound": "break.amethyst_cluster",
+          "volume": 1.0
+        },
+        "hit": {
+          "sound": "hit.amethyst_cluster",
+          "volume": 1.0,
+          "pitch": [ 0.5, 1.2 ]
+        },
+        "place": {
+          "sound": "place.amethyst_cluster",
+          "volume": 1.0
+        },
+        "power.on": {
+          "sound": "block.click",
+          "pitch": 0.6
+        },
+        "power.off": {
+          "sound": "block.click",
+          "pitch": 0.5
+        }
+      }
+    },
+    "large_amethyst_bud": {
+      "volume": 1.0,
+      "pitch": 1.0,
+      "events": {
+        "default": "",
+        "item.use.on": {
+          "sound": "step.amethyst_cluster",
+          "pitch": 0.8
+        },
+        "break": { "sound": "break.large_amethyst_bud" },
+        "hit": {
+          "sound": "hit.amethyst_cluster",
+          "volume": 1.0,
+          "pitch": [ 0.5, 1.2 ]
+        },
+        "place": {
+          "sound": "place.large_amethyst_bud",
+          "volume": 1.0
+        },
+        "power.on": {
+          "sound": "block.click",
+          "pitch": 0.6
+        },
+        "power.off": {
+          "sound": "block.click",
+          "pitch": 0.5
+        }
+      }
+    },
+    "medium_amethyst_bud": {
+      "volume": 1.0,
+      "pitch": 1.0,
+      "events": {
+        "default": "",
+        "item.use.on": {
+          "sound": "step.amethyst_cluster",
+          "pitch": 0.8
+        },
+        "break": { "sound": "break.medium_amethyst_bud" },
+        "hit": {
+          "sound": "hit.amethyst_cluster",
+          "volume": 1.0,
+          "pitch": [ 0.5, 1.2 ]
+        },
+        "place": {
+          "sound": "place.medium_amethyst_bud",
+          "volume": 1.0
+        },
+        "power.on": {
+          "sound": "block.click",
+          "pitch": 0.6
+        },
+        "power.off": {
+          "sound": "block.click",
+          "pitch": 0.5
+        }
+      }
+    },
+    "small_amethyst_bud": {
+      "volume": 1.0,
+      "pitch": 1.0,
+      "events": {
+        "default": "",
+        "item.use.on": {
+          "sound": "step.amethyst_cluster",
+          "pitch": 0.8
+        },
+        "break": { "sound": "break.small_amethyst_bud" },
+        "hit": {
+          "sound": "hit.amethyst_cluster",
+          "volume": 1.0,
+          "pitch": [ 0.5, 1.2 ]
+        },
+        "place": {
+          "sound": "place.small_amethyst_bud",
+          "volume": 1.0
+        },
+        "power.on": {
+          "sound": "block.click",
+          "pitch": 0.6
+        },
+        "power.off": {
+          "sound": "block.click",
+          "pitch": 0.5
+        }
+      }
+    },
+    "lever": {
+      "volume": 1.0,
+      "pitch": 1.0,
+      "events": {
+        "default": "",
+        "item.use.on": {
+          "sound": "use.wood",
+          "pitch": 0.8
+        },
+        "break": {
+          "sound": "dig.wood",
+          "volume": 1.0,
+          "pitch": [
+            0.8,
+            1.0
+          ]
+        },
+        "hit": {
+          "sound": "hit.wood",
+          "volume": 0.23,
+          "pitch": 0.5
+        },
+        "place": {
+          "sound": "dig.wood",
+          "volume": 1.0,
+          "pitch": [
+            0.8,
+            0.8
+          ]
+        },
+        "power.on": {
+          "sound": "random.lever_click",
+          "pitch": 0.6
+        },
+        "power.off": {
+          "sound": "random.lever_click",
+          "pitch": 0.5
+        },
+        "button.click_on": {
+          "sound": "random.lever_click",
+          "pitch": 0.6
+        },
+        "button.click_off": {
+          "sound": "random.lever_click",
+          "pitch": 0.5
+        }
+      }
+    },
+    "stone": {
+      "volume": 1.0,
+      "pitch": 1.0,
+      "events": {
+        "default": "",
+        "item.use.on": {
+          "sound": "use.stone",
+          "pitch": 0.8
+        },
+        "break": {
+          "sound": "dig.stone",
+          "volume": 1.0,
+          "pitch": [
+            0.8,
+            1.0
+          ]
+        },
+        "hit": {
+          "sound": "hit.stone",
+          "volume": 0.37,
+          "pitch": 0.5
+        },
+        "place": {
+          "sound": "dig.stone",
+          "volume": 1.0,
+          "pitch": [
+            0.8,
+            1.0
+          ]
+        },
+        "power.on": {
+          "sound": "random.stone_click",
+          "pitch": 0.6
+        },
+        "power.off": {
+          "sound": "random.stone_click",
+          "pitch": 0.5
+        },
+        "button.click_on": {
+          "sound": "random.stone_click",
+          "pitch": 0.6
+        },
+        "button.click_off": {
+          "sound": "random.stone_click",
+          "pitch": 0.5
+        },
+        "pressure_plate.click_on": {
+          "sound": "click_on.stone_pressure_plate"
+        },
+        "pressure_plate.click_off": {
+          "sound": "click_off.stone_pressure_plate"
+        }
+      }
+    }
+  }
+}

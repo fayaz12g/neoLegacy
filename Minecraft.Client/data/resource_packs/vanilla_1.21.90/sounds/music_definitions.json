@@ -1,0 +1,7 @@
+{
+  "forest": {
+    "event_name": "music.overworld.forest",
+    "min_delay": 60,
+    "max_delay": 180
+  }
+}

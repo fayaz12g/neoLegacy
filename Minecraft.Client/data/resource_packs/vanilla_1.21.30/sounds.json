@@ -1,0 +1,55 @@
+{
+  "block_sounds": {
+  },
+  "interactive_sounds": {
+    "block_sounds": {
+    }
+  },
+  "individual_event_sounds": {
+    "events": {
+        "splash": {
+            "sound": "random.splash",
+            "volume": 0.25,
+            "pitch": [0.6, 1.4]
+        },
+        "charge.sculk": {
+          "sound": "charge.sculk",
+          "volume": 1.0,
+          "pitch": 1.0
+        }
+    }
+  },
+  "entity_sounds": {
+    "defaults": {
+        "volume": 1.0,
+        "pitch": [0.8, 1.2],
+        "events": {
+            "splash": {
+                "sound": "entity.generic.splash",
+                "pitch": [0.6, 1.4]
+            }
+        }
+    },
+    "entities": {
+        "fishing_hook": {
+            "volume": 0.25,
+            "pitch": [0.6, 1.4],
+            "events": {
+                "splash": {
+                    "sound": "random.splash"
+                }
+            }
+        },
+        "wither_skeleton": {
+            "volume": 1.0,
+            "events": {
+                "step": {
+                    "sound": "entity.wither_skeleton.step",
+                    "volume": 0.15,
+                    "pitch": 1.0
+                }
+            }
+        }
+    }
+  }
+}

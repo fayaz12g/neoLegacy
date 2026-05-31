@@ -1,0 +1,16 @@
+{
+  "individual_event_sounds": {
+    "events": {
+      "block.decorated_pot.insert": {
+        "sound": "block.decorated_pot.insert",
+        "volume": 1.0,
+        "pitch": 1.0
+      },
+      "block.decorated_pot.insert_fail": {
+        "sound": "block.decorated_pot.insert_fail",
+        "volume": 1.0,
+        "pitch": 1.0
+      }
+    }
+  }
+}

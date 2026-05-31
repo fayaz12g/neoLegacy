@@ -1,0 +1,25 @@
+{
+    "content": [
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "sounds.json"
+        },
+        {
+            "path": "StarterSeeds.txt"
+        },
+        {
+            "path": "entity/creeper.entity.json"
+        },
+        {
+            "path": "particles/magic_critical_hit.json"
+        },
+        {
+            "path": "render_controllers/creeper_armor.render_controllers.json"
+        },
+        {
+            "path": "textures/item_texture.json"
+        }
+    ]
+}

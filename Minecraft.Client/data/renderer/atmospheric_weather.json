@@ -1,0 +1,14 @@
+{
+  "sky_transition_speed": 4.0,
+  "directional_light_strength": 0.0,
+  "cloud_render_distance_scale": 1.0,
+  "rain_sky_color": [ 103, 103, 103 ],
+  "base_rain_cloud_color": [ 191, 191, 191 ],
+  "rain_cloud_color_contribution": 0.95,
+  "base_thunder_sky_color": [ 51, 51, 51 ],
+  "thunder_sky_color_contribution": 0.75,
+  "base_thunder_cloud_color": [ 30, 30, 30 ],
+  "thunder_cloud_color_contribution": 0.95,
+  "lightning_flash_color": [ 204, 204, 255 ],
+  "lightning_flash_color_contribution": 0.45
+}

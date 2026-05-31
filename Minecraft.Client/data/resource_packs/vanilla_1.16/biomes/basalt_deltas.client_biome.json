@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "basalt_deltas"
+    },
+    "components": {
+      "minecraft:ambient_sounds": {
+        "mood": "ambient.basalt_deltas.mood"
+      }
+    }
+  }
+}

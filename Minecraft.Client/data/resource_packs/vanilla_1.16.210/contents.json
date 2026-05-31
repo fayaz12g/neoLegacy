@@ -1,0 +1,28 @@
+{
+    "content": [
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "sounds.json"
+        },
+        {
+            "path": "biomes/basalt_deltas.client_biome.json"
+        },
+        {
+            "path": "biomes/crimson_forest.client_biome.json"
+        },
+        {
+            "path": "biomes/hell.client_biome.json"
+        },
+        {
+            "path": "biomes/soulsand_valley.client_biome.json"
+        },
+        {
+            "path": "biomes/warped_forest.client_biome.json"
+        },
+        {
+            "path": "sounds/sound_definitions.json"
+        }
+    ]
+}
