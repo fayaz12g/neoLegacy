@@ -4,7 +4,12 @@
 #include "../Minecraft.World/net.minecraft.world.entity.item.h"
 #include "../Minecraft.World/Mth.h"
 
-ResourceLocation BoatRenderer::BOAT_LOCATION = ResourceLocation(TN_ITEM_BOAT);
+ResourceLocation BoatRenderer::BOAT_LOCATION_OAK = ResourceLocation(TN_ITEM_BOAT_OAK);
+ResourceLocation BoatRenderer::BOAT_LOCATION_ACACIA = ResourceLocation(TN_ITEM_BOAT_ACACIA);
+ResourceLocation BoatRenderer::BOAT_LOCATION_BIRCH = ResourceLocation(TN_ITEM_BOAT_BIRCH);
+ResourceLocation BoatRenderer::BOAT_LOCATION_JUNGLE = ResourceLocation(TN_ITEM_BOAT_JUNGLE);
+ResourceLocation BoatRenderer::BOAT_LOCATION_DARKOAK = ResourceLocation(TN_ITEM_BOAT_DARKOAK);
+ResourceLocation BoatRenderer::BOAT_LOCATION_SPRUCE = ResourceLocation(TN_ITEM_BOAT_SPRUCE);
 
 BoatRenderer::BoatRenderer()  : EntityRenderer()
 {
@@ -43,5 +48,17 @@ void BoatRenderer::render(shared_ptr<Entity> _boat, double x, double y, double z
 
 ResourceLocation *BoatRenderer::getTextureLocation(shared_ptr<Entity> mob)
 {
-    return &BOAT_LOCATION;
+    shared_ptr<Boat> boat = dynamic_pointer_cast<Boat>(mob);
+    if (boat != nullptr)
+    {
+        switch (boat->getWoodType())
+        {
+        case 1: return &BOAT_LOCATION_SPRUCE;
+        case 2: return &BOAT_LOCATION_BIRCH;
+        case 3: return &BOAT_LOCATION_JUNGLE;
+        case 4: return &BOAT_LOCATION_ACACIA;
+        case 5: return &BOAT_LOCATION_DARKOAK;
+        }
+    }
+    return &BOAT_LOCATION_OAK;
 }

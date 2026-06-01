@@ -19,6 +19,11 @@ public:
 		DispenserTile::REGISTRY.add(Item::fireworks, new FireworksDispenseBehavior());
 		DispenserTile::REGISTRY.add(Item::fireball, new FireballDispenseBehavior());
 		DispenserTile::REGISTRY.add(Item::boat, new BoatDispenseBehavior());
+		DispenserTile::REGISTRY.add(Item::boat_spruce, new BoatDispenseBehavior());
+		DispenserTile::REGISTRY.add(Item::boat_birch, new BoatDispenseBehavior());
+		DispenserTile::REGISTRY.add(Item::boat_jungle, new BoatDispenseBehavior());
+		DispenserTile::REGISTRY.add(Item::boat_acacia, new BoatDispenseBehavior());
+		DispenserTile::REGISTRY.add(Item::boat_darkoak, new BoatDispenseBehavior());
 		DispenserTile::REGISTRY.add(Item::bucket_lava, new FilledBucketDispenseBehavior());
 		DispenserTile::REGISTRY.add(Item::bucket_water, new FilledBucketDispenseBehavior());
 		DispenserTile::REGISTRY.add(Item::bucket_empty, new EmptyBucketDispenseBehavior());

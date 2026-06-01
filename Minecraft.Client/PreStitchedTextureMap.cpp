@@ -573,7 +573,7 @@ void PreStitchedTextureMap::loadUVs(int width, int height)
         ADD_ICON(13, 8,	L"boatAcacia")
         ADD_ICON(13, 9, L"boatBirch")
         ADD_ICON(13, 10, L"boatDarkOak")
-        ADD_ICON(13, 11, L"boatJuingle")
+        ADD_ICON(13, 11, L"boatJungle")
         ADD_ICON(13, 12, L"boatSpruce")
         ADD_ICON(13, 13, L"prismarineShard");
         ADD_ICON(13, 14, L"prismarineCrystal");
@@ -1093,3 +1093,4 @@ void PreStitchedTextureMap::loadUVs(int width, int height)
 
 	}
 }
+

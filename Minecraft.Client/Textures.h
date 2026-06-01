@@ -1,4 +1,4 @@
-#pragma once
+ÿþ#pragma once
 #include "../Minecraft.World/ArrayWithLength.h"
 
 class DynamicTexture;
@@ -359,4 +359,5 @@ public:
 	// check list of title update textures to see if we need to use the UPDATE: drive
 	static bool IsTUImage(TEXTURE_NAME texId, const wstring& name);
 	static bool IsOriginalImage(TEXTURE_NAME texId, const wstring& name);
-};
+}; 
+ 

@@ -2526,7 +2526,22 @@ Can also be used for low-level lighting.</value>
 	</data>	
 
 	<data name="IDS_ITEM_BOAT">
-		<value>Boat</value>
+		<value>Oak Boat</value>
+	</data>
+	<data name="IDS_ITEM_BOAT_SPRUCE">
+		<value>Spruce Boat</value>
+	</data>
+	<data name="IDS_ITEM_BOAT_BIRCH">
+		<value>Birch Boat</value>
+	</data>
+	<data name="IDS_ITEM_BOAT_JUNGLE">
+		<value>Jungle Boat</value>
+	</data>
+	<data name="IDS_ITEM_BOAT_ACACIA">
+		<value>Acacia Boat</value>
+	</data>
+	<data name="IDS_ITEM_BOAT_DARKOAK">
+		<value>Dark Oak Boat</value>
 	</data>	
 
 	<data name="IDS_ITEM_LEATHER">
@@ -9575,3 +9590,4 @@ All Ender Chests in a world are linked. Items placed into an Ender Chest are acc
 		<value>Restores 5{*ICON_SHANK_01*}.</value>
 	</data>
 </root>
+

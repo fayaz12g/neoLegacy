@@ -53,6 +53,7 @@ void Boat::defineSynchedData()
 	entityData->define(DATA_ID_HURT, 0);
 	entityData->define(DATA_ID_HURTDIR, 1);
 	entityData->define(DATA_ID_DAMAGE, 0.0f);
+	entityData->define(DATA_ID_WOODTYPE, 0);
 }
 
 
@@ -125,7 +126,17 @@ bool Boat::hurt(DamageSource *source, float hurtDamage)
 	if (creativePlayer || getDamage() > 20 * 2)
 	{
 		if (rider.lock() != nullptr) rider.lock()->ride( shared_from_this() );
-		if (!creativePlayer) spawnAtLocation(Item::boat_Id, 1, 0);
+		if (!creativePlayer) {
+				int dropId = Item::boat_Id;
+				switch(getWoodType()) {
+				case 1: dropId = Item::boat_spruce_Id; break;
+				case 2: dropId = Item::boat_birch_Id; break;
+				case 3: dropId = Item::boat_jungle_Id; break;
+				case 4: dropId = Item::boat_acacia_Id; break;
+				case 5: dropId = Item::boat_darkoak_Id; break;
+				}
+				spawnAtLocation(dropId, 1, 0);
+			}
 		remove();
 	}
 	return true;
@@ -452,10 +463,12 @@ void Boat::positionRider()
 
 void Boat::addAdditonalSaveData(CompoundTag *base)
 {
+	base->putInt(L"Type", getWoodType());
 }
 
 void Boat::readAdditionalSaveData(CompoundTag *base)
 {
+	setWoodType(base->getInt(L"Type"));
 }
 
 
@@ -516,7 +529,17 @@ void Boat::setHurtDir(int hurtDir)
 
 int Boat::getHurtDir()
 {
-	return entityData->getInteger(DATA_ID_HURTDIR);
+    return entityData->getInteger(DATA_ID_HURTDIR);
+}
+
+void Boat::setWoodType(int woodType)
+{
+	entityData->set(DATA_ID_WOODTYPE, woodType);
+}
+
+int Boat::getWoodType()
+{
+    return entityData->getInteger(DATA_ID_WOODTYPE);
 }
 
 bool Boat::getDoLerp()
@@ -528,4 +551,5 @@ void Boat::setDoLerp(bool doLerp)
 {
 	this->doLerp = doLerp;
 }
+
 

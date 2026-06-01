@@ -293,6 +293,11 @@ public:
 	static Item *snowBall;
 
 	static Item *boat;
+	static Item *boat_spruce;
+	static Item *boat_birch;
+	static Item *boat_jungle;
+	static Item *boat_acacia;
+	static Item *boat_darkoak;
 
 	static Item *leather;
 	static Item *bucket_milk;
@@ -523,66 +528,71 @@ public:
 	static const int redStone_Id			= 331;
 	static const int snowBall_Id			= 332;
 	static const int boat_Id				= 333;
-	static const int leather_Id				= 334;
-	static const int bucket_milk_Id			= 335;
-	static const int brick_Id				= 336;
-	static const int clay_Id				= 337;
-	static const int reeds_Id				= 338;
-	static const int paper_Id				= 339;
-	static const int book_Id				= 340;
-	static const int slimeBall_Id			= 341;
-	static const int minecart_chest_Id		= 342;
-	static const int minecart_furnace_Id	= 343;
-	static const int egg_Id					= 344;
-	static const int compass_Id				= 345;
-	static const int fishingRod_Id			= 346;
-	static const int clock_Id				= 347;
-	static const int yellowDust_Id			= 348;
-	static const int fish_raw_Id			= 349;
-	static const int fish_cooked_Id			= 350;
-	static const int dye_powder_Id			= 351;
-	static const int bone_Id				= 352;
-	static const int sugar_Id				= 353;
-	static const int cake_Id				= 354;
-	static const int bed_Id					= 355;
-	static const int repeater_Id			= 356;
-	static const int cookie_Id				= 357;
-	static const int map_Id					= 358;
+	static const int boat_spruce_Id			= 334;
+	static const int boat_birch_Id			= 335;
+	static const int boat_jungle_Id			= 336;
+	static const int boat_acacia_Id			= 337;
+	static const int boat_darkoak_Id		= 338;
+	static const int leather_Id				= 339;
+	static const int bucket_milk_Id			= 340;
+	static const int brick_Id				= 341;
+	static const int clay_Id				= 342;
+	static const int reeds_Id				= 343;
+	static const int paper_Id				= 344;
+	static const int book_Id				= 345;
+	static const int slimeBall_Id			= 346;
+	static const int minecart_chest_Id		= 347;
+	static const int minecart_furnace_Id	= 348;
+	static const int egg_Id					= 349;
+	static const int compass_Id				= 350;
+	static const int fishingRod_Id			= 351;
+	static const int clock_Id				= 352;
+	static const int yellowDust_Id			= 353;
+	static const int fish_raw_Id			= 354;
+	static const int fish_cooked_Id			= 355;
+	static const int dye_powder_Id			= 356;
+	static const int bone_Id				= 357;
+	static const int sugar_Id				= 358;
+	static const int cake_Id				= 359;
+	static const int bed_Id					= 360;
+	static const int repeater_Id			= 361;
+	static const int cookie_Id				= 362;
+	static const int map_Id					= 363;
 
 	// 1.7.3
-	static const int shears_Id				= 359;
+	static const int shears_Id				= 364;
 
 	// 1.8.2
-	static const int melon_Id				= 360;
-	static const int seeds_pumpkin_Id		= 361;
-	static const int seeds_melon_Id			= 362;
-	static const int beef_raw_Id			= 363;
-	static const int beef_cooked_Id			= 364;
-	static const int chicken_raw_Id			= 365;
-	static const int chicken_cooked_Id		= 366;
-	static const int rotten_flesh_Id		= 367;
-	static const int enderPearl_Id			= 368;
+	static const int melon_Id				= 365;
+	static const int seeds_pumpkin_Id		= 366;
+	static const int seeds_melon_Id			= 367;
+	static const int beef_raw_Id			= 368;
+	static const int beef_cooked_Id			= 369;
+	static const int chicken_raw_Id			= 370;
+	static const int chicken_cooked_Id		= 371;
+	static const int rotten_flesh_Id		= 372;
+	static const int enderPearl_Id			= 373;
 
 	// 1.0.1
-	static const int blazeRod_Id			= 369;
-	static const int ghastTear_Id			= 370;
-	static const int goldNugget_Id			= 371;
-	static const int netherwart_seeds_Id	= 372;
-	static const int potion_Id				= 373;
-	static const int glassBottle_Id			= 374;
-	static const int spiderEye_Id			= 375;
-	static const int fermentedSpiderEye_Id	= 376;
-	static const int blazePowder_Id			= 377;
-	static const int magmaCream_Id			= 378;
-	static const int brewingStand_Id		= 379;
-	static const int cauldron_Id			= 380;
-	static const int eyeOfEnder_Id			= 381;
-	static const int speckledMelon_Id		= 382;
+	static const int blazeRod_Id			= 374;
+	static const int ghastTear_Id			= 375;
+	static const int goldNugget_Id			= 376;
+	static const int netherwart_seeds_Id	= 377;
+	static const int potion_Id				= 378;
+	static const int glassBottle_Id			= 379;
+	static const int spiderEye_Id			= 380;
+	static const int fermentedSpiderEye_Id	= 381;
+	static const int blazePowder_Id			= 382;
+	static const int magmaCream_Id			= 383;
+	static const int brewingStand_Id		= 384;
+	static const int cauldron_Id			= 385;
+	static const int eyeOfEnder_Id			= 386;
+	static const int speckledMelon_Id		= 387;
 
 	// 1.1
-	static const int spawnEgg_Id		= 383;
+	static const int spawnEgg_Id		= 388;
 
-	static const int expBottle_Id			 = 384;
+	static const int expBottle_Id			 = 389;
 
 	// TU 12
 	static const int skull_Id				= 397;
@@ -603,70 +613,70 @@ public:
 	static const int record_12_Id			= 2267;
 
 	// TU9
-	static const int fireball_Id			 = 385;
-	static const int itemFrame_Id			 = 389;
+	static const int fireball_Id			 = 390;
+	static const int itemFrame_Id			 = 391;
 
 	// TU14
-	static const int writingBook_Id			 = 386;
-	static const int writtenBook_Id			 = 387;
+	static const int writingBook_Id			 = 392;
+	static const int writtenBook_Id			 = 393;
 
-	static const int emerald_Id				 = 388;
+	static const int emerald_Id				 = 394;
 
-	static const int flowerPot_Id = 390;
+	static const int flowerPot_Id = 395;
 
-	static const int carrots_Id = 391;
-	static const int potato_Id = 392;
-	static const int potatoBaked_Id = 393;
-	static const int potatoPoisonous_Id = 394;
+	static const int carrots_Id = 396;
+	static const int potato_Id = 397;
+	static const int potatoBaked_Id = 398;
+	static const int potatoPoisonous_Id = 399;
 
-	static const int emptyMap_Id = 395;
+	static const int emptyMap_Id = 400;
 
-	static const int carrotGolden_Id = 396;
+	static const int carrotGolden_Id = 401;
 
-	static const int carrotOnAStick_Id = 398;
-	static const int netherStar_Id = 399;
-	static const int pumpkinPie_Id = 400;
+	static const int carrotOnAStick_Id = 402;
+	static const int netherStar_Id = 403;
+	static const int pumpkinPie_Id = 404;
 
-	static const int fireworks_Id = 401;
-	static const int fireworksCharge_Id = 402;
+	static const int fireworks_Id = 405;
+	static const int fireworksCharge_Id = 406;
 
-	static const int enchantedBook_Id = 403;
+	static const int enchantedBook_Id = 407;
 
-	static const int comparator_Id = 404;
-	static const int netherbrick_Id = 405;
-	static const int netherQuartz_Id = 406;
-	static const int minecart_tnt_Id = 407;
-	static const int minecart_hopper_Id = 408;
+	static const int comparator_Id = 408;
+	static const int netherbrick_Id = 409;
+	static const int netherQuartz_Id = 410;
+	static const int minecart_tnt_Id = 411;
+	static const int minecart_hopper_Id = 412;
 
-	static const int horseArmorMetal_Id = 417;
-	static const int horseArmorGold_Id = 418;
-	static const int horseArmorDiamond_Id = 419;
-	static const int lead_Id = 420;
-	static const int nameTag_Id = 421;
+	static const int horseArmorMetal_Id = 413;
+	static const int horseArmorGold_Id = 414;
+	static const int horseArmorDiamond_Id = 415;
+	static const int lead_Id = 416;
+	static const int nameTag_Id = 417;
 	
 
 	// TU25
 
 	//422 command_block_minecart
-	static const int prismarine_shard_Id = 409;
-	static const int prismarine_cystal_Id = 410;
-	static const int rabbit_raw_Id = 411;
-	static const int rabbit_cooked_Id = 412;
-	static const int rabbitStew_Id = 413;
-	static const int rabbits_foot_Id = 414;
-	static const int rabbit_hide_Id = 415;
-	static const int armor_stand_Id = 416;
+	static const int prismarine_shard_Id = 418;
+	static const int prismarine_cystal_Id = 419;
+	static const int rabbit_raw_Id = 420;
+	static const int rabbit_cooked_Id = 421;
+	static const int rabbitStew_Id = 422;
+	static const int rabbits_foot_Id = 423;
+	static const int rabbit_hide_Id = 424;
+	static const int armor_stand_Id = 425;
 
-	static const int mutton_raw_Id = 423;
-	static const int mutton_cooked_Id = 424;
+	static const int mutton_raw_Id = 426;
+	static const int mutton_cooked_Id = 427;
 	//425 banner
 	//426 end_crystal
 
-	static const int door_spruce_Id = 427;
-	static const int door_birch_Id = 428;
-	static const int door_jungle_Id = 429;
-	static const int door_acacia_Id = 430;
-	static const int door_dark_Id = 431;
+	static const int door_spruce_Id = 428;
+	static const int door_birch_Id = 429;
+	static const int door_jungle_Id = 430;
+	static const int door_acacia_Id = 431;
+	static const int door_dark_Id = 432;
 
 
 	static const int elytra_Id = 443;

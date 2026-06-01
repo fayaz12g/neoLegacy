@@ -434,6 +434,11 @@ void IUIScene_CreativeMenu::staticCtor()
 		ITEM(Item::minecart_tnt_Id)
 		ITEM(Item::saddle_Id)
 		ITEM(Item::boat_Id)
+		ITEM(Item::boat_spruce_Id)
+		ITEM(Item::boat_birch_Id)
+		ITEM(Item::boat_jungle_Id)
+		ITEM(Item::boat_acacia_Id)
+		ITEM(Item::boat_darkoak_Id)
 		ITEM(Item::elytra_Id)
 
 	// Miscellaneous

@@ -2648,6 +2648,11 @@ void Minecraft::tick(bool bFirst, bool bUpdateTextures)
 					break;
 
 				case Item::boat_Id:
+							case Item::boat_spruce_Id:
+							case Item::boat_birch_Id:
+							case Item::boat_jungle_Id:
+							case Item::boat_acacia_Id:
+							case Item::boat_darkoak_Id:
 				case Tile::waterLily_Id:
 					if (bUseItem) *piUse=IDS_TOOLTIPS_PLACE;
 					break;
@@ -5417,4 +5422,5 @@ int Minecraft::MustSignInReturnedPSN(void *pParam, int iPad, C4JStorage::EMessag
 	return 0;
 }
 #endif
+
 

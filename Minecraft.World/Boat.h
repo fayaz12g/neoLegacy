@@ -24,6 +24,7 @@ private:
 	static const int DATA_ID_HURT = 17;
 	static const int DATA_ID_HURTDIR = 18;
 	static const int DATA_ID_DAMAGE = 19;
+	static const int DATA_ID_WOODTYPE = 20;
 	static const double MAX_SPEED;
 	static const double MAX_COLLISION_SPEED;
 	static const double MIN_ACCELERATION;
@@ -78,6 +79,9 @@ public:
 	virtual int getHurtTime();
 	virtual void setHurtDir(int hurtDir);
 	virtual int getHurtDir();
+
+	void setWoodType(int woodType);
+	int getWoodType();
 
 	bool getDoLerp();
 	void setDoLerp(bool doLerp);

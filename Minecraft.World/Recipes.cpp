@@ -757,7 +757,47 @@ void Recipes::_compileRecipes()
 		L"# #", //
 		L"###", //
 
-		L'#', Tile::wood,
+		L'#', new ItemInstance(Tile::wood, 1, 0),
+		L'V');
+	
+	addShapedRecipy(new ItemInstance(Item::boat_spruce, 1), //
+		L"ssctg",
+		L"# #", //
+		L"###", //
+
+		L'#', new ItemInstance(Tile::wood, 1, 1),
+		L'V');
+	
+	addShapedRecipy(new ItemInstance(Item::boat_birch, 1), //
+		L"ssctg",
+		L"# #", //
+		L"###", //
+
+		L'#', new ItemInstance(Tile::wood, 1, 2),
+		L'V');
+	
+	addShapedRecipy(new ItemInstance(Item::boat_jungle, 1), //
+		L"ssctg",
+		L"# #", //
+		L"###", //
+
+		L'#', new ItemInstance(Tile::wood, 1, 3),
+		L'V');
+	
+	addShapedRecipy(new ItemInstance(Item::boat_acacia, 1), //
+		L"ssctg",
+		L"# #", //
+		L"###", //
+
+		L'#', new ItemInstance(Tile::wood, 1, 4),
+		L'V');
+	
+	addShapedRecipy(new ItemInstance(Item::boat_darkoak, 1), //
+		L"ssctg",
+		L"# #", //
+		L"###", //
+
+		L'#', new ItemInstance(Tile::wood, 1, 5),
 		L'V');
 
 	addShapedRecipy(new ItemInstance((Item*)Item::fishingRod, 1), //

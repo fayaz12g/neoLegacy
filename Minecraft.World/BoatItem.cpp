@@ -7,7 +7,7 @@
 #include "ItemInstance.h"
 #include "BoatItem.h"
 
-BoatItem::BoatItem(int id) : Item( id )
+BoatItem::BoatItem(int id, int woodType) : Item( id ), woodType(woodType)
 {
 	maxStackSize = 1;
 }
@@ -108,6 +108,7 @@ shared_ptr<ItemInstance> BoatItem::use(shared_ptr<ItemInstance> itemInstance, Le
 		if( level->countInstanceOf(eTYPE_BOAT, true) < Level::MAX_XBOX_BOATS )		// 4J - added limit
 		{
 			shared_ptr<Boat> boat = std::make_shared<Boat>(level, xt + 0.5f, yt + 1.0f, zt + 0.5f);
+			boat->setWoodType(woodType);
 			boat->yRot = ((Mth::floor(player->yRot * 4.0F / 360.0F + 0.5) & 0x3) - 1) * 90;
 			if (!level->getCubes(boat, boat->bb->grow(-.1, -.1, -.1))->empty())
 			{
@@ -132,3 +133,4 @@ shared_ptr<ItemInstance> BoatItem::use(shared_ptr<ItemInstance> itemInstance, Le
 
 	return itemInstance;
 }
+

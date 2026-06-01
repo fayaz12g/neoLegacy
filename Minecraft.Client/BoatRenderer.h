@@ -4,7 +4,12 @@
 class BoatRenderer : public EntityRenderer
 {
 private:
-	static ResourceLocation BOAT_LOCATION;
+	static ResourceLocation BOAT_LOCATION_OAK;
+	static ResourceLocation BOAT_LOCATION_ACACIA;
+	static ResourceLocation BOAT_LOCATION_BIRCH;
+	static ResourceLocation BOAT_LOCATION_JUNGLE;
+	static ResourceLocation BOAT_LOCATION_DARKOAK;
+	static ResourceLocation BOAT_LOCATION_SPRUCE;
 
 protected:
 	Model *model;

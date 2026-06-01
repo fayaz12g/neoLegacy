@@ -132,6 +132,11 @@ Item *Item::redStone = nullptr;
 Item *Item::snowBall = nullptr;
 
 Item *Item::boat = nullptr;
+Item *Item::boat_spruce = nullptr;
+Item *Item::boat_birch = nullptr;
+Item *Item::boat_jungle = nullptr;
+Item *Item::boat_acacia = nullptr;
+Item *Item::boat_darkoak = nullptr;
 
 Item *Item::leather = nullptr;
 Item *Item::bucket_milk = nullptr;
@@ -387,9 +392,14 @@ void Item::staticCtor()
 	Item::minecart = ( new MinecartItem(72, Minecart::TYPE_RIDEABLE) )		->setIconName(L"minecart")->setDescriptionId(IDS_ITEM_MINECART)->setUseDescriptionId(IDS_DESC_MINECART);
 	Item::saddle = ( new SaddleItem(73) )								->setIconName(L"saddle")->setDescriptionId(IDS_ITEM_SADDLE)->setUseDescriptionId(IDS_DESC_SADDLE);
 	Item::redStone = ( new RedStoneItem(75) )							->setBaseItemTypeAndMaterial(eBaseItemType_treasure,	eMaterial_redstone)->setIconName(L"redstone")->setDescriptionId(IDS_ITEM_REDSTONE)->setUseDescriptionId(IDS_DESC_REDSTONE_DUST)->setPotionBrewingFormula(PotionBrewing::MOD_REDSTONE);
-	Item::snowBall = ( new SnowballItem(76) )							->setIconName(L"snowball")->setDescriptionId(IDS_ITEM_SNOWBALL)->setUseDescriptionId(IDS_DESC_SNOWBALL);
+	Item::snowBall = ( new Item(76) )									->setIconName(L"snowball")->setDescriptionId(IDS_ITEM_SNOWBALL)->setUseDescriptionId(IDS_DESC_SNOWBALL);
 
-	Item::boat = ( new BoatItem(77) )									->setIconName(L"boat")->setDescriptionId(IDS_ITEM_BOAT)->setUseDescriptionId(IDS_DESC_BOAT);
+	Item::boat = ( new BoatItem(77, 0) )								->setIconName(L"boatOak")->setDescriptionId(IDS_ITEM_BOAT)->setUseDescriptionId(IDS_DESC_BOAT);
+	Item::boat_spruce = ( new BoatItem(443, 1) )						->setIconName(L"boatSpruce")->setDescriptionId(IDS_ITEM_BOAT_SPRUCE)->setUseDescriptionId(IDS_DESC_BOAT);
+	Item::boat_birch = ( new BoatItem(444, 2) )						->setIconName(L"boatBirch")->setDescriptionId(IDS_ITEM_BOAT_BIRCH)->setUseDescriptionId(IDS_DESC_BOAT);
+	Item::boat_jungle = ( new BoatItem(445, 3) )						->setIconName(L"boatJungle")->setDescriptionId(IDS_ITEM_BOAT_JUNGLE)->setUseDescriptionId(IDS_DESC_BOAT);
+	Item::boat_acacia = ( new BoatItem(446, 4) )						->setIconName(L"boatAcacia")->setDescriptionId(IDS_ITEM_BOAT_ACACIA)->setUseDescriptionId(IDS_DESC_BOAT);
+	Item::boat_darkoak = ( new BoatItem(447, 5) )						->setIconName(L"boatDarkOak")->setDescriptionId(IDS_ITEM_BOAT_DARKOAK)->setUseDescriptionId(IDS_DESC_BOAT);
 
 	Item::leather = ( new Item(78) )									->setIconName(L"leather")->setDescriptionId(IDS_ITEM_LEATHER)->setUseDescriptionId(IDS_DESC_LEATHER)->setBaseItemTypeAndMaterial(Item::eBaseItemType_decoration,Item::eMaterial_cloth); 
 	Item::brick = ( new Item(80) )										->setIconName(L"brick")->setDescriptionId(IDS_ITEM_BRICK)->setUseDescriptionId(IDS_DESC_BRICK);
@@ -1117,7 +1127,12 @@ const int Item::door_iron_Id			;
 const int Item::redStone_Id			;
 const int Item::snowBall_Id			;
 const int Item::boat_Id				;
-const int Item::leather_Id			;
+const int Item::boat_spruce_Id			;
+const int Item::boat_birch_Id			;
+const int Item::boat_jungle_Id			;
+const int Item::boat_acacia_Id			;
+const int Item::boat_darkoak_Id			;
+const int Item::leather_Id				;
 const int Item::bucket_milk_Id				;
 const int Item::brick_Id				;
 const int Item::clay_Id				;
@@ -1196,4 +1211,5 @@ const int Item::pumpkinPie_Id		;
 const int Item::enchantedBook_Id		;
 const int Item::netherQuartz_Id		;
 #endif
+
 
