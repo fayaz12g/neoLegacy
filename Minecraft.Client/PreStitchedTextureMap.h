@@ -30,7 +30,7 @@ private:
 	Texture *stitchResult;
 	vector<StitchedTexture *> animatedTextures; // = new ArrayList<StitchedTexture>();
 
-	void loadUVs();
+	void loadUVs(int width, int height);
 public:
 	PreStitchedTextureMap(int type, const wstring &name, const wstring &path, BufferedImage *missingTexture, bool mipMap = false);
 

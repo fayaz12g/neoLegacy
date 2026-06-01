@@ -41,7 +41,44 @@ void PreStitchedTextureMap::stitch()
 		animatedStitchedTexture->freeFrameTextures();
 	}
 
-	loadUVs();
+	wstring filename = name + extension;
+
+	TexturePack *texturePack = Minecraft::GetInstance()->skins->getSelected();
+	wstring drive = L"";
+
+	// 4J-PB - need to check for BD patched files
+#ifdef __PS3__
+	const char *pchName=wstringtofilename(filename);
+	if(app.GetBootedFromDiscPatch() && app.IsFileInPatchList(pchName))
+	{
+		if(texturePack->hasFile(L"res/" + filename,false))
+		{
+			drive = texturePack->getPath(true,pchName);
+		}
+		else
+		{
+			drive = Minecraft::GetInstance()->skins->getDefault()->getPath(true,pchName);
+			texturePack = Minecraft::GetInstance()->skins->getDefault();
+		}
+	}
+	else
+#endif
+	if(texturePack->hasFile(L"res/" + filename,false))
+	{
+		drive = texturePack->getPath(true);
+	}
+	else
+	{
+		drive = Minecraft::GetInstance()->skins->getDefault()->getPath(true);
+		texturePack = Minecraft::GetInstance()->skins->getDefault();
+	}
+
+	BufferedImage *image = texturePack->getImageResource(filename, false, true, drive);
+	if (!image) return;
+	int imgHeight = image->getHeight();
+	int imgWidth = image->getWidth();
+
+	loadUVs(imgWidth, imgHeight);
 
 	if (iconType == Icon::TYPE_TERRAIN)
 	{
@@ -76,9 +113,6 @@ void PreStitchedTextureMap::stitch()
 	animatedTextures.clear();
 
 	// Create the final image
-	wstring filename = name + extension;
-
-	TexturePack *texturePack = Minecraft::GetInstance()->skins->getSelected();
 	//try {
 	int mode = Texture::TM_DYNAMIC;
 	int clamp = Texture::WM_WRAP; // 4J Stu - Don't clamp as it causes issues with how we signal non-mipmmapped textures to the pixel shader //Texture::WM_CLAMP;
@@ -86,40 +120,10 @@ void PreStitchedTextureMap::stitch()
 	int magFilter = Texture::TFLT_NEAREST;
 
 	MemSect(32);
-	wstring drive = L"";
 
-	// 4J-PB - need to check for BD patched files
-#ifdef __PS3__
-	const char *pchName=wstringtofilename(filename);
-	if(app.GetBootedFromDiscPatch() && app.IsFileInPatchList(pchName))
-	{
-		if(texturePack->hasFile(L"res/" + filename,false))
-		{
-			drive = texturePack->getPath(true,pchName);
-		}
-		else
-		{
-			drive = Minecraft::GetInstance()->skins->getDefault()->getPath(true,pchName);
-			texturePack = Minecraft::GetInstance()->skins->getDefault();
-		}
-	}
-	else
-#endif
-	if(texturePack->hasFile(L"res/" + filename,false))
-	{
-		drive = texturePack->getPath(true);
-	}
-	else
-	{
-		drive = Minecraft::GetInstance()->skins->getDefault()->getPath(true);
-		texturePack = Minecraft::GetInstance()->skins->getDefault();
-	}
-
-	//BufferedImage *image = new BufferedImage(texturePack->getResource(L"/" + filename),false,true,drive); //ImageIO::read(texturePack->getResource(L"/" + filename));
-	BufferedImage *image = texturePack->getImageResource(filename, false, true, drive);
 	MemSect(0);
-	int height = image->getHeight();
-	int width = image->getWidth();
+	int height = imgHeight;
+	int width = imgWidth;
 
 	if(stitchResult != nullptr)
 	{
@@ -311,7 +315,7 @@ Icon *PreStitchedTextureMap::getMissingIcon()
 #define ADD_ICON_WITH_NAME(row, column, name, filename) (texturesByName[name] =	new SimpleIcon(name,filename,horizRatio*column,vertRatio*row,horizRatio*(column+1),vertRatio*(row+1)));
 #define ADD_ICON_SIZE(row, column, name, height, width) (texturesByName[name] =	new SimpleIcon(name,name,horizRatio*column,vertRatio*row,horizRatio*(column+width),vertRatio*(row+height)));
 
-void PreStitchedTextureMap::loadUVs()
+void PreStitchedTextureMap::loadUVs(int width, int height)
 {
 	if(!texturesByName.empty())
 	{
@@ -329,8 +333,8 @@ void PreStitchedTextureMap::loadUVs()
 
 	if(iconType != Icon::TYPE_TERRAIN)
 	{
-		float horizRatio = 1.0f/16.0f;
-		float vertRatio = 1.0f/16.0f;
+		float horizRatio = 16.0f / (float)width;
+		float vertRatio = 16.0f / (float)height;
 
 		ADD_ICON(0,		0,	L"helmetCloth")
 		ADD_ICON(0,		1,	L"helmetChain")
@@ -658,8 +662,8 @@ void PreStitchedTextureMap::loadUVs()
 	}
 	else
 	{
-		float horizRatio = 1.0f/16.0f;
-		float vertRatio = 1.0f/32.0f;
+		float horizRatio = 16.0f / (float)width;
+		float vertRatio = 16.0f / (float)height;
 
 		ADD_ICON(0,		0,	L"grass_top")
 		texturesByName[L"grass_top"]->setFlags(Icon::IS_GRASS_TOP);			// 4J added for faster determination of texture type in tesselation
