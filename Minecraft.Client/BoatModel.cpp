@@ -1,6 +1,5 @@
 #include "stdafx.h"
 #include "BoatModel.h"
-#include "Math.h"
 
 BoatModel::BoatModel() : Model()
 {
@@ -36,13 +35,14 @@ paddles[0] = new ModelPart(this, 62, 0);
 paddles[0]->addBox(-1.0f, 0.0f, -5.0f, 2, 2, 18, 0);
 paddles[0]->addBox(-1.001f, -3.0f, 8.0f, 1, 6, 7, 0);
 paddles[0]->setPos(3.0f, -5.0f, 9.0f);
-paddles[0]->zRot = PI / 2;
+paddles[0]->zRot = PI / 16;
 
 paddles[1] = new ModelPart(this, 62, 20);
 paddles[1]->addBox(-1.0f, 0.0f, -5.0f, 2, 2, 18, 0);
 paddles[1]->addBox(0.001f, -3.0f, 8.0f, 1, 6, 7, 0);
 paddles[1]->setPos(3.0f, -5.0f, -9.0f);
-paddles[1]->zRot = PI / 2;
+paddles[1]->yRot = PI;
+	paddles[1]->zRot = PI / 16;
 
 waterPatch = new ModelPart(this, 0, 0);
 waterPatch->addBox(-14.0f, -9.0f, -3.0f, 28, 16, 3, 0);
@@ -64,3 +64,4 @@ cubes[i]->render(scale, usecompiled);
 paddles[0]->render(scale, usecompiled);
 paddles[1]->render(scale, usecompiled);
 }
+

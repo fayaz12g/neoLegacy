@@ -374,7 +374,6 @@ intArray Textures::loadTexturePixels(BufferedImage *img)
 {
     int w = img->getWidth();
     int h = img->getHeight();
-    if (w <= 0 || h <= 0 || w > 16384 || h > 16384) { printf("BAD IMAGE SIZE: %d x %d\\n", w, h); throw std::runtime_error("Bad image size"); }
     intArray pixels(w*h);
     return loadTexturePixels(img, pixels);
 }
@@ -383,7 +382,6 @@ intArray Textures::loadTexturePixels(BufferedImage *img, intArray pixels)
 {
     int w = img->getWidth();
     int h = img->getHeight();
-    if (w <= 0 || h <= 0 || w > 16384 || h > 16384) { printf("BAD IMAGE SIZE: %d x %d\\n", w, h); throw std::runtime_error("Bad image size"); }
     img->getRGB(0, 0, w, h, pixels, 0, w);
     return pixels;
 }
@@ -748,7 +746,6 @@ void Textures::loadTexture(BufferedImage *img, int id, bool blur, bool clamp)
 
     int w = img->getWidth();
     int h = img->getHeight();
-    if (w <= 0 || h <= 0 || w > 16384 || h > 16384) { printf("BAD IMAGE SIZE: %d x %d\\n", w, h); throw std::runtime_error("Bad image size"); }
 
     intArray rawPixels(w*h);
     img->getRGB(0, 0, w, h, rawPixels, 0, w);
@@ -1759,5 +1756,3 @@ bool Textures::IsOriginalImage(TEXTURE_NAME texId, const wstring& name)
 	}
 	return false;
 }
-
-

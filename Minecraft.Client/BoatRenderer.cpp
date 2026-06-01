@@ -25,7 +25,7 @@ void BoatRenderer::render(shared_ptr<Entity> _boat, double x, double y, double z
 
     glPushMatrix();
 
-    glTranslatef(static_cast<float>(x), static_cast<float>(y), static_cast<float>(z));
+    glTranslatef(static_cast<float>(x), static_cast<float>(y) + 0.375f, static_cast<float>(z));
 
     glRotatef(180-rot, 0, 1, 0);
     float hurt = boat->getHurtTime() - a;
@@ -42,6 +42,7 @@ void BoatRenderer::render(shared_ptr<Entity> _boat, double x, double y, double z
 
     bindTexture(boat);
     glScalef(-1, -1, 1);
+    glRotatef(90.0f, 0, 1, 0);
     model->render(boat, 0, 0, -0.1f, 0, 0, 1 / 16.0f, true);
     glPopMatrix();
 }
